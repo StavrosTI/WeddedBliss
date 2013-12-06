@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<element>
+		<supplierindex>1</supplierindex>
+		<name>AMResorts</name>
+		<logoimage>amresorts_logo.jpg</logoimage>
+		<amenities>Unlimited Luxury, Preferred Club Privileges, Elegant Accommodations, Gourmet Dining, Unlimited Top-Shelf Spirits, World-Class Spa, Activities &amp; Entertainment, Explorer's Club, Weddings, Unlimited Connectivity, Honeymoons &amp; Anniversaries, Meetings &amp; Events</amenities>
+		<titlecopy>Discover AMResorts</titlecopy>
+		<bodycopy>AMResorts is a collection of luxury resort destinations, each with its own unique personality. Every one of our resorts features sun-soaked beaches, elegant accommodations, a world-class spa, gourmet dinig, unlimited premium drinks, and ma other pampering amenities</bodycopy>
+		<teasercopy>AMResorts teaser copy.</teasercopy>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<name>Riu Hotels &amp; Resorts</name>
+		<logoimage>riu_logo.jpg</logoimage>
+		<amenities>Unlimited Luxury, Preferred Club Privileges, Elegant Accommodations, Activities &amp; Entertainment, Explorer's Club, Weddings, Unlimited Connectivity, Honeymoons &amp; Anniversaries, Meetings &amp; Events</amenities>
+		<titlecopy>Experience Riu Hotels &amp; Resorts</titlecopy>
+		<bodycopy>Riu body copy.</bodycopy>
+		<teasercopy>Riu teaser copy.</teasercopy>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<name>Dreams Resorts</name>
+		<logoimage>dreams_logo.jpg</logoimage>
+		<amenities>Amenity1, Amenity2, Amenity3, Amenity4</amenities>
+		<titlecopy>Immerse  Yourself in Dreams Resorts</titlecopy>
+		<bodycopy>Dreams body copy.</bodycopy>
+		<teasercopy>Dreams teaser copy.</teasercopy>
+	</element>
+</root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<element>
+		<supplierindex>1</supplierindex>
+		<contactsorder>2</contactsorder>
+		<destination>Mexico</destination>
+		<title>Save Up to 50%</title>
+		<subtitle>On Popular Destinations</subtitle>
+		<copy>Reserve select getaways and save up to 50% per person.</copy>
+		<details>Offer details here.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<contactsorder>1</contactsorder>
+		<destination>Caribbean</destination>
+		<title>Free Room and Added Value for</title>
+		<subtitle>Leisure Gropus in Cancun!</subtitle>
+		<copy>Reserve select getaways and save up to 50% per person.</copy>
+		<details>Offer details here.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<contactsorder>4</contactsorder>
+		<destination>Mexico</destination>
+		<title>Save Up to 80%</title>
+		<subtitle>On Select Destinations</subtitle>
+		<copy>Reserve getaways and save up to 80% per person.</copy>
+		<details>Offer details go here.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<contactsorder>3</contactsorder>
+		<destination>Caribbean</destination>
+		<title>Free Room and in room service</title>
+		<subtitle>Recreaction assemblies in Cozumel</subtitle>
+		<copy>Reserver some stuff and get other stuff for less!</copy>
+		<details>More offer details.</details>
+	</element>
+</root>
