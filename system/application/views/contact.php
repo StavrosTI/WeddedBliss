@@ -7,8 +7,15 @@
 	<section class="brand sixteen columns clearfix">
 		<div class="branding twelve columns alpha">
 			<h3 class="fancy">Why Book With <?php echo $branding['agency']; ?></h3>
-			<p><?php echo $branding['valueprop'] ?></p>
-			<p><?php echo $branding['valueprop'] ?></p>
+			<?php if ( !empty($branding['valueprop']) ) { ?>
+				<p><?php echo $branding['valueprop']; ?></p>
+			<?php } else { ?>
+				<p>Perhaps you met by fate—or maybe it was just luck. However your story began, you don’t want to leave your special day to chance. Instead, leave it to us. Book your destination wedding or honeymoon with a trusted, experienced travel agency, and know that your dream is in capable, caring hands.</p>
+
+				<p>As specialists in destination weddings and honeymoons, we know what it takes to create the experience of a lifetime from top to bottom. We can guide you to the property that’s the right fit for you or your group, help you select the packages that best meet your needs, and guide you through every step of the way, from answering your questions from an insider perspective to handling the unexpected. We’ll make sure that the details are taken care of before you’ve even had to think about them, from arranging transfers to securing the VIP treatment you deserve.</p>
+
+				<p>Your wedding and honeymoon are the first steps toward a beautiful new life together. Let us help you take those steps with confidence.</p>
+			<?php } ?>
 			<img src="<?php echo base_url(), 'assets/img/contacts_filler.jpg'; ?>" alt="contact filler image">
 		</div>
 	
@@ -25,8 +32,10 @@
 		<div class="sidebar clearfix">
 			<h3 class="fancy">Special Offers</h3>
 			<?php 
+				//var_dump($offers);
 				//sort $offers in the controller
 				foreach ( $offers as $key => $val ) { 
+					if ( !empty($val['contactsorder']) ) {	//remove
 			?>
 						<div class="offer">
 							<h4><?php echo $val['title']; ?></h4>
@@ -38,6 +47,7 @@
 							</div>
 						</div>
 			<?php
+					}
 				}
 			?>			
 		</div>
@@ -51,7 +61,7 @@
 		
 		<div class="six columns alpha">
 			<article class="supplier">
-				<img src="<?php echo base_url(), 'assets/img/featured.jpg'; ?>" alt="AMResorts">
+				<img src="<?php echo base_url(), 'assets/img/featured_1.jpg'; ?>" alt="AMResorts">
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/1'; ?>">AMResorts</a>
 					<p>Featured property copy here.</p>
@@ -59,7 +69,7 @@
 				</div>
 			</article>
 			<article class="supplier">
-				<img src="<?php echo base_url(), 'assets/img/featured.jpg'; ?>" alt="Hard Rock">
+				<img src="<?php echo base_url(), 'assets/img/featured_2.jpg'; ?>" alt="Hard Rock">
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/2'; ?>">Hard Rock</a>
 					<p>Featured property copy here.</p>
@@ -69,7 +79,7 @@
 		</div>
 		<div class="six columns omega">
 			<article class="supplier">
-				<img src="<?php echo base_url(), 'assets/img/featured.jpg'; ?>" alt="Palace Resorts &amp; Le Blanc">
+				<img src="<?php echo base_url(), 'assets/img/featured_3.jpg'; ?>" alt="Palace Resorts &amp; Le Blanc">
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/4'; ?>">Palace Resorts &amp; Le Blanc</a>
 					<p>Featured property copy here.</p>
@@ -77,7 +87,7 @@
 				</div>
 			</article>
 			<article class="supplier">
-				<img src="<?php echo base_url(), 'assets/img/featured.jpg'; ?>" alt="RIU Hotels &amp; Resorts">
+				<img src="<?php echo base_url(), 'assets/img/featured_4.jpg'; ?>" alt="RIU Hotels &amp; Resorts">
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/3'; ?>">RIU Hotels &amp; Resorts</a>
 					<p>Featured property copy here.</p>

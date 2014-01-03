@@ -10,11 +10,11 @@
 		<?php
 		//scrape slideshow directory for images and generate slides.
 		//relies on $supplier_index.
-		$slides = glob('assets/img/slideshow/supplier/'.$supplier_index.'/*.{jpg,jpeg}', GLOB_BRACE);
+		$slides = glob('assets/img/slideshow/supplier/'.$supplier_index.'/*.jpg');
 		foreach ( $slides as $slide ) {
-			$slide_info = pathinfo($slide);
+			//$slide_info = pathinfo($slide);
 		?>
-			<li><a href="#"><img src="<?php echo base_url(), 'assets/img/slideshow/supplier/'.$supplier_index.'/'.$slide_info['basename']; ?>" alt="<?php echo $slide_info['filename']; ?>"></a></li>
+			<li><a href="#"><img src="<?php echo base_url(), $slide; ?>" alt="<?php echo $slide; ?>"></a></li>
 		<?php
 		}
 		?>
@@ -29,9 +29,9 @@
 	
 	<aside class="four columns">
 		<div class="sidebar">
-			<h3 class="fancy"><?php echo replacer($supplier['name']); ?><br> Amenities Include</h3>
+			<h3 class="fancy"><?php echo replacer($supplier['name']); ?><br> Packages Include</h3>
 			<?php 
-				$amenities = explode(',', $supplier['amenities']); 
+				$amenities = explode('|', $supplier['amenities']); 
 				foreach ( $amenities as $key => $val ) {
 			?>
 				<div class="amenity">
@@ -54,51 +54,70 @@
 	
 	<section class="twelve columns">
 		<div class="twelve columns alpha">
-			<img src="<?php echo  base_url(), 'assets/img/', $supplier['logoimage']; ?>" alt="<?php echo replacer($supplier['name']); ?>">
+			<img src="<?php echo  base_url(), 'assets/img/suppliers/', $supplier['logoimage']; ?>" alt="<?php echo replacer($supplier['name']); ?>">
 			<h4><?php echo replacer($supplier['titlecopy']); ?></h4>
-			<p><?php echo $supplier['bodycopy']; ?></p>
+			<p><?php echo replacer($supplier['bodycopy']); ?></p>
 		</div>
 		<div class="twelve columns alpha"><hr /></div>
 
 		<div class="twelve columns alpha">
-			<?php foreach ( $supplier_offers as $key => $val ) { ?>
-				<div class="offer four columns">
-					<h4><?php echo $val['title']; ?></h4>
-					<h5><?php echo $val['subtitle']; ?></h5>
-					<p><?php echo $val['copy']; ?></p>
-					<span class="view-details">View Offer Details</span>
-					<div class="collapsible">
-						<p><?php echo $val['details']; ?></p>
-					</div>
-				</div>
-			<?php } ?>
-		</div>
-		
-		<div class="twelve columns">
-			
-
-			<?php				
-				for ( $i = 0; $i < count($supplier_properties); $i++ ) { 
-					extract($supplier_properties[$i]);
+			<?php
+				for ( $i = 0; $i < count($supplier_offers); $i++ ) { 
+					extract($supplier_offers[$i]);
 					if ( $i > 0 && $i % 3 == 0 ) { ?>
 						</div>
 			<?php	}
 					if ( $i == 0 || ( $i > 0 && $i % 3 == 0 ) ) { ?>
 						<div class="row">
 			<?php 	} ?>
-							<article class="property four columns alpha clearfix">
-								<img src="<?php echo base_url(), 'assets/img/properties/hotel.jpg'; //, $image; ?>" alt="<?php echo $hotel; ?>">
-								<div class="property-details four columns omega">
-									<a href="<?php echo "http://www.travimp.com/hotel.php?msg=" . $code; ?>"><?php echo $hotel; ?></a>
-									<p><?php echo $copy1; ?></p>
-									<p><?php echo $copy2; ?></p>
+				<div class="offer supplier four columns alpha">
+					<h4><?php echo $title; ?></h4>
+					<h5><?php echo $subtitle; ?></h5>
+					<p><?php echo $copy; ?></p>
+					<span class="details view-details">View Offer Details</span>
+					<div class="collapsible">
+						<p><?php echo $details; ?></p>
+					</div>
+				</div>
+			<?php 	if ( $i >= (count($supplier_offers)-1) ) { ?>
+						</div>
+			<?php	}
+				} ?>
+		</div>
+		
+		<div class="twelve columns">
+			
+			<?php				
+				for ( $i = 0; $i < count($supplier_properties); $i++ ) { 
+					extract($supplier_properties[$i]);
+					$iter_rem = $i % 3;
+					if ( $iter_rem == 0 ) { $colSpacing = "alpha"; } 
+					elseif ( $iter_rem == 1 ) { $colSpacing = ""; } 
+					elseif ( $iter_rem == 2 ) { $colSpacing = "omega"; } 
+					if ( $i > 0 && $i % 3 == 0 ) { ?>
+						</div>
+			<?php	}
+					if ( $i == 0 || ( $i > 0 && $i % 3 == 0 ) ) { ?>
+						<div class="row">
+			<?php 	} ?>
+							<article class="property four columns <?php echo $colSpacing; ?> clearfix">
+								<?php $destCode = substr($code, 0, 3); $hotelCode = substr($code, 3, 3); ?>
+								<img src="<?php echo base_url(), 'assets/img/properties/'. $destCode . "_" . $hotelCode . ".jpg"; ?>" alt="<?php echo $hotel; ?>">
+								<div class="property-details four columns alpha">
+									<p class="property-name"><?php echo replacer($hotel); ?></p>
+									<?php if ( !empty($copy1) ) { ?>
+										<p><?php echo $copy1; ?></p>
+									<?php } ?>
+									<?php if ( !empty($copy2) ) { ?>
+										<p><?php echo $copy2; ?></p>
+									<?php } ?>
 									
 									<?php if ( $details != '' ) { ?>
-									<div class="toggle toggle-more">Learn More...</div>
-																						
-									<div class="collapsible clearfix">
-										<?php echo $details; ?>
-									</div> <!-- .collapsible -->
+										<div class="toggle toggle-more">Learn More...</div>
+																							
+										<div class="collapsible clearfix">
+											<?php echo $details; ?>
+										</div> <!-- .collapsible -->
 									<?php } ?>
 								</div>
 							</article>

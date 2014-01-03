@@ -33,7 +33,7 @@
 							<h4><?php echo $val['title']; ?></h4>
 							<h5><?php echo $val['subtitle']; ?></h5>
 							<p><?php echo $val['copy']; ?></p>
-							<span class="view-details">View Offer Details</span>
+							<span class="details view-details">View Offer Details</span>
 							<div class="collapsible">
 								<p><?php echo $val['details']; ?></p>
 							</div>
@@ -56,7 +56,9 @@
 			</h3>
 			<p>
 				<?php if ( $destination == "mexico" ) { ?>
-					The rich land... The dreamy landscape... The warmth of its people... The past and the present in perfect harmony... This is Mexico. Mexico offers vacationers the tranquility and beauty of its lovely beaches, known and admired all over the world for their eternal sun and warm ambiance.
+					 The rich land…The dreamy landscape…The warmth of its people…The past and the present in perfect harmony…This is Mexico. The world-renowned, tranquil beaches , colonial architecture and luminous seascapes create the perfect setting for a destination wedding, vow renewal or honeymoon alike. The venue options are plentiful, ranging from quaint and casual to over the top sophistication. No wonder Mexico is ranked as one of the top 5 most popular destinations for weddings in paradise.</p>
+					 
+					 <p>It is one of the only places where you can find spectacular archeological sites and colonial cities that tell stories of glory and tradition. Unmatched landscapes, varied and exotic dishes, and the genius of Mexican craftsmanship all contribute to the wonder of this beautiful country. Mexico is a land of contrast, tradition, culture and fun, all at an excellent price and first class comfort.
 				<?php } else { ?>
 					Whether you are looking for intimate seclusion or a full celebration, the islands of the Caribbean offer the perfect setting for your wedding, honeymoon or both. From busy to mellow, the Caribbean has something to offer every couple. Not only is the warm weather perfect, but the travel time in minimal since the Caribbean is so close to home. This wonderland is overflowing with romance, adventure, discovery and awe blended with the modern rhythms and luxurious amenities of today.
 				<?php } ?>
@@ -66,7 +68,8 @@
 		<div class="twelve columns"><hr /></div>
 
 		<?php
-			$dest = ucfirst($destination);
+			$dest = ucfirst($destination);	//correct key case
+			ksort($properties[$dest]);	//alpha order
 			foreach ( $properties[$dest] as $key => $val ) { 
 		?>
 		<div class="twelve columns">
@@ -78,25 +81,34 @@
 				
 				for ( $i = 0; $i < count($val); $i++ ) { 
 					extract($val[$i]);
+					$iter_rem = $i % 3;
+					if ( $iter_rem == 0 ) { $colSpacing = "alpha"; } 
+					elseif ( $iter_rem == 1 ) { $colSpacing = ""; } 
+					elseif ( $iter_rem == 2 ) { $colSpacing = "omega"; } 
 					if ( $i > 0 && $i % 3 == 0 ) { ?>
 						</div>
 			<?php	}
 					if ( $i == 0 || ( $i > 0 && $i % 3 == 0 ) ) { ?>
 						<div class="row">
 			<?php 	} ?>
-							<article class="property four columns alpha clearfix">
-								<img src="<?php echo base_url(), 'assets/img/properties/hotel.jpg'; //, $image; ?>" alt="<?php echo $hotel; ?>">
+							<article class="property four columns <?php echo $colSpacing; ?> clearfix">
+								<?php $destCode = substr($code, 0, 3); $hotelCode = substr($code, 3, 3); ?>
+								<img src="<?php echo base_url(), 'assets/img/properties/'. $destCode . "_" . $hotelCode . ".jpg"; ?>" alt="<?php echo $hotel; ?>">
 								<div class="property-details four columns omega">
-									<a href="<?php echo "http://www.travimp.com/hotel.php?msg=" . $code; ?>"><?php echo $hotel; ?></a>
-									<p><?php echo $copy1; ?></p>
-									<p><?php echo $copy2; ?></p>
+									<p class="property-name"><?php echo replacer($hotel); ?></a>
+									<?php if ( !empty($copy1) ) { ?>
+										<p><?php echo $copy1; ?></p>
+									<?php } ?>
+									<?php if ( !empty($copy2) ) { ?>
+										<p><?php echo $copy2; ?></p>
+									<?php } ?>
 									
 									<?php if ( $details != '' ) { ?>
-									<div class="toggle toggle-more">Learn More...</div>
-																						
-									<div class="collapsible clearfix">
-										<?php echo $details; ?>
-									</div> <!-- .collapsible -->
+										<div class="toggle toggle-more">Learn More...</div>
+																							
+										<div class="collapsible clearfix">
+											<?php echo $details; ?>
+										</div> <!-- .collapsible -->
 									<?php } ?>
 								</div>
 							</article>

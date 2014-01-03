@@ -1,107 +1,1408 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
 	<element>
-		<supplierindex>2</supplierindex>
+		<supplierindex>4</supplierindex>
 		<destination>Caribbean</destination>
 		<subregion>Aruba</subregion>
-		<subregiondetails>Aruba details -- Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</subregiondetails>
+		<subregiondetails>The sun shines with a smile on this cheery, spectacularly diverse island as light trade winds make 82 degrees the temperature of perfection. Countless travelers find their way back to their favorite fofoti trees year after year, adding warmth of spirit to the island’s flawless, delightfully predictable climate. Make your way through the charming Dutch colonial streets of Oranjestad, then hike the Arikok National Park’s well-groomed trails, seeing centuries-old Arawak petroglyphs on the way. Lose yourself to the beats of salsa and meringue or to the thrill of a big win in one of its glittering casinos. It’s that easy to see what makes this “One Happy Island.”</subregiondetails>
 		<code>auaapb</code>
 		<hotel>Riu Palace Aruba</hotel>
-		<image>riu_palace aruba.jpg</image>
-		<property>Riu Hotels &amp; Resorts</property>
-		<copy1>Lorem Ipsum</copy1>
-		<copy2>More Lorem Ipsum</copy2>
-		<details>Terms -- Messenger bag Shoreditch shabby chic photo booth Helvetica food truck. Polaroid yr Austin ethical, XOXO direct trade vinyl cliche mlkshk selvage gentrify. Asymmetrical vinyl sustainable Shoreditch, cred kogi locavore. Typewriter craft beer biodiesel fixie. Godard Intelligentsia pour-over Blue Bottle. Ugh four loko yr selfies, biodiesel hella deep v Helvetica paleo art party flannel bicycle rights trust fund meh aesthetic. Retro sriracha ugh, master cleanse cray readymade forage pug gastropub mumblecore.</details>
+		<image>auaapb</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This beautifully designed resort is located right on Palm Beach, offering a spectacular view of the Caribbean. It features 450 oversized guestrooms with a warm, intimate atmosphere, fully stocked mini-bars and liquor dispensers, and magnificent views of the ocean and island scenery. Resort guests can enjoy the 24-hour all-inclusive concept, wide range of cuisines at five international restaurants, two pools, Jacuzzi, 24-hour room service, 24-hour all-inclusive snacks and beverages and five bars, a spa, sauna, fitness center, casino and free wireless internet access throughout.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Bahamas</subregion>
+		<subregiondetails>Over 700 islands and cays drape more than 500 miles of azure seas in this world-famous chain of land, a destination that has captivated millions since Christopher Columbus first made landfall in 1492. Today, the Bahamas are not only a tropical paradise, but a paradise for shoppers and divers as well, with 17 powder-soft beaches on Nassau/Paradise Island alone. Two of the largest Caribbean casinos, two championship golf courses, and fantastic dining provide modern entertainment on luxury resorts, while intimate hideaways, tranquil bays, hidden coves and endless ocean views provide all the romance any couple could hope for, making the Bahamas one of those timeless destinations that seem to get only better with every visit.</subregiondetails>
+		<code>nasriu</code>
+		<hotel>Riu Palace Paradise Island</hotel>
+		<image>nasriu</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>From unlimited cocktails and gourmet meals to nightly entertainment and personalized unparalleled service, this RIU resort truly provides an all-inclusive vacation like no other. The hotel offers 379 well-appointed guestrooms as well as flat-screen televisions, turndown service, in-room coffee makers, 24-hour room service, free weddings, outstanding dining, entertainment and leisure options including five restaurants and four bars, beach volleyball, pool, spa, fitness center, themed shows, nightly live music, watersports available nearby (additional charge), complimentary wireless internet access throughout and nearby shopping, golf and sport fishing.</details>
 	</element>
 	<element>
 		<supplierindex>1</supplierindex>
 		<destination>Mexico</destination>
-		<subregion>Casa del Mar</subregion>
-		<subregiondetails>Casa Del Mar details -- Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</subregiondetails>
-		<code>sjddel</code>
-		<hotel>Zoetry Casa del Mar</hotel>
-		<image>amresorts_casa_del_mar.jpg</image>
-		<property>AMResorts</property>
-		<copy1>Lorem Ipsum</copy1>
-		<copy2>More Lorem Ipsum</copy2>
-		<details>Terms -- Messenger bag Shoreditch shabby chic photo booth Helvetica food truck. Polaroid yr Austin ethical, XOXO direct trade vinyl cliche mlkshk selvage gentrify. Asymmetrical vinyl sustainable Shoreditch, cred kogi locavore. Typewriter craft beer biodiesel fixie. Godard Intelligentsia pour-over Blue Bottle. Ugh four loko yr selfies, biodiesel hella deep v Helvetica paleo art party flannel bicycle rights trust fund meh aesthetic. Retro sriracha ugh, master cleanse cray readymade forage pug gastropub mumblecore.</details>
+		<subregion>Cancun</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cuncrh</code>
+		<hotel>Dreams Cancun Resort &amp; Spa</hotel>
+		<image>cuncrh</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>This Unlimited-Luxury® resort combines traditional Mayan and contemporary Mexican architecture, boasting open spaces and beautiful atriums, providing the enjoyment of warm tropical breezes and calm turquoise sea. Surrounded on three sides by the brilliant Caribbean Sea, it’s the first resort in Mexico with an on-site dolphinarium. Each of the luxuriously appointed guestrooms offer private balcony views of the ocean, beaches or dolphins. It features the Dreams Spa by Pevonia, six international restaurants and five lounges, day and evening activities and supervised Explorer’s Club for kids. Enjoy the Sip, Savor &amp; See Dining Experience with select, nearby Dreams and Now Resorts &amp; Spas.</details>
 	</element>
 	<element>
-		<supplierindex>2</supplierindex>
-		<destination>Caribbean</destination>
-		<subregion>Aruba</subregion>
-		<subregiondetails>Aruba details -- Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</subregiondetails>
-		<code>nasriu</code>
-		<hotel>Riu Palace Paradise Island</hotel>
-		<image>riu_palace_paradise_island.jpg</image>
-		<property>Riu Hotels &amp; Resorts</property>
-		<copy1>Lorem Ipsum</copy1>
-		<copy2>More Lorem Ipsum</copy2>
-		<details>Terms -- Messenger bag Shoreditch shabby chic photo booth Helvetica food truck. Polaroid yr Austin ethical, XOXO direct trade vinyl cliche mlkshk selvage gentrify. Asymmetrical vinyl sustainable Shoreditch, cred kogi locavore. Typewriter craft beer biodiesel fixie. Godard Intelligentsia pour-over Blue Bottle. Ugh four loko yr selfies, biodiesel hella deep v Helvetica paleo art party flannel bicycle rights trust fund meh aesthetic. Retro sriracha ugh, master cleanse cray readymade forage pug gastropub mumblecore.</details>
-	</element>
-	<element>
-		<supplierindex>2</supplierindex>
-		<destination>Caribbean</destination>
-		<subregion>Aruba</subregion>
-		<subregiondetails>Aruba details -- Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</subregiondetails>
-		<code>auarca</code>
-		<hotel>The Ritz Carlton, Aruba</hotel>
-		<image>aua_rca.jpg</image>
-		<property>Riu Hotels &amp; Resorts</property>
-		<copy1>Lorem Ipsum</copy1>
-		<copy2>More Lorem Ipsum</copy2>
-		<details>Terms -- Messenger bag Shoreditch shabby chic photo booth Helvetica food truck. Polaroid yr Austin ethical, XOXO direct trade vinyl cliche mlkshk selvage gentrify. Asymmetrical vinyl sustainable Shoreditch, cred kogi locavore. Typewriter craft beer biodiesel fixie. Godard Intelligentsia pour-over Blue Bottle. Ugh four loko yr selfies, biodiesel hella deep v Helvetica paleo art party flannel bicycle rights trust fund meh aesthetic. Retro sriracha ugh, master cleanse cray readymade forage pug gastropub mumblecore.</details>
-	</element>
-	<element>
-		<supplierindex>3</supplierindex>
+		<supplierindex>1</supplierindex>
 		<destination>Mexico</destination>
-		<subregion>Tulum</subregion>
-		<subregiondetails>Tulum details -- Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</subregiondetails>
-		<code>cunsrs</code>
-		<hotel>Dreams Tulum</hotel>
-		<image>dreams_tulum.jpg</image>
-		<property>Dreams</property>
-		<copy1>Lorem Ipsum</copy1>
-		<copy2>More Lorem Ipsum</copy2>
-		<details>Terms -- Messenger bag Shoreditch shabby chic photo booth Helvetica food truck. Polaroid yr Austin ethical, XOXO direct trade vinyl cliche mlkshk selvage gentrify. Asymmetrical vinyl sustainable Shoreditch, cred kogi locavore. Typewriter craft beer biodiesel fixie. Godard Intelligentsia pour-over Blue Bottle. Ugh four loko yr selfies, biodiesel hella deep v Helvetica paleo art party flannel bicycle rights trust fund meh aesthetic. Retro sriracha ugh, master cleanse cray readymade forage pug gastropub mumblecore.</details>
+		<subregion>Cancun</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunstv</code>
+		<hotel>Secrets The Vine Cancun</hotel>
+		<image>cunstv</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
+		<copy2></copy2>
+		<details>Secrets The Vine Cancun is located on one of the world’s most picturesque beaches, with enticing white sand and spectacular views of the Caribbean Sea. This Unlimited-Luxury® resort presents 495 graciously appointed guestrooms with private balconies revealing awe-inspiring views of the Caribbean Sea and Laguna Nichupte. Wine being the signature element of the resort, Secrets The Vine Cancun’s lobby celebrates fine wine in both its design and menu offerings with a designated wine tasting area for guests, the Enoteca (wine cellar). Perfect your swing with complimentary greens fees at nearby golf courses, and stay connected with both the resort and home with the all new Unlimited Connectivity app.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cancun</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cuncup</code>
+		<hotel>Hard Rock Hotel Cancun</hotel>
+		<image>cuncup</image>
+		<supplier>All Inclusive Hard Rock Hotels</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Located in the heart of Cancun’s Hotel Zone, the hotel pays homage to a lifestyle of excess—a 12 story marvel that sparkles against the brilliance of the white sand beach and the Caribbean Sea. The 601 stylish guest rooms are ready to indulge, each with panoramic views of the ocean or lagoon and private balconies to enjoy the cool tropical breeze. Amenities include five acclaimed international restaurants, five bars and lounges, a Rock Spa®, an expansive poolscape and authentic memorabilia from international and local music artists. Wedding services are available.  All this plus unsurpassed service within an exclusive waterfront experience which is second to none.</details>
 	</element>
 	<element>
 		<supplierindex>3</supplierindex>
 		<destination>Mexico</destination>
 		<subregion>Cancun</subregion>
-		<subregiondetails>Cancun details -- Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</subregiondetails>
-		<code>cuncrh</code>
-		<hotel>Dreams Cancun Resort &amp; Spa</hotel>
-		<image>cun_crh.jpg</image>
-		<property>Dreams</property>
-		<copy1>Lorem Ipsum</copy1>
-		<copy2>More Lorem Ipsum</copy2>
-		<details>Terms -- Messenger bag Shoreditch shabby chic photo booth Helvetica food truck. Polaroid yr Austin ethical, XOXO direct trade vinyl cliche mlkshk selvage gentrify. Asymmetrical vinyl sustainable Shoreditch, cred kogi locavore. Typewriter craft beer biodiesel fixie. Godard Intelligentsia pour-over Blue Bottle. Ugh four loko yr selfies, biodiesel hella deep v Helvetica paleo art party flannel bicycle rights trust fund meh aesthetic. Retro sriracha ugh, master cleanse cray readymade forage pug gastropub mumblecore.</details>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunsup</code>
+		<hotel>Sun Palace</hotel>
+		<image>cunsup</image>
+		<supplier>Palace Resorts &amp; Spas</supplier>
+		<copy1>All-inclusive, Couples only</copy1>
+		<copy2></copy2>
+		<details>A stunning coastline serves as a dramatic backdrop for this couples-only resort. Located at the southern end of the Hotel Zone, Sun Palace features 252 guestrooms, all beautifully appointed with double Jacuzzis, LCD televisions and unparalleled ocean views. Couples can relax and rejuvenate in the spa, and three infinity pools offer a refreshing option. Four specialty restaurants satisfy demanding palates with a variety of international cuisines. For active guests there is a fitness center, kayaks, and unforgettable off-site excursions for visiting interesting nearby Mayan sites. Wedding services are available.</details>
 	</element>
 	<element>
 		<supplierindex>3</supplierindex>
 		<destination>Mexico</destination>
-		<subregion>Puerto Vallarta</subregion>
-		<subregiondetails>Puerto Vallarta -- Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</subregiondetails>
-		<code>pvrcmp</code>
-		<hotel>Dreams Puerto Vallarta Resort &amp; Spa</hotel>
-		<image>pvr_cmp.jpg</image>
-		<property>Dreams</property>
-		<copy1>Lorem Ipsum</copy1>
-		<copy2>More Lorem Ipsum</copy2>
-		<details>Terms -- Messenger bag Shoreditch shabby chic photo booth Helvetica food truck. Polaroid yr Austin ethical, XOXO direct trade vinyl cliche mlkshk selvage gentrify. Asymmetrical vinyl sustainable Shoreditch, cred kogi locavore. Typewriter craft beer biodiesel fixie. Godard Intelligentsia pour-over Blue Bottle. Ugh four loko yr selfies, biodiesel hella deep v Helvetica paleo art party flannel bicycle rights trust fund meh aesthetic. Retro sriracha ugh, master cleanse cray readymade forage pug gastropub mumblecore.</details>
+		<subregion>Cancun</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunbpl</code>
+		<hotel>Beach Palace</hotel>
+		<image>cunbpl</image>
+		<supplier>Palace Resorts &amp; Spas</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>The Beach Palace features 287 luxurious accommodations, all with double Jacuzzis and first-class amenities. The resort boasts two swimming pools on the rooftop with bar service and Jacuzzis. The kids club offers fun games and water activities, including a water slide, and its own kiddie pool. In addition, guests can enjoy an outdoor pool with swim-up bar, a spectacular beach and fine dining at four international restaurants. For those looking for a pampering experience, Beach Palace features a modern spa with sauna and steam room. And best of all, its convenient location lets guests enjoy everything that Cancun has to offer. Wedding services are available.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cancun</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunblc</code>
+		<hotel>Le Blanc Spa Resort</hotel>
+		<image>cunblc</image>
+		<supplier>Le Blanc Spa Resort</supplier>
+		<copy1>All-inclusive, Adults only</copy1>
+		<copy2></copy2>
+		<details>This adults-only resort offers an experience like no other, with sophisticated style, lavish personal attention, and uncompromising attention to detail. Each of the 260 rooms offer a balcony with views of the Nichupté Lagoon or Caribbean Sea, fully stocked liquor dispenser and most have a double Jacuzzi. Guests enjoy five upscale restaurants, three outdoor pools including two infinity pools, fitness center and scheduled exercise classes. The incredible Spa at Le Blanc was designed to be a sanctuary of tranquility and peace, secluding you in an exquisitely luxurious environment of total well-being. Wedding services available. AAA Five Diamond.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cancun</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunrpl</code>
+		<hotel>Riu Palace Las Americas</hotel>
+		<image>cunrpl</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>RIU’s Palace Las Americas encompasses 372 deluxe junior suites located in the very heart of Cancun’s exclusive Hotel Zone. RIU’s tradition of luxury and style continues with amenities including 24-hour all-inclusive snacks, beverages and 24-hour room service – plus unique room amenities such as fully stocked mini-bars, liquor dispensers and suites with Jacuzzis on the terrace. It features two pools, a children’s pool, RiuLand mini-club, fitness center, spa and a lively entertainment program, wireless internet access throughout, as well as enhanced personal service and the exchange privilege program with the resort’s sister properties.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cancun</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunrpp</code>
+		<hotel>Riu Palace Peninsula</hotel>
+		<image>cunrpp</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Located in Cancun, this beachfront, all-inclusive resort will offer guests a truly spectacular experience. Extensive lush gardens, complimentary sun loungers on the private beach, wireless internet access throughout and 24-hour room service, are just a few of the things you can expect. Guests will be able to choose from six restaurants and six bars, including a pool bar. The Renova Spa will offer treatments to rejuvenate the mind, body and spirit. Riu Palace Peninsula will provide endless activities such as windsurfing, kayaking, snorkeling, catamarans, daytime and nighttime entertainment, and golf. Discover the luxurious Adults Only Deluxe Villas, perfect for couples looking for an ambiance of relaxation and tranquility.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cancun</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunrcn</code>
+		<hotel>Riu Cancun</hotel>
+		<image>cunrcn</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This contemporary beachfront resort features 569 guestrooms, four fine restaurants, sports bar, nightclub, wireless internet access throughout, and theater with RIU’s famous theme shows. The Riu Cancun offers 24-hour all-inclusive snacks, five bars, a lit tennis court, fitness center, spa, watersports, a Jacuzzi, four swimming pools, a kids pool and RiuLand mini-club.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cancun</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunruc</code>
+		<hotel>Riu Caribe</hotel>
+		<image>cunruc</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Recently renovated, the refurbished rooms at this beachfront resort have a new and fresh style. This Mayan-style resort features a new lounge area and new pool, totaling three pools on the resort. Features include ocean view guestrooms, a spectacular beach, 24-hour all-inclusive snacks and beverages, scuba lessons, entertainment, a RiuLand mini-club and wireless internet access throughout the lobby area.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cancun</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunhtb</code>
+		<hotel>IBEROSTAR Cancun, Premium Gold</hotel>
+		<image>cunhtb</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Expansive and elegant, the entire family will have the vacation of their dreams. Featuring the area’s only 18-hole golf course, a stunning spa, seven pools including a spectacular infinity pool and a supervised Kids Club complete with a water playground. This Premium Gold pr operty is t he ideal setting offering 426 spacious, ocean-view rooms and an excellent selection of dining options to ensue your vacation exceeds every expectation at this AAA Four Diamond property.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cancun South</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cundrm</code>
+		<hotel>Dreams Riviera Cancun Resort &amp; Spa</hotel>
+		<image>cundrm</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>At Dreams Riviera Cancun Resort &amp; Spa, 486 premium octagonal rooms and suites allow guests to luxuriate in private and spacious accommodations, with each room having at least one Jacuzzi (and ground floor rooms offering a plunge pool), daily refreshed mini-bar, full marble bathroom, and a wealth of amenities. The resort features gourmet themed restaurants without reservations, six fabulous bars ranging from elegant to swim-up, plus a fully equipped fitness center and a world-class Dreams Spa by Pevonia. Enjoy the Sip, Savor &amp; See Dining Experience with select, nearby Dreams and Now Resorts &amp; Spas. (Transportation not included, restrictions apply.)</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cancun South</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunnsc</code>
+		<hotel>Now Sapphire Riviera Cancun</hotel>
+		<image>cunnsc</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>Just 15 minutes from Cancun Airport, Now Sapphire Riviera Cancun offers Unlimited- Luxury® with a collection of amenities, led by unlimited gourmet food and top-shelf spirits, pool and beach wait service and 24-hour room and concierge service. Elegant accommodations include daily refreshed mini-bar, Jacuzzi for two, and private furnished balcony or terrace. Endless activities include snorkeling, windsurfing, four pools, nightly entertainment, the Explorer’s Club for Kids, Core Zone Teens Club and the all new Sip, Savor &amp; See Dining Experience with select, nearby Dreams and Now Resorts &amp; Spas. The Now Spa by Pevonia takes guests on a journey of body and soul replenishment, with indigenous treatments and exquisite products.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cancun South</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunmrm</code>
+		<hotel>Now Jade Riveira Cancun</hotel>
+		<image>cunmrm</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>Now Jade Riviera Cancun provides guests with over 2,600 feet of pure crystalwhite sand and breathtaking azure waters. It offers 550 spacious, contemporary and ultra-comfortable suites, sleekly designed and replete with all the necessities, special touches and ocean views to provide the ultimate in relaxation. Resort amenities include eight delicious gourmet restaurants, six full-service bars, the Now Spa by Pevonia, the all-new Sip, Savor &amp; See Dining Experience with select, nearby Dreams and Now Resorts &amp; Spas, the supervised Explorer’s Club for kids (ages 3-12), complimentary greens fees at a nearby golf course (restrictions apply), land and watersports, and all the finest in Unlimited-Luxury®.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cancun South</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunsls</code>
+		<hotel>Secrets Silversands Riviera Cancun</hotel>
+		<image>cunsls</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
+		<copy2></copy2>
+		<details>A modern marvel in contemporary design, Secrets Silversands Riviera Cancun brings sophistication and distinction to the Riviera Maya. This all-suite resort presents Unlimited-Luxury® in an innovative way, featuring suspended beds, chic modern fabrics, alluring décor and captivating lighting. Eight gourmet restaurants, eight posh bars, the Sip, Savor &amp; See Dining Experience with select, nearby Secrets, Dreams and Now Resorts &amp; Spas, and the lavish Secrets Spa by Pevonia are just some of the indulgent amenities set amidst the silvery surroundings. Practice your swing at nearby golf courses, and stay connected with both the resort and home with the all new Unlimited Connectivity app.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cancun South</subregion>
+		<subregiondetails>One of the world’s most visited destinations and a crown jewel for international leisure travel, the stunning loveliness of Cancun’s natural resources—from endless reefs to sparkling aqua Caribbean waters that lap at 17 miles of sugary-white beaches—is made even more alluring with spectacular resorts and golf courses, easy accessibility and hospitality delivered to exacting standards. The “gateway to the Mayan world,” ruins like Chichen Itza, Xcaret, Coba, Ek’Balam and Tulum stand proud in desolate jungles, providing an awe-inspiring contrast to the modern treasures this action-packed district offers in shopping, dining, nightlife and adventure.</subregiondetails>
+		<code>cunmpl</code>
+		<hotel>Moon Palace Golf &amp; Spa Resort</hotel>
+		<image>cunmpl</image>
+		<supplier>Palace Resorts &amp; Spas</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This spectacular resort offers 2,430 luxurious rooms with double Jacuzzis®, marble bathrooms and private balconies, many with cozy hammocks. Some offer views of the Caribbean Sea, while lavish, two-bedroom Presidential or Junior Golf Suites overlook the resort’s Jack Nicklaus Signature course. It features eight pools, a fully equipped marina with non-motorized watersports, six tennis courts, two basketball and volleyball courts, mini-golf, kid’s club, the Wired Teens Lounge, the all new FlowRider surf simulator, a Dolphinarium, fifteen restaurants and sixteen bars, including the Sky Bar and one at Noir Nighclub. The state-of-the art spa offers 30 treatment rooms, including a Golden Couple Suite at this AAA Four Diamond property.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cozumel</subregion>
+		<subregiondetails>On this small island just a short ferry ride away from Playa del Carmen, you’ll find the point where the warmth of Mexico and the spirit of the Caribbean converge. Just 30 miles north to south and 10 miles east to west, there is so much to fall in love with in between and beyond its shores. Legendary as one of the most spectacular diving sites on earth and the largest reef system in the Americas, over 250 species of tropical fish flit through rare black coral under the glassine waters of the coast. Meanwhile, this destination still retains a sense of blissful isolation on gorgeous sprawling beaches and refined resorts.</subregiondetails>
+		<code>czmusc</code>
+		<hotel>Sunscape Sabor Cozumel</hotel>
+		<image>czmusc</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Fun®</copy1>
+		<copy2></copy2>
+		<details>Escape to the all-new Sunscape Sabor Cozumel. Providing lively vacations to singles, couples, families and friends, guests will enjoy all the benefits of Unlimited-Fun®. Delight in endless meals, snacks and top-shelf spirits, and countless daily activities. While adults relax poolside, kids can enjoy supervised fun in the Explorer’s Club (ages 3-12). Guests will be able to enjoy the world-class spa, which will be shared with the neighboring Secrets Aura Cozumel.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cozumel</subregion>
+		<subregiondetails>On this small island just a short ferry ride away from Playa del Carmen, you’ll find the point where the warmth of Mexico and the spirit of the Caribbean converge. Just 30 miles north to south and 10 miles east to west, there is so much to fall in love with in between and beyond its shores. Legendary as one of the most spectacular diving sites on earth and the largest reef system in the Americas, over 250 species of tropical fish flit through rare black coral under the glassine waters of the coast. Meanwhile, this destination still retains a sense of blissful isolation on gorgeous sprawling beaches and refined resorts.</subregiondetails>
+		<code>czmssc</code>
+		<hotel>Secrets Aura Cozumel</hotel>
+		<image>czmssc</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
+		<copy2></copy2>
+		<details>Enjoy the benefits of adults-only Unlimited-Luxury® at the brand-new Secrets Aura Cozumel. Boasting 159 redecorated rooms, guests will delight in limitless meals, snacks and top-shelf spirits in gourmet restaurants and chic bars and lounges, 24-hour room and concierge services, and endless daily activities and evening entertainment. Relax by three main swimming pools, and luxuriate in the brand-new, world-class spa.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cozumel</subregion>
+		<subregiondetails>On this small island just a short ferry ride away from Playa del Carmen, you’ll find the point where the warmth of Mexico and the spirit of the Caribbean converge. Just 30 miles north to south and 10 miles east to west, there is so much to fall in love with in between and beyond its shores. Legendary as one of the most spectacular diving sites on earth and the largest reef system in the Americas, over 250 species of tropical fish flit through rare black coral under the glassine waters of the coast. Meanwhile, this destination still retains a sense of blissful isolation on gorgeous sprawling beaches and refined resorts.</subregiondetails>
+		<code>czmcpl</code>
+		<hotel>Cozumel Palace</hotel>
+		<image>czmcpl</image>
+		<supplier>Palace Resorts &amp; Spas</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Located on the Caribbean Sea and world-famous Palancar Reef, this resort lies within walking distance of the main plaza of San Miguel. All 175 guestrooms blend authentic Mexican design with contemporary flair. Most guestrooms include a double Jacuzzi®, marble bathroom, seating area and private balcony with ocean view. Guests enjoy attentive service by a friendly staff, 24-hour room service and free Wi-Fi Internet access. Pamper yourself with soothing massages, soak up the sun at two pools and enjoy exotic drinks at the poolside bar. Dining options include Asian, Italian, Mexican, buffet and à la carte. Scuba diving, snorkeling and pool activities will keep you busy during your stay. Wedding services are available.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Cozumel</subregion>
+		<subregiondetails>On this small island just a short ferry ride away from Playa del Carmen, you’ll find the point where the warmth of Mexico and the spirit of the Caribbean converge. Just 30 miles north to south and 10 miles east to west, there is so much to fall in love with in between and beyond its shores. Legendary as one of the most spectacular diving sites on earth and the largest reef system in the Americas, over 250 species of tropical fish flit through rare black coral under the glassine waters of the coast. Meanwhile, this destination still retains a sense of blissful isolation on gorgeous sprawling beaches and refined resorts.</subregiondetails>
+		<code>czmicz</code>
+		<hotel>IBEROSTAR Cozumel, Premium</hotel>
+		<image>czmicz</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This premium resort sits on the edge of a beautiful bay and is located in front of the world-renowned
+Palancar Reef. The hotel décor has a romantic and tropical feel with 306 bungalow style guestrooms. It features three specialty restaurants, six bars and lounges, swimming pool, Mini Club with supervised kid’s activities (kids ages 4-12), scuba diving and more.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Curaçao</subregion>
+		<subregiondetails>Discover a pastel paradise in the UNESCO World Heritage Site that is Willemstad, where the colors gracing impeccably preserved and restored 17th century colonial architecture are as vivid and surreal as the bright teal seas surrounding the island. Get a birds-eye view of it all from 1,230-foot Mount Christoffel,park, or through a finned friend’s perspective in the country’s more than 60 spectacular dive sites—including the world’s only Mushroom Forest, named for its pagoda-shaped star coral formations. Thirty-five beautiful beaches provide a welcome break from visits to plentiful museums and plantations, multiple rounds of championship golf … or just from “it all.”</subregiondetails>
+		<code>curscp</code>
+		<hotel>Sunscape Curaçao Resort, Spa &amp; Casino</hotel>
+		<image>curscp</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Fun®</copy1>
+		<copy2></copy2>
+		<details>Located near one of the world’s most praised diving sites, this resort offers all the privileges of Unlimited-Fun®. Enjoy limitless access to five gourmet restaurants, where reservations are never required and endless top-shelf spirits from four chic bars and lounges. Kids ages can enjoy supervised fun in the Explorer’s Club and the Core Zone.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujars</code>
+		<hotel>Zoëtry Agua Punta Cana</hotel>
+		<image>pujars</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Endless Privileges®</copy1>
+		<copy2></copy2>
+		<details>Located along a 200-yard stretch of private beach on the easternmost coast of the Dominican Republic in Uvero Alto, Zoëtry Agua Punta Cana is a sanctuary of relaxation integrated with nature. This oceanfront resort offers 51 ultra-luxurious suites situated throughout the manicured gardens, three gourmet à la carte restaurants including authentic Spanish and Dominican cuisine, delectable light international and a European fusion restaurant, which boasts a collection of rare vintage wine. Enjoy the Sip, Savor &amp; See Dining Experience with select nearby Secrets, Dreams and Now Resorts &amp; Spas. It also features a luxurious spa filled with an extensive menu of unique and indulging body treatments, a full-service fitness center and salon.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujsup</code>
+		<hotel>Dreams Palm Beach Punta Cana</hotel>
+		<image>pujscb</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>Dreams Palm Beach is an idyllic location for singles, couples and families. Guests are treated to amenity-filled luxury rooms and suites, 24-hour room service and private, furnished patio or balcony. Enjoy exquisite fare at eight international restaurants and top-shelf spirits at five friendly bars and lounges, and the all-new Sip, Savor &amp; See Dining Experience with select nearby Dreams and Now Resorts &amp; Spas. Kids can spend time at the supervised Explorer’s Club that offers daily programs, and teens can chill out in the Core Zone and enjoy a variety of activities, while parents relax poolside or at the full-service spa.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujscb</code>
+		<hotel>Dreams Punta Cana Resort &amp; Spa</hotel>
+		<image>pujscb</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>This Unlimited-Luxury® resort is an undiscovered treasure offering couples and couples with children one of the largest pools in the Dominican Republic, which flows from the lobby down to the beach, complete with a swim-up bar and venues throughout. Each room includes a king bed or two double beds, 24-hour room service, fully equipped bathroom, private balcony or terrace, and daily refreshed mini-bar. Kids can enjoy activities and entertainment at the Explorer’s Club, and teens can chill out in the Core Zone, while adults relax poolside or at the full-service spa, or enjoy the Sip, Savor &amp; See Dining Experience with select nearby Dreams and Now Resorts &amp; Spas.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>lrmdel</code>
+		<hotel>Dreams La Romana Resort &amp; Spa</hotel>
+		<image>lrmdel</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>Unlimited-Luxury® for singles, couples and families includes 751 elite guestrooms and suites with elegant appointments, 24-hour room and concierge services, a luxurious full-service spa and a fully equipped fitness center. Guests will enjoy a spectacular array of day and evening activities for every age and interest, three gorgeous sun-dappled pools, the supervised Explorer’s Club for kids (ages 3-12), and the Core Zone Teens Club (ages 13-17). Indulge in eight international gourmet restaurants and seven chic lounges. The Sip, Savor &amp; See Dining Experience allows guests of Dreams La Romana to dine at select nearby Dreams and Now Resorts &amp; Spas.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujbth</code>
+		<hotel>Breathless Punta Cana Resort &amp; Spa</hotel>
+		<image>pujbth</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>This resort is a vibrant, chic and modern experience for sophisticated singles, couples, and friends. Featuring 750 ultra-contemporary suites with private and scenic terraces, Breathless Punta Cana offers guests all the benefits of Unlimited-Luxury®, including nine dining venues matched by carefully selected wines and other top-shelf spirits served up at eight bars and lounges. Mix and mingle, embrace life, and find yourself enveloped in smiles and laughter, romantic whispers and flirtatious winks.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujnow</code>
+		<hotel>Now Larimar Putna Cana</hotel>
+		<image>pujnow</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>Located on over 700 yards of palm-studded white sand beach on the majestic turquoise Caribbean Sea, Now Larimar Punta Cana offers all the privileges of an Unlimited-Luxury® escape in exquisite seaside settings. All 822 spacious guestrooms and suites feature impressive amenities with modern Caribbean-style décor. The resort features eight gourmet restaurants, nine bars, 24-hour room service and the all-new Sip, Savor &amp; See Dining Experience with select nearby Dreams Resorts &amp; Spas. Guests will enjoy daily activities, nightly entertainment, the supervised Explorer’s Club for kids, casino, full-service spa and a fitness center.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujsrb</code>
+		<hotel>Secrets Royal Beach Punta Cana</hotel>
+		<image>pujsrb</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
+		<copy2></copy2>
+		<details>Perfectly situated on a palm-studded, sugar-white beach in Playa Bavaro, and offering adults a seaside escape to paradise, this Unlimited-Luxury® resort puts a modern twist on traditional Caribbean décor and boasts a wealth of amenities, elite services and contemporary accommodations. Guests will enjoy a large free-form pool, non-motorized watersports, beach and pool wait service, a full-service spa, fitness center, gourmet reservation-free dining, top-shelf spirits and 24-hour room service. Enjoy the Sip, Savor &amp; See Dining Experience with select nearby Zoëtry Wellness &amp; Spa Resorts, Dreams and Now Resorts &amp; Spas.</details>
 	</element>
 	<element>
 		<supplierindex>2</supplierindex>
 		<destination>Caribbean</destination>
-		<subregion>St. Lucia</subregion>
-		<subregiondetails>St. Lucia details -- Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</subregiondetails>
-		<code>uvfjad</code>
-		<hotel>Jade Mountain</hotel>
-		<image>uvf_jad.jpg</image>
-		<property>Jade Mountain</property>
-		<copy1>Lorem Ipsum</copy1>
-		<copy2>More Lorem Ipsum</copy2>
-		<details>Terms -- Messenger bag Shoreditch shabby chic photo booth Helvetica food truck. Polaroid yr Austin ethical, XOXO direct trade vinyl cliche mlkshk selvage gentrify. Asymmetrical vinyl sustainable Shoreditch, cred kogi locavore. Typewriter craft beer biodiesel fixie. Godard Intelligentsia pour-over Blue Bottle. Ugh four loko yr selfies, biodiesel hella deep v Helvetica paleo art party flannel bicycle rights trust fund meh aesthetic. Retro sriracha ugh, master cleanse cray readymade forage pug gastropub mumblecore.</details>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujplc</code>
+		<hotel>Hard Rock Hotel &amp; Casino Punta Cana</hotel>
+		<image>pujplc</image>
+		<supplier>All Inclusive Hard Rock Hotels</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Lose yourself in 121 lush acres and one of the most beautiful white-sand beaches in the Caribbean. Challenge yourself on the adjacent 18-hole Jack Nicklaus-designed golf course. Turn up the excitement at the expansive Las Vegas-style casino. Turn it back down at the Rock Spa®. Luxuriate in one of 13 pools, with three swim-up bars and, for the kids, three pools, water slides and a dedicated Kids Club and Arcade Center. Dine at one of nine restaurants and 19 bars. Those looking to celebrate a rockin’ romance can choose from nine customizable Colin Cowie Wedding Collections at any one of our AAA Four Diamond properties.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujrpb</code>
+		<hotel>Riu Palace Bavaro</hotel>
+		<image>pujrpb</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Located on the Arena Gorda Beach in Punta Cana, this all-inclusive resort offers guests an unforgettable experience. Extensive lush gardens, complimentary sun loungers on the private beach and 24-hour room service are just a few of the things guests can enjoy. The resort is situated inside the RIU Resort complex, along with the Riu Palace Punta Cana, Riu Palace Macao, Riu Naiboa and Riu Bambu. Guests can choose from five restaurants and five bars, and enjoy windsurfing, snorkeling, the “Renova Spa” and much more.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujrpm</code>
+		<hotel>Riu Palace Macao</hotel>
+		<image>pujrpm</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive, Adults only</copy1>
+		<copy2></copy2>
+		<details>This adults-only resort is situated on a 16-mile beach surrounded by lush gardens. Featuring 365 newly renovated guestrooms, two pools (one with swim up bar) and both Fusion &amp; Italian cuisine restaurants, this hotel creates a unique atmosphere of unpretentious elegance. Amenities include 24-hour room service and complimentary wireless internet. This hotel is a crown jewel among the most exclusive resorts in Punta Cana. Guests can explore the vast array of services and exchange privileges with Riu Naiboa and Riu Bambu.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujrbm</code>
+		<hotel>Riu Bambu</hotel>
+		<image>pujrbm</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Situated on a pristine white-sand beach amid tropical gardens and palm groves, this hotel is located within the RIU resort complex. Amenities include 24-hour all-inclusive snacks, five restaurants, four bars, fitness center, disco, children’s pool, RiuLand mini-club, playground and complimentary wireless Internet connection throughout. New features include Asian, Italian, and Mexican restaurants, a 24-hour sports bar, and a new pool.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujrnb</code>
+		<hotel>Riu Naioba</hotel>
+		<image>pujrnb</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This resort is only a short walk from a beautiful white sand beach. Recently renovated, Riu Naiboa now features a South Miami style with refurbished rooms, beach club, a theater bar and poolside snack bar. Ideally situated in the midst of tropical vegetation with a relaxing atmosphere, it offers guests a complete array of restaurants, bars and services. Complimentary Wi-Fi in lobby area.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujrpp</code>
+		<hotel>Riu Palace Punta Cana</hotel>
+		<image>pujrpp</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Riu Palace Punta Cana is a diamond shining among the RIU jewels in Punta Cana, achieving a high level of comfort and beauty. Resting directly on a spectacular white-sand beach, this magnificent property presents 612 junior suites and suites, all with hydro-massage bathtubs and distinctive RIU amenities, fusion cuisine restaurant, and complimentary wireless internet access throughout. Additional features include 24-hour room service, in-room coffee makers and 24-hour all-inclusive snacks and beverages, complemented by an extensive array of restaurants.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>popriu</code>
+		<hotel>Riu Bachata</hotel>
+		<image>popriu</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Overlooking a lush mountainside on the shores of Maimon Bay, Riu Bachata features 610 bungalow-style guestrooms with unique RIU amenities, a casino, RiuLand mini-club, complimentary wireless internet access throughout, several dining options including the new Italian dinner restaurant, the Caribbean Street Promenade and exchange privileges with sister property Riu Merengue. Free weddings are available.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujgpe</code>
+		<hotel>Luxury Bahia Principe Esmeralda, Don Pablo Collection</hotel>
+		<image>pujgpe</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>The newest addition to the Gran Bahia Collection, this luxury resort emerges along beautifully manicured gardens on a lovely white sand beach. It has numerous tropical gardens that serve as a frame to small streets on which guests can stroll while feeling the ocean breeze and coolness of the natural surroundings. The resort features spacious and well-appointed accommodations, outstanding à la carte and buffet dining options, a lakestyle swimming pool and children’s pool, spacious sun terrace, spa and fitness center, a wide selection of land and watersports, daily activities and evening entertainment, disco and free Wi-Fi in the lobby area.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujgrn</code>
+		<hotel>Luxury Bahia Principe Ambar, Don Pablo Collection</hotel>
+		<image>pujgrn</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive, Adults only</copy1>
+		<copy2></copy2>
+		<details>This luxury resort boasts a white, sandy private beach, beautiful swimming pool and choice of restaurants that are sure to make your stay unforgettable. Luxury Bahia Principe Ambar features spacious and well-appointed junior suites with hydro-massage tubs and pillow menus, butler service, four restaurants, four bars, extensive variety of land and watersports, Bahia Spa, fitness center, live music and shows, Pueblo Principe Caribbean-style shopping and entertainment center, nearby golf and much more. Resort guests can also use all the facilities at the nearby properties within the Bahia Principe Complex.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>popbpe</code>
+		<hotel>Grand Bahia Principe El Portillo</hotel>
+		<image>popbpe</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Set on the exclusive El Portillo beach just a few minutes from the town of Las Terrenas, this resort is surrounded by lush coconut trees and spectacular nature. Enjoy yourself under the Caribbean sun in the swimming pool with solarium, or by taking part in the wide variety of land and watersports – including windsurfing, catamarans, kayaks, tennis or volleyball. Grand Bahia Principe El Portillo also offers spacious and well-appointed guestrooms, five restaurants, three bars, activity program, aquatic center, fitness center, relaxing Bahia Spa, kids club and extensive entertainment and nightlife at the Pueblo Principe complex, located at the entrance to the hotel.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>popgpc</code>
+		<hotel>Grand Bahia Principe Cayacoa</hotel>
+		<image>popgpc</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive, Adults only</copy1>
+		<copy2></copy2>
+		<details>Set on the spectacular Samana Bay and surrounded by lush nature, Grand Bahia Principe Cayacoa provides an array of services and amenities to ensure the holiday of your dreams. The resort’s panoramic elevator features stunning views of the ocean and luxurious facilities, which include two sparkling swimming pools, four restaurants and two bars, a wide variety of land and watersports, extensive leisure programs, pampering Bahia Spa, fitness center and much more. The nearby Pueblo Principe shopping and leisure center offers guests the opportunity to enjoy the sultry Caribbean nights with shops, bars, a casino, live music and excellent nightly entertainment.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>popgpl</code>
+		<hotel>Luxury Bahia Principe Cayo Levantado, Don Pablo Collection</hotel>
+		<image>popgpl</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive, Adults only</copy1>
+		<copy2></copy2>
+		<details>Luxury Bahia Principe Cayo Levantado is the ideal place to enjoy a luxury vacation in an incomparable setting of nature and comfort. A member of the Don Pablo Collection, it features well-appointed junior suite accommodations, three specialty restaurants and an international buffet, two swimming pools, three Jacuzzis, relaxing Bahia Spa, tennis courts and fitness center. Sunbathe the large solarium, refresh yourself in the pools or enjoy a swim at one of Samana’s best beaches. All your fun and entertainment is guaranteed, with ample program of aquatic sports and activities for the whole family.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujgbb</code>
+		<hotel>Grand Bahia Principe Bavaro</hotel>
+		<image>pujgbb</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Feel the sea breeze and the fresh air of this natural paradise as you explore its numerous tropical gardens. Relax and enjoy the Dominican sun on its white sandy beaches. This wonderful hotel offers all the facilities you need to make your trip a dream holiday. Grand Bahia Principe Bavaro features six à la carte specialty restaurants including Japanese, Steakhouse, Seafood, Mediterranean, Italian and Gourmet options, two snack bars, nine bars, two large lake-style swimming pools, children’s mini-club, amphitheater for entertainment and shows, tennis courts, mini-golf and multi-sports court, aquatic activities center and scuba diving center, fitness center and spa.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujgpp</code>
+		<hotel>Grand Bahia Principe Punta Cana</hotel>
+		<image>pujgpp</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Overlooking a huge white sandy beach with crystalline waters protected by a coral reef, this hotel wraps visitors in an atmosphere of serenity and takes them to a space surrounded by nature, where the sea breeze combines with the vegetation in front of the beautiful Bávaro coast. Grand Bahia Principe offers spacious and well-appointed junior suite accommodations, an international buffet and five specialty restaurants, six bars and snack bars, two lake-style swimming pools with children’s sections, tennis courts, a wide variety of land and watersports, Bahia Spa, Principito mini-club for kids, Pueblo Principe shopping and entertainment complex, and much more.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>lrmgrn</code>
+		<hotel>Grand Bahia Principe La Romana</hotel>
+		<image>lrmgrn</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This 24-hour all-inclusive resort enjoys an ideal location on a long, palm-fringed beach surrounded by the lush nature of the Caribbean, with idyllic, soothing views to a beautiful bay. Known for its luxurious facilities, Grand Bahia Principe La Romana offers all junior suite accommodations, a lake-style swimming pool with three Jacuzzis, children’s pool, fitness center, four restaurants, four bars, full range of activity programs, watersports center, relaxing Bahia Spa, and the Principito children’s club. At the entrance of the complex you will find Pueblo Principe, the resort’s Caribbean-style leisure and entertainment center, where guests can enjoy shopping, a disco/nightclub, and a 24-hour burger bar.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>lrmlbp</code>
+		<hotel>Luxury Bahia Principe Bouganville, Don Pablo Collection</hotel>
+		<image>lrmlbp</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive, Adults only</copy1>
+		<copy2></copy2>
+		<details>Located on the idyllic Caribbean beach of La Romana, this 152 room, All-inclusive Luxury Don Pablo Collection resort features services and amenities like in room butler service, 24-hour room service, three specialty restaurants serving Italian, seafood and gourmet cuisine, and an exclusive Snack bar for breakfast and lunch. Enjoy daily activities, tennis courts, a gym and full service spa.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>popgrn</code>
+		<hotel>Bahia Principe San Juan</hotel>
+		<image>popgrn</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Set on a mile-long private beach on the Ambar Coast, sheltered by a coral reef and surrounded by lush gardens, this 24-hour all-inclusive resort features spacious guestrooms, four international restaurants, six bars, two lake-style pools, fitness center, Bahia Spa, watersports center, tennis, basketball, soccer, mini-golf, putting green, kid’s club, daily and nightly entertainment and nearby Robert Trent Jones designed Playa Grande Golf Course.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujigh</code>
+		<hotel>IBEROSTAR Grand Hotel Bavaro, Grand Collection</hotel>
+		<image>pujigh</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive, Adults only</copy1>
+		<copy2></copy2>
+		<details>This luxurious, adults-only Grand Collection, all-suites resort features concierge service and gourmet 24-hour room service. Experience ultimate luxury with personalized butler service, fine dining at four specialty restaurants, five bars, a world-class spa and more. The IBEROSTAR Grand Hotel Bavaro features a bar located inside a replica of a Spanish Galleon where guests can enjoy music and dancing. Guests will receive a free round(s) of golf at the new onsite 18-hole championship course designed by P.B. Dye (three-night minimum stay required), and have access to sister hotels in the complex.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujido</code>
+		<hotel>IBEROSTAR Dominicana, Premium</hotel>
+		<image>pujido</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>IBEROSTAR Dominicana shares facilities with IBEROSTAR Punta Cana and features five specialty restaurants, a casino, fitness center, spa, beauty salon, dive center, preferred rates at the on-site P.B. Dye-designed golf course, a Kids Club (ages 4-12), theater with live shows, daytime and evening entertainment programs, Caribbean-style shopping street and pool with separate children’s area.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujipj</code>
+		<hotel>IBEROSTAR Punta Cana, Premium</hotel>
+		<image>pujipj</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This Premium resort sits directly on the beautiful Playa Bavaro. It features 427 spacious guestrooms, five specialty restaurants including a newly renovated Mexican restaurant, a renovated casino with an expanded bar area and a VIP gaming area, fitness center, spa, dive center, preferred rates at the onsite P.B. Dye-designed golf course, a Kids Club (ages 4-12), theater, daytime and evening entertainment, and exchange privileges at other IBEROSTAR Resorts.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>lrmhac</code>
+		<hotel>IBEROSTAR Hacienda Dominicus, Premium</hotel>
+		<image>lrmhac</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Located on a gently sloping, beautiful beach, the Premium IBEROSTAR Hacienda Dominicus offers beautiful Caribbean décor with lush, tropical gardens. The resort features 463 standard rooms and 38 junior suites with concierge service, three swimming pools, four specialty restaurants, six bars and lounges, room service, a Kids Club (ages 4-12), daily activities and nightly entertainment, spa with fitness center, serene and exquisitely landscaped gardens for leisurely strolls, and more. Resort activities include diving, snorkeling and a full assortment of land and watersports, and nearby golf. The IBEROSTAR Hacienda Dominicus is known for its beach bar, a replica of a lighthouse located at the base of the beach.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>popico</code>
+		<hotel>IBEROSTAR Costa Dorada, Premium</hotel>
+		<image>popico</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This colonial-style Premium beachfront resort is situated on the long, golden beach of Costa Dorada. It features three specialty restaurants including Brazilian, Mexican, and an international buffet with show cooking, four bars and lounges, watersports, live nightly entertainment and daily activities, a children’s pool, Lucy’s Kids Club (ages 4-12), a fitness center, spa, shops and nightclub.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Dominican Republic</subregion>
+		<subregiondetails>The cultural history of this country is fascinating for its blend of European, African and native Taino Indian heritage and some of the oldest architecture in the New World, but most visitors find themselves entranced by the marine life that darts visibly beneath the surface of the clear, pristine waters of this beach destination. On the shores of Punta Cana, the longest stretch of white sand in the Caribbean, stunning resorts light up barefoot evening strolls, and Puerto Plata beaches are a treasure fit for the city’s name. Leisure and luxury meet in La Romana and Samana, names roll as easily off the tongue as the waves on their shores, while the sands of Santo Domingo and Cap Cana melt into the Caribbean Sea.</subregiondetails>
+		<code>pujibb</code>
+		<hotel>IBEROSTAR Bavaro Suites, Premiuim Gold</hotel>
+		<image>pujibb</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This Premium Gold resort offers all-suite accommodations, fine dining at five specialty restaurants including Japanese, Cajun, Mediterranean and a steakhouse, four bars and lounges, a disco, 24-hour room service, a spa with indulgent treatments, a newly renovated casino. The resort features tropical gardens with animals, an onsite 18-hole championship golf course designed by P.B. Dye, quaint shops of “Caribbean Street” and activities such as windsurfing and diving. Families can enjoy the kids club for ages 4-12 with supervised children’s activities, and the new water playground.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Huatulco</subregion>
+		<subregiondetails>Spanning 20 miles of Mexico’s Pacific coastline, between the Coyula and Copalita rivers, this protected preserve follows the world-class tourism infrastructure and the lead of Mexico’s preceding recreation zones, perfecting a model that travelers have already fallen in love with. In this destination, nine protected bays and 36 beautiful beaches, all part of the Bahias de Huatulco National Park, lie in the shadows of the Sierra Madre Mountains on the Pacific Coast. Here, pirates and early Elizabethan explorers found romance and adventure on the golden sands and in rustic villages—and so can you in what is considered one of the country’s most relaxed destinations.</subregiondetails>
+		<code>huxdrm</code>
+		<hotel>Dreams Huatulco Resort &amp; Spa</hotel>
+		<image>huxdrm</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>Perfectly placed on beautiful Tangolunda Bay is Dreams Huatulco Resort &amp; Spa—a sanctuary of both leisure and adventure for families, couples, and singles. Offering the privileges of Unlimited-Luxury®, this exquisite resort features stunning bay views, lavish amenity-filled guestrooms and suites, three shimmering pools, six internationally themed gourmet restaurants, five chic bars and lounges, 24-hour room service, endless day and evening activities for all ages and interests, and superior service. The luxurious Dreams Spa by Pevonia offers world-class pampering treatments, and the supervised Explorer’s Club allows kids the opportunity to have their own vacation experience.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Huatulco</subregion>
+		<subregiondetails>Spanning 20 miles of Mexico’s Pacific coastline, between the Coyula and Copalita rivers, this protected preserve follows the world-class tourism infrastructure and the lead of Mexico’s preceding recreation zones, perfecting a model that travelers have already fallen in love with. In this destination, nine protected bays and 36 beautiful beaches, all part of the Bahias de Huatulco National Park, lie in the shadows of the Sierra Madre Mountains on the Pacific Coast. Here, pirates and early Elizabethan explorers found romance and adventure on the golden sands and in rustic villages—and so can you in what is considered one of the country’s most relaxed destinations.</subregiondetails>
+		<code>huxsct</code>
+		<hotel>Secrets Huatulco Resort &amp; Spa</hotel>
+		<image>huxsct</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
+		<copy2></copy2>
+		<details>Located on Conejos Bay with sugar-white sand, beautiful rock formations and sapphire waters, the brand-new Secrets Huatulco Resort &amp; Spa is the first adults-only, Unlimited-Luxury® resort in Huatulco. Guests will enjoy gourmet restaurants and chic bars and lounges, 24-hour room service, and gorgeous suites with spectacular ocean views - select suites offer terrace, Jacuzzi or swim-out pool access. Luxuriate in the world-class Secrets Spa by Pevonia, prefect your swing at a nearby golf course, and delight in the all-new Sip, Savor &amp; See Dining Experience with Dreams Huatulco Resort &amp; Spa.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Isla Mujeres</subregion>
+		<subregiondetails>There is only one road in this peaceful destination, but visitors can easily find themselves lost in the beauty of it. Exotic mangrove lagoons, relaxed seaside restaurants and golden beaches abound along the path to nowhere, beginning from a short 15-minute ferry ride from vibrant Cancun but a world away from its bustle. A mere slip of an island, this tranquil former fishing village once sacred to the Maya goddess Ix Chel, is now better known for its clear, warm water, abundant marine life, hauntingly beautiful reefs and caves, and the Parque Marino El Garrafon—a favorite among visitors and day-trippers from nearby Cancun, Puerto Juarez and Punta Sam, whose footsteps are all that remain after the sun sets blazing into cool Caribbean seas.</subregiondetails>
+		<code>cunilp</code>
+		<hotel>Isla Mujeres Palace</hotel>
+		<image>cunilp</image>
+		<supplier>Palace Resorts &amp; Spas</supplier>
+		<copy1>All-inclusive, Couples only</copy1>
+		<copy2></copy2>
+		<details>Small and luxurious, this all-inclusive resort features 62 guestrooms, all with a double Jacuzzi, balcony and 24-hour room service. Located on the beautiful and charming island of Isla Mujeres on a powdery white-sand beach, it is sure to guarantee a private and relaxed stay. Guests can lounge around the free-form swimming pool or on the tranquil beach. A variety of international favorites offer à la carte breakfast and dinner. The activities staff will keep you entertained with pool and beach activities throughout the day, or if you prefer a more personal form of relaxation, rejuvenate in one of the resort’s four massage rooms. Wedding services available.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Ixtapa</subregion>
+		<subregiondetails>A former coconut plantation gives rise to towering hotels, all-inclusive resorts, upscale shopping and everything a luxury-minded vacationer could want in a Mexican beach resort. Active travelers from around the world dot the brightly azure waters, kayaking, scuba diving and fishing, and cultural travelers find their way to the nearby fishing village of Zihuatanejo, where art galleries, folk art shops, boutique hotels and palapa-style restaurants can be found on quaint winding streets.</subregiondetails>
+		<code>zihdpi</code>
+		<hotel>Sunscape Dorado Pacifico Ixtapa</hotel>
+		<image>zihdpi</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Fun®</copy1>
+		<copy2></copy2>
+		<details>Located in the heart of Ixtapa, this oceanfront resort treats couples, singles, and families to an Unlimited- Fun® getaway. It offers 285 guestrooms and suites, 20 of which are oceanfront family-style suites, eight dining options, four bars (including a swim-up), two pools, an Explorer’s Club for kids, Core Zone Teens Club, two water slides and more.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Jamaica</subregion>
+		<subregiondetails>Fall in love with a different Jamaica every time you visit; each town—from Montego Bay, Negril and Ocho Rios to Runaway Bay and the South Coast—boasts a unique personality. Here, the culture is vibrant, the cuisine is bold, and the music even more so. Dramatic waterfalls, mountain rainforests, pulsing nightlife, grand colonial opulence and a multitude of lavish resorts can be found between broad swaths of white beaches, making its popularity the one thing about the island that doesn’t create a sense of wonder.</subregiondetails>
+		<code>mbjssj</code>
+		<hotel>Secrets St. James Montego Bay</hotel>
+		<image>mbjssj</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
+		<copy2></copy2>
+		<details>Secrets St. James presents guests with a quiet, relaxing, oceanfront destination. Tucked away on a half-mile stretch of paradise, where the turquoise waters of the Caribbean lap against sugar-white sand, this romantic resort exudes true Jamaican enchantment. From the sumptuous suites to the 15,000 square-foot Secrets Spa by Pevonia, the resort’s classic furniture and modern fabrics echo this modern take on the sophistication of the British Colonial Era. For the ultimate in amenities, there’s Unlimited-Luxury®, including 24-hour rom service, gourmet à la carte restaurants, chic bars and lounges, daytime and evening activities, theater, nearby golf and much more.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Jamaica</subregion>
+		<subregiondetails>Fall in love with a different Jamaica every time you visit; each town—from Montego Bay, Negril and Ocho Rios to Runaway Bay and the South Coast—boasts a unique personality. Here, the culture is vibrant, the cuisine is bold, and the music even more so. Dramatic waterfalls, mountain rainforests, pulsing nightlife, grand colonial opulence and a multitude of lavish resorts can be found between broad swaths of white beaches, making its popularity the one thing about the island that doesn’t create a sense of wonder.</subregiondetails>
+		<code>mbjwdo</code>
+		<hotel>Secrets Wild Orchid Montego Bay</hotel>
+		<image>mbjwdo</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
+		<copy2></copy2>
+		<details>Experience the exclusive amenities of Unlimited-Luxury® at Secrets Wild Orchid, including 24-hour room service within handsome suites whose plush furnishings, warm neutral tones and native works of art are in balance with its island surroundings. Outside your suite, the pleasure pursuits continue with nine restaurants and nine bars and lounges, a cozy theater, the Secrets Spa by Pevonia and more. This exotic hideaway, only 20 minutes from the Montego Bay airport, takes its inspiration from the island’s gorgeous surroundings, steeped in the Ethiopian roots of Jamaica’s African ancestors.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Jamaica</subregion>
+		<subregiondetails>Fall in love with a different Jamaica every time you visit; each town—from Montego Bay, Negril and Ocho Rios to Runaway Bay and the South Coast—boasts a unique personality. Here, the culture is vibrant, the cuisine is bold, and the music even more so. Dramatic waterfalls, mountain rainforests, pulsing nightlife, grand colonial opulence and a multitude of lavish resorts can be found between broad swaths of white beaches, making its popularity the one thing about the island that doesn’t create a sense of wonder.</subregiondetails>
+		<code>mbjrtb</code>
+		<hotel>Riu Palace Tropical Bay</hotel>
+		<image>mbjrtb</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This hotel is a perfect fun and sun vacation spot. An elegant, Victorian style resort, Riu Palace Tropical Bay features spacious and well-appointed accommodations, flat-screen televisions, turndown service, in-room coffee makers, 24-hour room service, five distinct restaurants (including fusion, steakhouse, Italian and Japanese options), four bars, two swimming pools, children’s pool and playground, pampering Renova Spa, fitness center, two floodlit tennis courts, wide variety of land and watersports, daytime and evening activities, entertainment for all ages, game room, wireless internet access throughout and nearby golf.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Jamaica</subregion>
+		<subregiondetails>Fall in love with a different Jamaica every time you visit; each town—from Montego Bay, Negril and Ocho Rios to Runaway Bay and the South Coast—boasts a unique personality. Here, the culture is vibrant, the cuisine is bold, and the music even more so. Dramatic waterfalls, mountain rainforests, pulsing nightlife, grand colonial opulence and a multitude of lavish resorts can be found between broad swaths of white beaches, making its popularity the one thing about the island that doesn’t create a sense of wonder.</subregiondetails>
+		<code>mbjrmb</code>
+		<hotel>Riu Montego Bay</hotel>
+		<image>mbjrmb</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>In harmony with island architecture, the Riu Montego Bay lies alongside a shimmering beach surrounded by nearly 450,000 square-feet of lush gardens. Ideal for families, couples or singles, it offers four restaurants, plus four bars including a 24-hour sports bar and a swim-up bar. There is a swimming pool with adjoining Jacuzzi, plus a separate children’s pool, playground and mini-club. The Renova Spa offers a variety of treatments, a beauty salon and massage services. Other amenities include 24-hour all- inclusive snacks, wireless internet access throughout, a fitness center and disco, and nearby golf. Free Weddings are available.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Jamaica</subregion>
+		<subregiondetails>Fall in love with a different Jamaica every time you visit; each town—from Montego Bay, Negril and Ocho Rios to Runaway Bay and the South Coast—boasts a unique personality. Here, the culture is vibrant, the cuisine is bold, and the music even more so. Dramatic waterfalls, mountain rainforests, pulsing nightlife, grand colonial opulence and a multitude of lavish resorts can be found between broad swaths of white beaches, making its popularity the one thing about the island that doesn’t create a sense of wonder.</subregiondetails>
+		<code>mbjrpj</code>
+		<hotel>Riu Palace Jamaica</hotel>
+		<image>mbjrpj</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Riu Palace Jamaica is a brand new, adults-only, 24-hour all-inclusive hotel offering a range of luxury services with a quiet beach, clear water and fine sand for relaxation and tranquility. Guests can enjoy a wide range of leisure activities, such as the fresh water pool, chill out beach bar, Jacuzzi, sauna, gym and Renova Spa. Choose to eat at the buffet restaurant with a variety of delicious dishes, and taste some of the best cuisine prepared at the theme restaurants.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Jamaica</subregion>
+		<subregiondetails>Fall in love with a different Jamaica every time you visit; each town—from Montego Bay, Negril and Ocho Rios to Runaway Bay and the South Coast—boasts a unique personality. Here, the culture is vibrant, the cuisine is bold, and the music even more so. Dramatic waterfalls, mountain rainforests, pulsing nightlife, grand colonial opulence and a multitude of lavish resorts can be found between broad swaths of white beaches, making its popularity the one thing about the island that doesn’t create a sense of wonder.</subregiondetails>
+		<code>mbjror</code>
+		<hotel>Riu Ocho Rios</hotel>
+		<image>mbjror</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Located on a breathtaking beach, Riu Ocho Rios features 856 beautifully appointed guestrooms, a tennis court, land and water sports, special amenities for kids, such as RIULand mini-club and much more. Unwind with spectacular waterfalls, a pampering spa and Jacuzzis. The resort’s adults only Deluxe Wing has re-launched and offers a pool with waiter service, two exclusive à la carte restaurants for dinner (Japanese and Gourmet), exclusive concierge service, priority dinner reservations at all restaurants and VIP check-in at main lobby with fresh towels and a welcome beverage.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Jamaica</subregion>
+		<subregiondetails>Fall in love with a different Jamaica every time you visit; each town—from Montego Bay, Negril and Ocho Rios to Runaway Bay and the South Coast—boasts a unique personality. Here, the culture is vibrant, the cuisine is bold, and the music even more so. Dramatic waterfalls, mountain rainforests, pulsing nightlife, grand colonial opulence and a multitude of lavish resorts can be found between broad swaths of white beaches, making its popularity the one thing about the island that doesn’t create a sense of wonder.</subregiondetails>
+		<code>mbjriu</code>
+		<hotel>Riu Negril</hotel>
+		<image>mbjriu</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Located on a stunning stretch of white-sand beach, the Riu Negril features 420 deluxe guestrooms, four restaurants, five bars, 24-hour all-inclusive snacks and beverages, spa, fitness center, game room, two swimming pools, a sun terrace, floodlit tennis courts, disco, children’s pool, RiuLand miniclub and wireless internet connection throughout. Free weddings are available</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Jamaica</subregion>
+		<subregiondetails>Fall in love with a different Jamaica every time you visit; each town—from Montego Bay, Negril and Ocho Rios to Runaway Bay and the South Coast—boasts a unique personality. Here, the culture is vibrant, the cuisine is bold, and the music even more so. Dramatic waterfalls, mountain rainforests, pulsing nightlife, grand colonial opulence and a multitude of lavish resorts can be found between broad swaths of white beaches, making its popularity the one thing about the island that doesn’t create a sense of wonder.</subregiondetails>
+		<code>mbjbah</code>
+		<hotel>Grand Bahia Principe Jamaica</hotel>
+		<image>mbjbah</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Located 50 minutes from Montego Bay airport, this Victorian-style complex is situated on a private beach, nestled among lush natural parks. The Grand Bahia Principe features well-appointed junior suites, five restaurants, five bars, three lagoon-style pools with children’s sections, Principito kids club, watersports, Bahia Spa, and the Pueblo Principe shopping and entertainment complex.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Jamaica</subregion>
+		<subregiondetails>Fall in love with a different Jamaica every time you visit; each town—from Montego Bay, Negril and Ocho Rios to Runaway Bay and the South Coast—boasts a unique personality. Here, the culture is vibrant, the cuisine is bold, and the music even more so. Dramatic waterfalls, mountain rainforests, pulsing nightlife, grand colonial opulence and a multitude of lavish resorts can be found between broad swaths of white beaches, making its popularity the one thing about the island that doesn’t create a sense of wonder.</subregiondetails>
+		<code>mbjlbp</code>
+		<hotel>Luxury Bahia Principe Runaway Bay, Don Pablo Collection</hotel>
+		<image>mbjlbp</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive, Adults only</copy1>
+		<copy2></copy2>
+		<details>Located on the beautiful beaches of Runaway Bay, this adults-only, all-inclusive resort is a Caribbean delight with Luxury Don Pablo Collection amenities and services, including butler service in the rooms. Featuring 142 rooms with a balcony or terrace, 24-hour room service, private check-in/check-out, free Wi-Fi in lobby and pool bar, a separate beach area with a bar and waiter service in the hammock area, and gourmet dining in restaurants specializing in Italian, Japanese and Spanish cuisine, this elegant resort is an oasis of privileges and pleasure.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Jamaica</subregion>
+		<subregiondetails>Fall in love with a different Jamaica every time you visit; each town—from Montego Bay, Negril and Ocho Rios to Runaway Bay and the South Coast—boasts a unique personality. Here, the culture is vibrant, the cuisine is bold, and the music even more so. Dramatic waterfalls, mountain rainforests, pulsing nightlife, grand colonial opulence and a multitude of lavish resorts can be found between broad swaths of white beaches, making its popularity the one thing about the island that doesn’t create a sense of wonder.</subregiondetails>
+		<code>mbjigh</code>
+		<hotel>IBEROSTAR Grand Hotel Rose Hall, Grand Collection</hotel>
+		<image>mbjigh</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive, Adults only</copy1>
+		<copy2></copy2>
+		<details>This beachfront, adults-only Grand Collection resort is located in beautiful Rose Hall, approximately twenty minutes away from Sangster Airport. Surrounded by sophisticated décor, experience ultimate luxury including personalized butler service, 24-hour gourmet room service, concierge service, four pools, spacious suites with top-of-the-line amenities including pillow menu options, unlimited exquisite dining at four specialty restaurants, six bars and lounges serving premium liquor, world-class spa, theater and much more. Guests enjoy free round(s) of golf at Cinnamon Hill with 3-night minimum stays, and access to all sister hotels in the complex. AAA Four Diamond rated.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Jamaica</subregion>
+		<subregiondetails>Fall in love with a different Jamaica every time you visit; each town—from Montego Bay, Negril and Ocho Rios to Runaway Bay and the South Coast—boasts a unique personality. Here, the culture is vibrant, the cuisine is bold, and the music even more so. Dramatic waterfalls, mountain rainforests, pulsing nightlife, grand colonial opulence and a multitude of lavish resorts can be found between broad swaths of white beaches, making its popularity the one thing about the island that doesn’t create a sense of wonder.</subregiondetails>
+		<code>mbjirb</code>
+		<hotel>IBEROSTAR Rose Hall Beach, Premium</hotel>
+		<image>mbjirb</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Shining over Montego Bay, this Premium architectural masterpiece features a main lobby that overlooks the ocean, and breathtaking views from every guestroom. IBEROSTAR Rose Hall Beach is located in the golf community of Rose Hall, approximately twenty minutes from Sangster International Airport. This beachfront resort has a Caribbean colonial-style décor filled with tropical gardens. It features three specialty restaurants, two pools including an infinity pool, six bars and lounges, a kids club (ages4-12), disco, and endless activities including game rooms, windsurfing, kayaking, scuba diving and more.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Caribbean</destination>
+		<subregion>Jamaica</subregion>
+		<subregiondetails>Fall in love with a different Jamaica every time you visit; each town—from Montego Bay, Negril and Ocho Rios to Runaway Bay and the South Coast—boasts a unique personality. Here, the culture is vibrant, the cuisine is bold, and the music even more so. Dramatic waterfalls, mountain rainforests, pulsing nightlife, grand colonial opulence and a multitude of lavish resorts can be found between broad swaths of white beaches, making its popularity the one thing about the island that doesn’t create a sense of wonder.</subregiondetails>
+		<code>mbjibr</code>
+		<hotel>IBEROSTAR Rose Hall Suites, Premium Gold</hotel>
+		<image>mbjibr</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Along exclusive Rose Hall Beach, IBEROSTAR Rose Hall Suites is an upscale, Premium Gold family resort designed to exceed your every expectation. Located approximately twenty minutes from Sangster International Airport, the resort features concierge service, 24-hour room service, a lazy river, infinity pool, activity pool, water playground, four specialty restaurants, six bars and lounges, a disco, two-story spa, theater with live shows, game room with slot machines and kids club for children ages 4-12. Resort guests receive preferred rates at Cinnamon Hill, the nearby championship 18-hole golf course. Guests also have access to the facilities at IBEROSTAR Rose Hall Beach.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Los Cabos</subregion>
+		<subregiondetails>At the very tip of the romantic Baja California Sur, a charmingly traditional town with cobblestone streets and intimate restaurants quietly vies for visitors with a sleek epicenter for luxurious resorts, impressive spas, championship golf, world-class marlin fishing and marina-front shopping. Travelers experience the best of both along the entire length of the red sands and blooming cacti of the Corridor, from the celebrity-studded Cabo San Lucas to the slower pace of San Jose del Cabo.</subregiondetails>
+		<code>sjddel</code>
+		<hotel>Zoëtry Casa del Mar Los Cabos</hotel>
+		<image>sjddel</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Endless Privileges®</copy1>
+		<copy2></copy2>
+		<details>Situated in a spectacular landscape where the desert meets the turquoise waters of the Sea of Cortes, the graceful arches, cobbled courtyards, lush gardens and authentic Mexican architecture of Zoëtry Casa del Mar create a truly romantic atmosphere. Enjoy all the benefits of Endless Privileges® in this 53-suite haciendastyle, beachfront boutique hotel, including limitless gourmet dining and top-shelf spirits, 24-hour in-suite private dining, multiple tennis courts and a fitness center. Tee off at the nearby 18-hole Robert Trent Jones Jr. Cabos Real Golf Course, luxuriate in the world-class Suenos del Mar Spa, and indulge in the Sip, Savor &amp; See Dining Experience with select, nearby Secrets and Dreams Resorts &amp; Spas.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Los Cabos</subregion>
+		<subregiondetails>At the very tip of the romantic Baja California Sur, a charmingly traditional town with cobblestone streets and intimate restaurants quietly vies for visitors with a sleek epicenter for luxurious resorts, impressive spas, championship golf, world-class marlin fishing and marina-front shopping. Travelers experience the best of both along the entire length of the red sands and blooming cacti of the Corridor, from the celebrity-studded Cabo San Lucas to the slower pace of San Jose del Cabo.</subregiondetails>
+		<code>sjdcas</code>
+		<hotel>Dreams Los Cabos Suites Golf Resort &amp; Spa</hotel>
+		<image>sjdcas</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>This casually elegant Unlimited-Luxury® resort features a hacienda open-air style, distinctive Mexican décor, and beautiful suites with panoramic views of the ocean and exotic landscape. Ideally located near San Jose del Cabo and Cabo San Lucas, this all-suite oceanfront haven offers three beautiful pools (one just for kids), a spectacular array of day and evening activities for every age and interest, unlimited gourmet à la carte dining and top-shelf spirits, Dreams Spa by Pevonia, fully equipped fitness center, supervised Explorer’s Club for kids, and eight nearby championship golf courses designed by Jack Nicklaus, Tom Weiskopf, Robert Trent Jones, Jr. and Pete Dye.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Los Cabos</subregion>
+		<subregiondetails>At the very tip of the romantic Baja California Sur, a charmingly traditional town with cobblestone streets and intimate restaurants quietly vies for visitors with a sleek epicenter for luxurious resorts, impressive spas, championship golf, world-class marlin fishing and marina-front shopping. Travelers experience the best of both along the entire length of the red sands and blooming cacti of the Corridor, from the celebrity-studded Cabo San Lucas to the slower pace of San Jose del Cabo.</subregiondetails>
+		<code>sjdsml</code>
+		<hotel>Secrets Marquis Los Cabos</hotel>
+		<image>sjdsml</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
+		<copy2></copy2>
+		<details>Secrets Marquis Los Cabos offers adults Unlimited-Luxury® for the first time on Mexico’s Baja Peninsula. Situated where the tranquil desert meets the untamed waters of the Pacific Ocean, guests will feel a sense of excitement and experience a world of pleasure. This seaside escape is an all-suite, all ocean view resort featuring unique, one-bedroom casitas - each with their own private pool. AAA Four Diamond.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Los Cabos</subregion>
+		<subregiondetails>At the very tip of the romantic Baja California Sur, a charmingly traditional town with cobblestone streets and intimate restaurants quietly vies for visitors with a sleek epicenter for luxurious resorts, impressive spas, championship golf, world-class marlin fishing and marina-front shopping. Travelers experience the best of both along the entire length of the red sands and blooming cacti of the Corridor, from the celebrity-studded Cabo San Lucas to the slower pace of San Jose del Cabo.</subregiondetails>
+		<code>sjdspc</code>
+		<hotel>Secrets Puerto Los Cabos</hotel>
+		<image>sjdspc</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
+		<copy2></copy2>
+		<details>This all-suite oceanfront resort offers 500 spacious suites with finely-appointed amenities, full service spa, gourmet à la carte restaurants and elegant bars and lounges. Surrounded by mountains, the Baja desert and two golf courses designed by Jack Nicklaus and Greg Norman, guests will enjoy all the Unlimited-Luxury® privileges they deserve. For added luxury, 150 oceanview suites are reserved for the Preferred Club, with access to additional privileges.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Los Cabos</subregion>
+		<subregiondetails>At the very tip of the romantic Baja California Sur, a charmingly traditional town with cobblestone streets and intimate restaurants quietly vies for visitors with a sleek epicenter for luxurious resorts, impressive spas, championship golf, world-class marlin fishing and marina-front shopping. Travelers experience the best of both along the entire length of the red sands and blooming cacti of the Corridor, from the celebrity-studded Cabo San Lucas to the slower pace of San Jose del Cabo.</subregiondetails>
+		<code>sjdris</code>
+		<hotel>Riu Santa Fe</hotel>
+		<image>sjdris</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This beachfront resort is located in the southern Baja California peninsula, just over two miles from Cabo San Lucas. The 902 deluxe guestrooms include private terraces, fully stocked mini-bar and liquor dispenser, and the suites come complete with living room and hydro-massage tub. It provides a variety of dining options, with five restaurants and seven bars. Guests will enjoy the two pools with adjoining Jacuzzi, three poolside bars including swim-up bar, sun terrace, complimentary Wi-Fi in lobby area, RiuLand mini-club, spa, fitness center, two lit tennis courts, beach volleyball, nightclub, free wedding packages, and nearby golf, horseback riding and watersports.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Los Cabos</subregion>
+		<subregiondetails>At the very tip of the romantic Baja California Sur, a charmingly traditional town with cobblestone streets and intimate restaurants quietly vies for visitors with a sleek epicenter for luxurious resorts, impressive spas, championship golf, world-class marlin fishing and marina-front shopping. Travelers experience the best of both along the entire length of the red sands and blooming cacti of the Corridor, from the celebrity-studded Cabo San Lucas to the slower pace of San Jose del Cabo.</subregiondetails>
+		<code>sjdriu</code>
+		<hotel>Riu Palace Cabo San Lucas</hotel>
+		<image>sjdriu</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This deluxe colonial-style resort is located on Medano Beach, down the sparkling coast of the Sea of Cortez, and boasts lush gardens, grand public spaces and a stunning beachfront location. It features 642 junior suites with incredible views, two infinity pools with integrated Jacuzzi, children’s pool, five bars, 24-hour room service, 24-hour all-inclusive snacks and beverages, spa, beauty salon, wireless internet access throughout, RiuLand mini-club, fitness center and tennis court. RIU’s legendary all-inclusive concept gives guests the privileges of unlimited fine dining at four specialty restaurants, one main restaurant, unlimited leisure activities and nightly entertainment.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Mazatlan</subregion>
+		<subregiondetails>Known as the “Pearl of the Pacific” for its seaside promenade, beckoning islands, miles of golden beaches and incandescently blue lagoons, this destination adds depth to beauty with its history and culture. A famous Carnaval, German-Latin Banda music, and pastel and wrought iron Tropical Neoclassical architecture adds unique character while 300 sunny days per year appeal to everyone, whether staying in the Golden Zone, with the idyllic resort living travelers love, or shady traditional plazas of Old Mazatlan and the Centro Historico.</subregiondetails>
+		<code>mztriu</code>
+		<hotel>Riu Emerald Bay</hotel>
+		<image>mztriu</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>The Riu Emerald Bay enjoys an exclusive location on Playa Brujas, just a few miles from downtown Mazatlán. It features deluxe guestrooms and suites, and the first-class service that characterizes RIU. This all-inclusive resort offers an assorted variety of culinary choices at its main restaurant and its Mexican, Asian and Italian restaurants. Amenities include a wide variety of watersports, a pool and separate children’s pool, RiuLand mini-club, beach volleyball, daily and evening activities and entertainment, fitness center, Renova Spa, wireless internet access throughout, Pacha nightclub, and nearby golf and horseback riding. Free wedding packages are available.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Puerto Vallarta</subregion>
+		<subregiondetails>With whitewashed buildings whimsically capped by sun-dappled red-tile roofs, this destination is so well known for capturing hearts that an area even bears the apt name “The Romantic Zone” and many English-speaking visitors become residents. A seaside promenade, dotted with bronze sculptures; cobblestone streets that merge into the green foothills of the Sierra Madre mountains; and, of course, golden beaches are all part of the allure … but the genuine warmth of its locals is the best complement to the gorgeous weather, which is surpassed only by the beauty of Banderas Bay—which shares the same latitude as Hawaii—and surrounding villages.</subregiondetails>
+		<code>pvrcmp</code>
+		<hotel>Dreams Puerto Vallarta Resort &amp; Spa</hotel>
+		<image>pvrcmp</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>This lush tropical paradise is an intimate, AAA Four Diamond rated Unlimited- Luxury® resort providing luxurious accommodations, including spacious ocean view guestrooms overlooking the crystal-clear water and large pristine beach. Enjoy three pools, luxuriate in the world-class Dreams Spa by Pevonia, and indulge in six gourmet restaurants and five stylish bars and lounges. Activities abound for all ages and interests. Kids ages 3-12 can enjoy supervised fun in the Explorer’s Club. The Sip, Savor &amp; See Dining Experience gives guests the option to enjoy dinner and evening entertainment at nearby Dreams and Now Resorts &amp; Spas (transportation not included; restrictions apply).</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Puerto Vallarta</subregion>
+		<subregiondetails>With whitewashed buildings whimsically capped by sun-dappled red-tile roofs, this destination is so well known for capturing hearts that an area even bears the apt name “The Romantic Zone” and many English-speaking visitors become residents. A seaside promenade, dotted with bronze sculptures; cobblestone streets that merge into the green foothills of the Sierra Madre mountains; and, of course, golden beaches are all part of the allure … but the genuine warmth of its locals is the best complement to the gorgeous weather, which is surpassed only by the beauty of Banderas Bay—which shares the same latitude as Hawaii—and surrounding villages.</subregiondetails>
+		<code>pvrnow</code>
+		<hotel>Now Amber Puerto Vallarta</hotel>
+		<image>pvrnow</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>Perfectly situated within close proximity to the historic sights and sounds of downtown Puerto Vallarta (just steps from the famous boardwalk, El Malecon), Now Amber welcomes couples, singles, friends and families with all the privileges of Unlimited-Luxury®. Enjoy finely appointed suites with contemporary décor, indulge in endless meals, snacks, and top-shelf spirits in six reservation-free restaurants and five chic bars and lounges, and feel fabulous with relaxing treatments at the world-class spa. Kids can enjoy supervised fun in the Explorer’s Club, while teens chill out in the Core Zone.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Puerto Vallarta</subregion>
+		<subregiondetails>With whitewashed buildings whimsically capped by sun-dappled red-tile roofs, this destination is so well known for capturing hearts that an area even bears the apt name “The Romantic Zone” and many English-speaking visitors become residents. A seaside promenade, dotted with bronze sculptures; cobblestone streets that merge into the green foothills of the Sierra Madre mountains; and, of course, golden beaches are all part of the allure … but the genuine warmth of its locals is the best complement to the gorgeous weather, which is surpassed only by the beauty of Banderas Bay—which shares the same latitude as Hawaii—and surrounding villages.</subregiondetails>
+		<code>pvrsvb</code>
+		<hotel>Secrets Vallarta Bay Puerto Vallarta</hotel>
+		<image>pvrsvb</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
+		<copy2></copy2>
+		<details>Secrets Vallarta Bay Puerto Vallarta, located just minutes from the famous El Malecon boardwalk, offers an Unlimited-Luxury® escape on the golden beaches of Banderas Bay. This all-suite, adults-only resort provides guests with a wealth of luxury amenities ranging from beautiful beaches and a shimmering infinity pool to well-appointed suites, breathtaking views, 24-hour room service and limitless gourmet dining, without the need for reservations. Indulge in the world-class Secrets Spa by Pevonia, enjoy endless daily activities and nightly entertainment, delight in the Sip, Savor &amp; See Dining Experience with select nearby Dreams and Now Resorts Spas and experience the vibrant downtown Puerto Vallarta, located just a few minutes away.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Puerto Vallarta</subregion>
+		<subregiondetails>With whitewashed buildings whimsically capped by sun-dappled red-tile roofs, this destination is so well known for capturing hearts that an area even bears the apt name “The Romantic Zone” and many English-speaking visitors become residents. A seaside promenade, dotted with bronze sculptures; cobblestone streets that merge into the green foothills of the Sierra Madre mountains; and, of course, golden beaches are all part of the allure … but the genuine warmth of its locals is the best complement to the gorgeous weather, which is surpassed only by the beauty of Banderas Bay—which shares the same latitude as Hawaii—and surrounding villages.</subregiondetails>
+		<code>pvrpvp</code>
+		<hotel>Hard Rock Hotel Vallarta</hotel>
+		<image>pvrpvp</image>
+		<supplier>All Inclusive Hard Rock Hotels</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Live a life of excess. Indulge in your rock star fantasies. Located on the beautiful beaches of Bahia de Banderas, near Puerto Vallarta in the heart of Riviera Nayarit, Hard Rock Hotel Vallarta takes everything to extremes. Incredible views of the Pacific Coast, modern amenities and attentive service all infused with the spirit of rock ‘n’ roll. This all-inclusive hotel features 348 stylishly chic guestrooms, six decadent restaurants, four bars, cozy cool lounge areas, the world famous Rock Spa™ and two refreshing swimming pools. Couples looking to get married can choose from nine customizable Colin Cowie Wedding collections. These fantasies and more are available for your indulgence daily at any one of our AAA Four Diamond properties.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Puerto Vallarta</subregion>
+		<subregiondetails>With whitewashed buildings whimsically capped by sun-dappled red-tile roofs, this destination is so well known for capturing hearts that an area even bears the apt name “The Romantic Zone” and many English-speaking visitors become residents. A seaside promenade, dotted with bronze sculptures; cobblestone streets that merge into the green foothills of the Sierra Madre mountains; and, of course, golden beaches are all part of the allure … but the genuine warmth of its locals is the best complement to the gorgeous weather, which is surpassed only by the beauty of Banderas Bay—which shares the same latitude as Hawaii—and surrounding villages.</subregiondetails>
+		<code>pvrrpp</code>
+		<hotel>Riu Palace Pacifico</hotel>
+		<image>pvrrpp</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>The Riu Palace Pacifico is located on Flamingos Beach, just nine miles from downtown Puerto Vallarta. Magnificent architecture, elegant furnishings and unparalleled service offer guests the highest level of distinction. It features five restaurants, five bars and a swim-up bar, a pool with adjoining Jacuzzi, plus a children’s pool, playground and RiuLand mini-club, 24-hour all-inclusive snacks, 24-hour room service, a fitness center, spa, wireless internet access throughout, discos at Riu Jalisco and Riu Vallarta and free wedding packages. Onsite activities include beach volleyball, windsurfing, catamaran, kayaking and scuba diving lessons; and an 18-hole golf course is located nearby.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunpri</code>
+		<hotel>Zoëtry Paraiso de la Bonita Riviera Maya</hotel>
+		<image>cunpri</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Endless Privileges®</copy1>
+		<copy2></copy2>
+		<details>Zoëtry Paraiso de la Bonita, an ultra-luxury boutique resort, offers a completely new kind of vacation experience focused on wellness, serenity and romance, as well as social and environmental responsibility. Set on 500 yards of pristine beach, this unique property features 90 beachfront suites, La Canoa, a AAA Four Diamond award-wining restaurant, the first certified Thalassotherapy Center in North America, a private 48-foot catamaran, and the Sip, Savor &amp; See Dining Experience with select nearby Secrets, Dreams and Now Resorts &amp; Spas. For the tenth consecutive year, Zoëtry Paraiso de la Bonita Riviera Maya, one of the Leading Hotels of the World, has earned the elite AAA Five Diamond rating.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunsrs</code>
+		<hotel>Dreams Tulum Resort &amp; Spa</hotel>
+		<image>cunsrs</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>Just five minutes from Tulum, this resort offers Unlimited-Luxury®, where fun and relaxation are combined with the ancient world of the Maya. Each guestroom features a private furnished patio with a hammock, marble bathroom and 24-hour room service. The world-class Dreams Spa by Pevonia offers premier pampering services. Choose from magnificent dining options at eight restaurants - one buffet, six à la carte and a café, enjoy the Sip, Savor &amp; See Dining Experience with select, nearby Dreams and Now Resorts &amp; Spas (transportation not included: restrictions apply). The Mayan-themed Explorer’s Club keeps kids happy with their own kind of supervised fun, while adults tee off with complimentary greens fees at a nearby golf course.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunopa</code>
+		<hotel>Dreams Puerto Aventuras Resort &amp; Spa</hotel>
+		<image>cunopa</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>Serenely placed along a secluded beach, this Unlimited-Luxury® resort sits like a jewel on the southeast coast of Mexico’s Yucatan Peninsula. Delight in spacious guestrooms and suites with balconies or terraces, with brilliant views of the yacht-filled marina, shimmering pools or gardens. Enjoy unlimited meals, snacks and top-shelf spirits in six international restaurants and five chic bars and lounges. Indulge in the Sip, Savor &amp; See Dining Experience with select, nearby Dreams and Now Resorts &amp; Spas, perfect your swing with complimentary greens fees at a nearby golf course, and pamper yourself in the world-class Dreams Spa by Pevonia while the kids enjoy supervised fun in the Explorer’s Club.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunsct</code>
+		<hotel>Secrets Capri Riviera Cancun</hotel>
+		<image>sunsct</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
+		<copy2></copy2>
+		<details>This all-adult, all Preferred Club, AAA Four Diamond resort offers guests extra attention with its unique, concierge-style setup. Intimate, villa-style surroundings set the tone for achieving ultimate rejuvenation, designed to inspire the experience-seeking traveler. Savor international cuisine at five gourmet restaurants and delight in health-conscious meal options, including gluten-free, sugar-free, vegetarian and organic selections. Enjoy complimentary greens fees at a nearby championship course, unwind at the Secrets Spa by Pevonia, or spend a night out with Sip, Savor &amp; See Dining Experience. The Unlimited-Luxury® journey continues with on-site cultural experiences, enriching classes and complimentary Unlimited Connectivity—a new way to stay in touch at the resort</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunscm</code>
+		<hotel>Secrets Maroma Beach Riviera Cancun</hotel>
+		<image>sunscm</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
+		<copy2></copy2>
+		<details>Secrets Maroma Beach Riviera Cancun is tucked away on secluded Maroma Beach, recognized as the “World’s Best Beach” by The Travel Channel. This Unlimited- Luxury® haven provides opulence to the most discerning traveler with a pure white sand beach, stunning ocean views, six restaurants, one buffet and one café, seven bars, the world-class Secrets Spa by Pevonia, fully equipped fitness center, open-air theater and a shimmering infinity pool. Elegant suites, several with personal swim out access, include such deluxe amenities as 24-hour room service, daily refreshed mini-bars and spacious marble bathrooms. Stay connected with both the resort and home with the all new Unlimited Connectivity app.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunavp</code>
+		<hotel>Hard Rock Hotel Riviera Maya - Family Section</hotel>
+		<image>cunavp</image>
+		<supplier>All Inclusive Hard Rock Hotels</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This resort features 1,264 luxurious accommodations with a private balcony and outdoor hot tubs, 24-hour room service and wireless internet. Indulge in savory cuisine at the resort's nine restaurants with a selection of juice bars for the kids. Swim in the outdoor pools or in the natural sea coves, while children and teens enjoy the Kid's Club, Teen's Lounge and Club or explore the Spider Monkey's natural habitat.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunspp</code>
+		<hotel>Hard Rock Hotel Riviera Maya - Heaven Section</hotel>
+		<image>cunspp</image>
+		<supplier>All Inclusive Hard Rock Hotels</supplier>
+		<copy1>All-inclusive, Adults only</copy1>
+		<copy2></copy2>
+		<details>Enjoy an adults-only section with amazing amenities and breathtaking views. Indulge in savory cuisine at one of the resort's restaurants, enjoy a cocktail at one of the nine bars, and party at the nightclub. For a day of pampering, relax in one of the 75 treatment rooms at the legendary Rock Spa (available at additional cost) or at the on-site yoga temple. The four adults-only pools also offer an ideal place to relax and unwind.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cuncpa</code>
+		<hotel>Playacar Palace</hotel>
+		<image>cuncpa</image>
+		<supplier>Palace Resorts &amp; Spas</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Set in the Playacar resort complex near Playa del Carmen’s bustling streets and shops, this intimate and luxurious oceanfront resort offers 208 deluxe guestrooms, each featuring a romantic Jacuzzi, fully stocked liquor dispenser and a balcony. Take a refreshing swim in the sparkling pool, enjoy a large smooth beach, throwing a frisbee, flying kites or playing beach volleyball. Excellent dining is found at three international restaurants, and a room service menu is also available 24 hours a day. Other amenities include a Kids Club, wedding services and nearby tennis.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunrum</code>
+		<hotel>Riu Palace Mexico</hotel>
+		<image>cunrum</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>Recently renovated, the elegant Riu Palace Mexico Hotel features a new, modern design. The hotel offers five specialty restaurants with a sophisticated décor, the Renova Spa, exclusive service and the luxury of the Riu Palace line. The hotel also offers hydro-massage tubs and showers in each of the 434 deluxe rooms, which also have RIU’s renowned mini-bar and liquor dispenser. The resort features a new pool, a 24-hour sports bar, new restaurants and complimentary Wi-Fi. The exchange privileges program allows access to all sister properties in the RIU resort complex.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunrpm</code>
+		<hotel>Riu Palace Riviera Maya</hotel>
+		<image>cunrpm</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This luxurious resort in Playa del Carmen is the ultimate in pampering first-class service. Rising along a spectacular stretch of white-sand beach and framed by tropical palm trees, this spectacular hotel boasts 400 elegant junior suites with hydro-massage bathtubs and all of RIU’s distinctive amenities, such as mini-bars and liquor dispensers. Enjoy the exquisite selection of specialty restaurants and bars, along with 24-hour room service, 24-hour all-inclusive snacks and beverages, swimming pool, tennis, spa, RiuLand mini-club, fitness center and the exchange privileges program with all sister properties within the RIU Resort complex. Free wedding packages available in 2014.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunrup</code>
+		<hotel>Riu Playacar</hotel>
+		<image>cunrup</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This charming and colorful Caribbean-style resort is surrounded by lush tropical gardens, just 15 minutes from the heart of Playa del Carmen. Riu Playacar features 386 spacious guestrooms, two swimming pools, separate children’s pool, RiuLand mini-club, many sports and activities, three restaurants, complimentary Wi-Fi in lobby area and shared facilities with nearby sister resorts.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunryc</code>
+		<hotel>Riu Yucatan</hotel>
+		<image>cunryc</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This beachfront resort is located in the Riu Playacar complex, adjacent to a championship golf course. Riu Yucatan features 507 newly refurbished guestrooms with a modern style and new furniture, as well as a stocked mini-bar. Hotel amenities  include a new Italian restaurant, a new outdoor swimming pool and pool bar, 24-hour all-inclusive snacks, five bars, a spa, fitness center, and RiuLand mini-club for children.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunaku</code>
+		<hotel>Grand Bahia Principe Akumal</hotel>
+		<image>cunaku</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>The Grand Bahia Principe Akumal is ideally located in the heart of the Riviera Maya and presents a careful combination of design and landscapes formed by impressive gardens, fine white sand beaches with crystal clear turquoise waters and exotic tropical vegetation. It offers spacious and well appointed guestrooms and Junior Suites, three specialty restaurants and one international buffet, nine bars, two lake-style pools, water sports center, tennis, Bahia Spa and fitness center, kid’s mini-club and a variety of daily and nightly entertainment.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cungbp</code>
+		<hotel>Grand Bahia Principe Coba</hotel>
+		<image>cungbp</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>The Grand Bahia Principe Coba fuses design with an impressive sandy white beach and tropical vegetation where guests are transported to a magical scenario of wellness and relaxation. The resort features well equipped Junior Suites, five specialty restaurants and one buffet, six bars, snack bar, two lagoon style pools, five tennis courts, fitness center, water sports center, children’s mini-club, Bahia Spa, activity programs and daily and nightly entertainment.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cungsk</code>
+		<hotel>Luxury Bahia Principe Sian Ka'an, Don Pablo Collection</hotel>
+		<image>cungsk</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive, Adults only</copy1>
+		<copy2></copy2>
+		<details>Enjoy a fun-filled vacation surrounded by a completely natural environment full of beautiful landscapes and wonderful views of the mystical Yucatan Peninsula. This brand new Boutique-style hotel is situated on the grounds of the Riviera Maya Golf Course. The beach is a short tram ride away accessed by a garden path. The resort features Junior Suites with lovely terraces and some with private outdoor Jacuzzis with captivating views. Guests will enjoy 24-hour, all-inclusive services as well as exchange privileges at the other three resorts in the Gran Bahia Principe Riviera Maya complex.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cuntlm</code>
+		<hotel>Grand Bahia Principe Tulum</hotel>
+		<image>cuntlm</image>
+		<supplier>Bahia Principe Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This eco-friendly resort overlooks a 3,280-foot-long natural beach, surrounded by lush gardens. The 858 deluxe guestrooms are located in beautiful three-story villas, with views of the crystal-clear turquoise sea and resort’s tropical gardens. The Grand Bahia Principe Tulum features two specialty restaurants, six bars and snack bars, three lagoon-style pools, five tennis courts, watersports center, Bahia Spa, kid’s mini-club, many daily activities, exciting nightly entertainment and Hacienda Doña Isabel Shopping center. Guests with Junior Suite Club Hacienda accommodations enjoy free unlimited green fees in 2012 at the new Riviera Maya Golf Club.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunplr</code>
+		<hotel>IBEROSTAR Paraiso Lindo, Premium Gold</hotel>
+		<image>cunplr</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This Premium Gold resort combines spectacular design elements with the beauty of its surroundings, located between Puerto Morelos and Playa del Carmen. There’s so much to explore - from adventurous water activities like windsurfing and scuba diving, to sightseeing and learning all about the Mayan culture. The IBEROSTAR Paraiso Lindo features three restaurants, four large swimming pools, new water playground, wave pool, lazy river, an ice cream parlor, a supervised kids program, concierge service, 24-hour room service and more. In addition, guests have access to three sister IBEROSTAR properties.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunipb</code>
+		<hotel>IBEROSTAR Paraiso Beach, Premium</hotel>
+		<image>cunipb</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This sprawling premium beachfront resort was built in traditional Mexican Colonial style. The IBEROSTAR Paraiso Beach features seven restaurants, ten bars/lounges, three large interconnecting swimming pools plus children’s pool, theater with live shows, shopping plaza, two discos (adults and teens), two-story spa, numerous activities including aerobics, dance classes and scuba clinic, and a supervised Kids Club (ages 4-12). Guests can enjoy exchange privileges at other IBEROSTAR Resorts.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunidm</code>
+		<hotel>IBEROSTAR Paraiso del Mar, Premium</hotel>
+		<image>cunidm</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This premium beachfront resort is designed to complement its natural surroundings. The IBEROSTAR Paraiso Del Mar offers seven restaurants, ten bars/lounges, three large interconnecting swimming pools plus children’s pool, theater with live shows, shopping plaza, two discos (adults and teens), two-story spa, numerous activities including aerobics, dance classes and scuba clinic, and supervised Kids Club (ages 4-12). Guests can enjoy exchange privileges with the other nearby IBEROSTAR Resorts.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cuniqr</code>
+		<hotel>IBEROSTAR Quetzal, Premium</hotel>
+		<image>cuniqr</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This newly extended beachfront, Premium resort blends harmoniously into the surrounding jungle gardens with a variety of animals including monkeys and flamingos. Located in the private community of Playacar, within walking distance of the famous 5th Avenue in Playa del Carmen, IBEROSTAR Quetzal features five specialty restaurants, seven bars/lounges, three swimming pools, children’s pool, fitness center, spa, and Kids Club (ages 4-12). Guests can enjoy exchange privileges at other IBEROSTAR Resorts.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cuntcn</code>
+		<hotel>IBEROSTAR Tucan, Premium</hotel>
+		<image>cuntcn</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>The IBEROSTAR Tucan’s decoration reflects the past of the ancient Maya, blending harmoniously into the surrounding tropical gardens. It is located in the private community of Playacar and within walking distance from 5th Avenue. It features a newly extended beach (three times its original size), a jungle-like feel with exotic animals, five specialty restaurants, three swimming pools, seven bars and lounges, and a Kids Club (ages 4-12) which makes it perfect for families and couples. Guests can enjoy exchange privileges at other IBEROSTAR Resorts.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunpya</code>
+		<hotel>IBEROSTAR Paraiso Maya, Premium Gold</hotel>
+		<image>cunpya</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>This Premium Gold beachfront all-suite resort is surrounded by gardens and Mayan architecture. IBEROSTAR Paraiso Maya is nestled amid lush gardens and was designed to replicate a charming Mexican village. The resort’s lobby is a replica of Chichen Itza. Amenities range from concierge service, 24-hour room service, five specialty restaurants, four swimming pools, plus three private pools, new kids water playground, a lazy river, wave pool (the only one in Riviera Maya) and more. With an onsite 18-hole golf course, spa, disco and Kids Club, it’s fun for everyone. Guests also have access to three sister IBEROSTAR hotels in the complex.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Maya</subregion>
+		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
+		<code>cunghp</code>
+		<hotel>IBEROSTAR Grand Hotel Paraiso, Grand Collection</hotel>
+		<image>cunghp</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive, Adults only</copy1>
+		<copy2></copy2>
+		<details>This luxurious, Grand Collection, adults-only resort was awarded the AAA four Diamond rating. Experience ultimate luxury including personalized butler service, fine dining at four specialty restaurants (three with sea views), three pools which include saltwater, lake and indoor heated, a personalized pillow menu and 24-hour room service and concierge service. Guests can enjoy a private two-story spa, free round(s) of golf at the onsite 18-hole course (for 3-night stays or longer) and access to sister hotels in the IBEROSTAR Playa Paraiso complex.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Nayarit</subregion>
+		<subregiondetails>At the base of the Western Sierra Madre, 192 miles of remote coastline stretches lazily against the Pacific Ocean, forming the lake-strewn and ecologically diverse Riviera Nayarit. A stunning destination that is turning into as much of a favorite for tourists as it has always been for the majestic humpback whales who find a refuge in Banderas Bay, every style of vacationer finds a reason to love this region, from stays in luxurious resorts and solitary beaches and bohemian towns to the authentic experiences of nature and ecological tours, pre-Hispanic cuisine and encounters with the colorfully-garbed Huichol Indians.</subregiondetails>
+		<code>pvrvmg</code>
+		<hotel>Dreams Villamagna Nuevo Vallarta Resort &amp; Spa</hotel>
+		<image>pvrvmg</image>
+		<supplier>AMResorts</supplier>
+		<copy1>Unlimited-Luxury®</copy1>
+		<copy2></copy2>
+		<details>This all-suite, oceanfront hideaway is perfectly situated in an exquisite setting with spectacular views of Banderas Bay and the Sierra Madre Mountains. The two 10-story towers designed for families, couples, and singles embrace guests with Unlimited- Luxury®, where everything is included. Top-shelf spirits and gourmet fare are served at any of the multiple international restaurants and chic lounges, and the Sip, Savor &amp; See Dining Experience allows guests to enjoy dinner and evening entertainment at the nearby Dreams and Now Resorts &amp; Spas (transportation not included; restrictions apply). Kids can enjoy a variety of activities and entertainment at the fully supervised Explorer’s Club, while adults enjoy complimentary greens fees at a nearby golf course.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Nayarit</subregion>
+		<subregiondetails>At the base of the Western Sierra Madre, 192 miles of remote coastline stretches lazily against the Pacific Ocean, forming the lake-strewn and ecologically diverse Riviera Nayarit. A stunning destination that is turning into as much of a favorite for tourists as it has always been for the majestic humpback whales who find a refuge in Banderas Bay, every style of vacationer finds a reason to love this region, from stays in luxurious resorts and solitary beaches and bohemian towns to the authentic experiences of nature and ecological tours, pre-Hispanic cuisine and encounters with the colorfully-garbed Huichol Indians.</subregiondetails>
+		<code>pvrriu</code>
+		<hotel>Riu Vallarta</hotel>
+		<image>pvrriu</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>True to the RIU tradition, the Riu Vallarta offers endless activities, renowned personalized service and unmatched leisure activities. It boasts a fresh, new contemporary art-deco style of architecture with avant-garde design. Hotel amenities include extensive daytime and evening activities for all ages, two swimming pools, three jacuzzis, children’s pool, wide variety of land and watersports, five bars (including a swim-up bar and sports bar), four restaurants with five meal options, 24-hour snacks and beverages, Renova Spa, fitness center, nightclub, nightly entertainment, RiuLand mini-club for kids, wireless internet access throughout, and nearby golf.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Nayarit</subregion>
+		<subregiondetails>At the base of the Western Sierra Madre, 192 miles of remote coastline stretches lazily against the Pacific Ocean, forming the lake-strewn and ecologically diverse Riviera Nayarit. A stunning destination that is turning into as much of a favorite for tourists as it has always been for the majestic humpback whales who find a refuge in Banderas Bay, every style of vacationer finds a reason to love this region, from stays in luxurious resorts and solitary beaches and bohemian towns to the authentic experiences of nature and ecological tours, pre-Hispanic cuisine and encounters with the colorfully-garbed Huichol Indians.</subregiondetails>
+		<code>pvrruj</code>
+		<hotel>Riu Jalisco</hotel>
+		<image>pvrruj</image>
+		<supplier>RIU Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>In an unforgettable setting, this all-inclusive resort recently refurbished the rooms with a new, modern style. New Jacuzzi Suites will offer a Jacuzzi® on the balcony/terrace and the spa will feature a new steam bath. Amenities include a new bar and pool area, new main restaurant and four themed restaurants, 24-hour snacks, drinks and activities, RiuLand mini-club, wireless internet throughout, liquor dispensers, and mini-bar.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<destination>Mexico</destination>
+		<subregion>Riviera Nayarit</subregion>
+		<subregiondetails>At the base of the Western Sierra Madre, 192 miles of remote coastline stretches lazily against the Pacific Ocean, forming the lake-strewn and ecologically diverse Riviera Nayarit. A stunning destination that is turning into as much of a favorite for tourists as it has always been for the majestic humpback whales who find a refuge in Banderas Bay, every style of vacationer finds a reason to love this region, from stays in luxurious resorts and solitary beaches and bohemian towns to the authentic experiences of nature and ecological tours, pre-Hispanic cuisine and encounters with the colorfully-garbed Huichol Indians.</subregiondetails>
+		<code>pvripm</code>
+		<hotel>IBEROSTAR Playa Mita, Premium Gold</hotel>
+		<image>pvripm</image>
+		<supplier>IBEROSTAR Hotels &amp; Resorts</supplier>
+		<copy1>All-inclusive</copy1>
+		<copy2></copy2>
+		<details>IBEROSTAR continues the tradition of creating unforgettable destinations for upscale families and couples. Enjoy 452 spacious rooms and suites with the finest amenities, including concierge and 24-hour room service. Four specialty restaurants and eight bars/lounges offer a selection of dining and drinking options to please every palate. Recreation options include live entertainment, onsite golf, a spa and Kids Club with separate pool, and splash park. This makes the all-new IBEROSTAR Playa Mita more than a stunning new IBEROSTAR destination, but a remarkable new opportunity for you.</details>
 	</element>
 </root>

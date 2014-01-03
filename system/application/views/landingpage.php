@@ -10,11 +10,11 @@
 		<?php
 		//scrape slideshow directory for images and generate slides.
 		//relies on $supplier_index.
-		$slides = glob('assets/img/slideshow/landing_page/*.{jpg,jpeg}', GLOB_BRACE);
+		$slides = glob('assets/img/slideshow/landing_page/*.jpg');
 		foreach ( $slides as $slide ) {
-			$slide_info = pathinfo($slide);
+			//$slide_info = pathinfo($slide);
 		?>
-			<li><a href="#"><img src="<?php echo base_url(), 'assets/img/slideshow/landing_page/'.$slide_info['basename']; ?>" alt="<?php echo $slide_info['filename']; ?>"></a></li>
+			<li><a href="#"><img src="<?php echo base_url(), $slide; ?>" alt="<?php echo $slide; ?>"></a></li>
 		<?php
 		}
 		?>
@@ -53,7 +53,7 @@
 					<div class="toggle-content">
 						There’s no room for nerves or stress when you have world-class spas right downstairs. Unrivaled pampering with the crash of waves as your background music? Serenity now.
 					</div> <!-- .toggle-content -->
-				<li>There’s no chance of the caterer not showing up. &raquo;</li>
+				<li class="toggle-link">There’s no chance of the caterer not showing up. &raquo;</li>
 					<div class="toggle-content">
 						With so many incredible on-site gourmet restaurants on every resort in Mexico and the Caribbean, the only thing you have to worry about is nothing at all.
 					</div> <!-- .toggle-content -->
@@ -84,19 +84,27 @@
 	<section class="twelve columns omega">
 		<div class="twelve columns alpha">
 			<h3 class="fancy">Why Book With <?php echo $branding['agency']; ?>?</h3>
-			<p><?php echo $branding['valueprop']; ?></p>
+			<?php if ( !empty($branding['valueprop']) ) { ?>
+				<p><?php echo $branding['valueprop']; ?></p>
+			<?php } else { ?>
+				<p>Perhaps you met by fate—or maybe it was just luck. However your story began, you don’t want to leave your special day to chance. Instead, leave it to us. Book your destination wedding or honeymoon with a trusted, experienced travel agency, and know that your dream is in capable, caring hands.</p>
+
+				<p>As specialists in destination weddings and honeymoons, we know what it takes to create the experience of a lifetime from top to bottom. We can guide you to the property that’s the right fit for you or your group, help you select the packages that best meet your needs, and guide you through every step of the way, from answering your questions from an insider perspective to handling the unexpected. We’ll make sure that the details are taken care of before you’ve even had to think about them, from arranging transfers to securing the VIP treatment you deserve.</p>
+
+				<p>Your wedding and honeymoon are the first steps toward a beautiful new life together. Let us help you take those steps with confidence.</p>
+			<?php } ?>
 		</div>
 		<div class="twelve columns alpha"><hr /></div>
 
 		<div class="six columns alpha">
 			<h4>Booking your Wedding in MEXICO</h4>
-			<p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-			<a class="learn-more dark" href="<?php echo base_url(), 'destination/caribbean'; ?>">Learn more...</a>
+			<p>The rich land... The dreamy landscape... The warmth of its people... The past and the present in perfect harmony... This is Mexico. The world-renowned, tranquil beaches, colonial architecture and luminous seascapes create the perfect setting for a destination wedding, vow renewal or honeymoon alike.</p>
+			<a class="learn-more dark" href="<?php echo base_url(), 'destination/mexico'; ?>">Learn more...</a>
 		</div>
 		
 		<div class="six columns omega">
 			<h4>Booking your Wedding in THE CARIBBEAN</h4>
-			<p>Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+			<p>Whether you are looking for intimate seclusion or a full celebration, the islands of the Caribbean offer the perfect setting for your wedding, honeymoon or both. From busy to mellow, the Caribbean has something to offer every couple.</p>
 			<a class="learn-more dark" href="<?php echo base_url(), 'destination/caribbean'; ?>">Learn more...</a>
 		</div>
 
@@ -108,7 +116,7 @@
 		<div class="six columns alpha">
 			<article class="supplier">
 				<a href="<?php echo base_url(), 'supplier/1'; ?>">
-					<img src="<?php echo base_url(), 'assets/img/featured.jpg'; ?>" alt="AMResorts">
+					<img src="<?php echo base_url(), 'assets/img/featured_1.jpg'; ?>" alt="AMResorts">
 				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/1'; ?>">AMResorts</a>
@@ -118,10 +126,10 @@
 			</article>
 			<article class="supplier">
 				<a href="<?php echo base_url(), 'supplier/2'; ?>">
-					<img src="<?php echo base_url(), 'assets/img/featured.jpg'; ?>" alt="Hard Rock">
+					<img src="<?php echo base_url(), 'assets/img/featured_2.jpg'; ?>" alt="Hard Rock">
 				</a>
 				<div class="content clearfix">
-					<a href="<?php echo base_url(), 'supplier/2'; ?>">Hard Rock</a>
+					<a href="<?php echo base_url(), 'supplier/2'; ?>">All-Inclusive Hard Rock Hotels </a>
 					<p>Featured property copy here.</p>
 					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/2'; ?>">Learn more...</a>
 				</div>
@@ -129,23 +137,23 @@
 		</div>
 		<div class="six columns omega">
 			<article class="supplier">
-				<a href="<?php echo base_url(), 'supplier/4'; ?>">
-					<img src="<?php echo base_url(), 'assets/img/featured.jpg'; ?>" alt="Palace Resorts &amp; Le Blanc">
+				<a href="<?php echo base_url(), 'supplier/3'; ?>">
+					<img src="<?php echo base_url(), 'assets/img/featured_3.jpg'; ?>" alt="Palace Resorts &amp; Le Blanc">
 				</a>
 				<div class="content clearfix">
-					<a href="<?php echo base_url(), 'supplier/4'; ?>">Palace Resorts &amp; Le Blanc</a>
+					<a href="<?php echo base_url(), 'supplier/3'; ?>">Palace Resorts &amp; Le Blanc Spa Resort</a>
 					<p>Featured property copy here.</p>
-					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/4'; ?>">Learn more...</a>
+					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/3'; ?>">Learn more...</a>
 				</div>
 			</article>
 			<article class="supplier">
-				<a href="<?php echo base_url(), 'supplier/3'; ?>">
-					<img src="<?php echo base_url(), 'assets/img/featured.jpg'; ?>" alt="RIU Hotels &amp; Resorts">
+				<a href="<?php echo base_url(), 'supplier/4'; ?>">
+					<img src="<?php echo base_url(), 'assets/img/featured_4.jpg'; ?>" alt="RIU Hotels &amp; Resorts">
 				</a>
 				<div class="content clearfix">
-					<a href="<?php echo base_url(), 'supplier/3'; ?>">RIU Hotels &amp; Resorts</a>
+					<a href="<?php echo base_url(), 'supplier/4'; ?>">RIU Hotels &amp; Resorts</a>
 					<p>Featured property copy here.</p>
-					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/3'; ?>">Learn more...</a>
+					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/4'; ?>">Learn more...</a>
 				</div>
 			</article>
 		</div>
@@ -159,7 +167,7 @@
 			<p>
 				<a class="dark" href="<?php echo base_url(), 'supplier/5'; ?>">Bahia Principe Hotels &amp; Resorts</a>
 				<br>
-				<a class="dark" href="<?php echo base_url(), 'supplier/6'; ?>">Iberostar Hotesl &amp; Resorts</a>
+				<a class="dark" href="<?php echo base_url(), 'supplier/6'; ?>">IBEROSTAR Hotels & Resorts</a>
 			</p>
 		</div>
 		

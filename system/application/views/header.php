@@ -52,20 +52,6 @@
   })();
 </script>
 
-
-<style type="text/css">
-	pre {
-		font: normal 14px Consolas, monospace;
-		background: #dbdbdb;
-		padding: 8px;
-		-webkit-border-radius: 5px;
-		-moz-border-radius: 5px;
-		border-radius: 5px;
-		-webkit-box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.2);
-		-moz-box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.2);
-		box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.2);
-	}
-</style>
 </head>
 <body>
 <div id="content">
@@ -73,9 +59,9 @@
 		<header class="navigation">
 			<nav class="primary sixteen columns">
 				<div class="logo-container four columns alpha">
-					<?php if ( $branding['brand'] == 'ti' ) { ?>
+					<?php if ( strtolower(trim($branding['brand'])) == 'ti' ) { ?>
 						<img class="logo" src="<?php echo base_url(), 'assets/img/wb_logo_ti.png'; ?>" alt="Wedded Bliss">
-					<?php } elseif ( $branding['brand'] == 'aev' ) { ?>
+					<?php } elseif ( strtolower(trim($branding['brand'])) == 'aev' ) { ?>
 						<img class="logo" src="<?php echo base_url(), 'assets/img/wb_logo_aev.png'; ?>" alt="Wedded Bliss">
 					<?php } else { ?>
 						<img class="logo" src="<?php echo base_url(), 'assets/img/wb_logo.png'; ?>" alt="Wedded Bliss">

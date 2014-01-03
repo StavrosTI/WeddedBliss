@@ -44,13 +44,13 @@ $route['default_controller'] = "WB_Index";
 
 //routing for pretty URLs per page
 $route['destination/(:any)'] = "destination/index/$1";
-$route['supplier/(:any)'] = "Supplier/index/$1";
-$route['album'] = "Album/index/$1";
-$route['contact'] = "Contact/index/$1";
+$route['supplier/(:any)'] = "supplier/index/$1";
+$route['album'] = "album/index/$1";
+$route['contact'] = "contact/index/$1";
 $route['assets/css/(:any)'] = "assets/css/$1";
 
 //No subpage
-$route['(:any)'] = "WB_Index/index/$1";
+$route['(:any)'] = "wb_index/index/$1";
 $route['scaffolding_trigger'] = "";
 
 

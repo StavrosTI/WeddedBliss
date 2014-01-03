@@ -14,7 +14,8 @@
 if ( $_SERVER['HTTP_HOST'] == 'localhost:81' ) {
 	$config['base_url'] = 'http://'. $_SERVER['HTTP_HOST'] . "/wedded_bliss/WeddedBliss/";
 } else {
-	$config['base_url'] = 'http://'. $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+	//$config['base_url'] = 'http://'. $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+	$config['base_url'] = 'http://'. $_SERVER['HTTP_HOST'] . "/promo/WeddedBliss/";
 }
 
 
@@ -237,7 +238,7 @@ $config['encryption_key'] = "";
 |
 */
 $config['sess_cookie_name']		= 'ci_session';
-$config['sess_expiration']		= 7200;
+$config['sess_expiration']		= 0;
 $config['sess_encrypt_cookie']	= FALSE;
 $config['sess_use_database']	= FALSE;
 $config['sess_table_name']		= 'ci_sessions';

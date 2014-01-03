@@ -15,6 +15,9 @@ class Sources extends Model {
 	function get_agents($source, $sorted=TRUE){
 		$xml = read_file($source);
 		
+		//Initialize the XMLParser class. PHP4...
+		$this->load->library('XmlParser4');
+		
 		//parse agents xml
 		$this->xmlparser4->XMLParser4($xml);
 		$this->xmlparser4->Parse();
@@ -37,6 +40,9 @@ class Sources extends Model {
 	function get_suppliers($source, $sorted=TRUE){
 		$xml = read_file($source);
 		
+		//Initialize the XMLParser class. PHP4...
+		$this->load->library('XmlParser4');
+		
 		//parse suppliers xml
 		$this->xmlparser4->XMLParser4($xml);
 		$this->xmlparser4->Parse();
@@ -58,6 +64,9 @@ class Sources extends Model {
 	
 	function get_properties($source, $sorted=FALSE){
 		$xml = read_file($source);
+		
+		//Initialize the XMLParser class. PHP4...
+		$this->load->library('XmlParser4');
 		
 		//parse properties xml
 		$this->xmlparser4->XMLParser4($xml);
@@ -115,6 +124,9 @@ class Sources extends Model {
 	
 	function get_offers($source, $sorted=TRUE){
 		$xml = read_file($source);
+		
+		//Initialize the XMLParser class. PHP4...
+		$this->load->library('XmlParser4');
 		
 		//parse offers xml
 		$this->xmlparser4->XMLParser4($xml);

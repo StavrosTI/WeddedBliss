@@ -39,14 +39,19 @@ class WB_Index extends Controller {
 		$white_label['branding'] = array(
 			'url' => 'travimp',
 			'brand' => 'ti',
-			'logoimage' => 'travimp_logo.jpg',
+			'logoimage' => 'travimp_logo.png',
 			'agency' => 'Travel Impressions',
 			'agent' => 'Agent Name',
 			'address' => 'Agency Address',
 			'website' => 'AgencyWebsite.com',
 			'phone' => '000-000-0000',
 			'email' => 'agency_email@agency_domain.com',
-			'valueprop' => 'Founded in 1974, Travel Impressions is one of the nation\'s largest leisure tour operators. The company offers FIT vacations to over 200 destinations in the Caribbean, Mexico, Central and South America, China, Europe, the Eastern Mediterranean, Dubai, South Africa, Australia, New Zealand, Fiji, the Islands of Tahiti, Canada, Hawaii, Alaska and the Continental U.S., and features more than 2,400 resorts, hotels and 1,350 luxury villas. Travel Impressions has received multiple industry awards for outstanding customer service, best overall operations, best technology, most knowledgeable reservations staff and leading marketing materials – all dedicated to better serving travel agents and their clients.'
+			'valueprop' => 'Perhaps you met by fate—or maybe it was just luck. However your story began, you don’t want to leave your special day to chance. Instead, leave it to us. Book your destination wedding or honeymoon with a trusted, experienced travel agency, and know that your dream is in capable, caring hands.</p>
+
+			<p>As specialists in destination weddings and honeymoons, we know what it takes to create the experience of a lifetime from top to bottom. We can guide you to the property that’s the right fit for you or your group, help you select the packages that best meet your needs, and guide you through every step of the way, from answering your questions from an insider perspective to handling the unexpected. We’ll make sure that the details are taken care of before you’ve even had to think about them, from arranging transfers to securing the VIP treatment you deserve.</p>
+
+			<p>Your wedding and honeymoon are the first steps toward a beautiful new life together. Let us help you take those steps with confidence.',
+			'testimonials' => 'This is a sample testimonial. "Quotation" --Author == This is another sample testimonial with a little more content . "Another Quotation" --Author'
 		);
 		
 		$branding = $this->session->userdata('branding');

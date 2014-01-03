@@ -48,6 +48,14 @@ hr {
 	background-color: $wb-pink-light;
 }
 
+pre {
+	font: normal 14px Consolas, monospace;
+	background: #dbdbdb;
+	padding: 8px;
+	@include border-radius (5px);
+	@include box-shadow ( inset 1px 1px 5px rgba(0, 0, 0, 0.2) );
+}
+
 ol {
 	margin-top: 15px;
 }
@@ -187,7 +195,7 @@ nav.primary {
 				li {
 					float: none;
 					display: list-item;
-					min-width: 200px;
+					min-width: 260px;
 					margin: 0;
 					border-bottom: 1px solid $wb-pink-super-dark;
 					@include transition( all 0.4s ease-out );
@@ -313,21 +321,21 @@ nav.primary {
 	z-index: 3;
 	
 	@include border-radius($rounding);	
-	background-color: rgba(255,255,255,0.7);	
+	background-color: rgba(255, 255, 255, 0.7);	
 	
 	.logo-container {
 		width: 85%;
 		margin: 0 auto;
+		text-align: center;
 		
 		img {
-			width: 100%;
 			margin-bottom: 20px;
 		}
 	}
 	
 	p {
 		text-align: center;
-		margin-bottom: 5px;
+		margin-bottom: 8px;
 	}
 }
 
@@ -375,7 +383,7 @@ nav.primary {
 	
 	p {
 		text-align: center;
-		margin-bottom: 5px;
+		margin-bottom: 8px;
 	}
 	
 	a {
@@ -424,6 +432,7 @@ aside {
 		h3 {
 			padding: 0;
 			margin: 5px 0;
+			margin-bottom: 14px;
 			text-align: center;
 		}
 		h4, h5 {
@@ -478,7 +487,7 @@ aside {
 		
 		.amenity {
 			font-size: $fontSize;
-			margin: .5em 0;
+			margin: .2em .2em 1.1em .2em;
 			text-align: center;		
 		}
 		
@@ -514,13 +523,40 @@ aside {
 		.b-wrap {
 			padding: 0;
 		}
+		
 		.b-wrap-left  {
 			@include border-left-radius(10px);	
-			background:#fff url(../img/album/left_bg.jpg) no-repeat top left;
+			background:#efefef url(../img/album/left_bg.jpg) no-repeat top left;
+			
+
+				
+				img {
+					&.right-overlay {
+						display: none;
+					}
+					&.left-overlay {
+						position: absolute;
+						z-index: 999;
+						top: 0;
+						left: 0;
+					}
+				}				
 		}
 		.b-wrap-right {
 			@include border-right-radius(10px);	
 			background:#efefef url(../img/album/right_bg.jpg) no-repeat top left;
+				
+				img {
+					&.left-overlay {
+						display: none;
+					}
+					&.right-overlay {
+						position: absolute;
+						z-index: 999;
+						top: 0;
+						left: 0;
+					}
+				}
 		}
 		.b-counter {
 			bottom:10px;
@@ -539,7 +575,7 @@ aside {
 		}
 		.b-wrap-right {
 			img{
-				border: 1px solid #E6E3C2;
+				/*border: 1px solid #E6E3C2;*/
 			}
 		}
 	}
@@ -550,7 +586,7 @@ aside {
 			width: 755px;
 			height: 500px;
 			position: relative;
-			background: transparent url(../img/album/album-bg.png) no-repeat 5px 52px;
+			/*background: transparent url(../img/album/album-bg.png) no-repeat 5px 52px;*/
 			
 			h1 {
 				color:#13386a;
@@ -590,16 +626,23 @@ aside {
 	.album-title {
 		position: absolute;
 		z-index: 999;
+		width: 100%;
 		bottom: 40px;
 		right: 0;
 		margin: o auto;
 		font-family: $fancyFont;
 		font-size: 3.5em;
+		text-align: center;
+		
+		&.light {
+			color: white;
+			bottom: 60px;
+		}
 	}
 	
 	.copy-page {
-		color: #65675E;
 		float: left;
+		color: #65675E;
 		font-family: Georgia,serif;
 		font-size: 42px;
 		font-style: italic;
@@ -672,15 +715,13 @@ aside {
 		
 		p {
 			margin: 0 0 5px;
-		}
-		a {
-			@include transition( all 0.3s ease-in-out );
-			font-weight: bold;
 			
-			&:hover {
-				color: $fontColor;
+			&.property-name {
+				font-weight: bold;
+				color: $wb-pink-dark;
 			}
 		}
+		
 		img {
 			width: 100%;
 			margin-bottom: 1em;
@@ -763,14 +804,20 @@ aside {
 	padding: 5px;
 	margin-bottom: 20px;
 	
+	&.supplier {
+		padding: 0;
+	}	
+	
 	.details {
 		@include box-sizing('border-box');
 		@include transition( all 0.3s ease-in-out );
+		display: block;
 		padding: 6px;
-		margin: 10px;
+		margin: 5px;
 		cursor: pointer !important;
 
 		&.view-details {
+			border: solid 1px white;
 			background-color: $wb-pink-dark;
 			color: #fff;
 			
@@ -787,7 +834,7 @@ aside {
 			color: $wb-pink-dark;
 			
 			&:hover {
-				border: none;
+				border: solid 1px white;
 				background-color: $wb-pink-dark;
 				color: #fff;
 			}
@@ -796,9 +843,11 @@ aside {
 	}
 	.collapsible {			
 		display: none;
+		margin-top: 15px;
 		
 		p {
 			color: $wb-pink-dark;
+			margin: 0px;
 		}
 	}	
 }
@@ -1009,6 +1058,24 @@ aside {
 			padding: 9px;
 		}
 	}
+		
+	aside {
+		.sidebar {	
+			.amenity {
+				text-align: center;		
+			}
+			.album-info {
+				.album-link {
+					width: 100%;
+					text-align: center;
+					
+					img {
+						width: 200px;
+					}
+				}
+			}
+		}
+	}
 	
 	.album-info {
 		
@@ -1079,6 +1146,11 @@ aside {
 		.logo-container {
 			position: relative;
 			width: 100%;
+			text-align: center;
+			
+			img {
+				max-width: 200px;
+			}
 		}
 	}
 	

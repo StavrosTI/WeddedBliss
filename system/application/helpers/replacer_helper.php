@@ -4,7 +4,7 @@ if ( ! function_exists('replacer'))
 {
     function replacer($string) {
 		$string = str_replace( "&", 		" &amp; ",	$string);
-		$string = str_replace( "-", 		" &ndash; ",	$string);
+		//$string = str_replace( "-", 		" &ndash; ",	$string);
 		$string = str_replace( "—", 		" &mdash; ",	$string);
 		$string = str_replace( "®", 		"<sup>&reg;</sup>",	$string);
 		//$string = str_replace( "&Acirc;&reg;", 		"&reg;", 		$string);

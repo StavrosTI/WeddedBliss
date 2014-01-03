@@ -2,38 +2,602 @@
 <root>
 	<element>
 		<supplierindex>1</supplierindex>
+		<contactsorder>1</contactsorder>
+		<destination>Mexico</destination>
+		<destinationorder>1</destinationorder>
+		<title></title>
+		<subtitle>Getting married in paradise has a pleasantly surprising price tag.</subtitle>
+		<copy></copy>
+		<details>It’s not nearly as costly as people think. In fact, with all-inclusive rates and destination wedding packages, an elegant beachfront wedding can be more affordable than a hometown bash!</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
 		<contactsorder>2</contactsorder>
 		<destination>Mexico</destination>
-		<title>Save Up to 50%</title>
-		<subtitle>On Popular Destinations</subtitle>
-		<copy>Reserve select getaways and save up to 50% per person.</copy>
-		<details>Offer details here.</details>
-	</element>
-	<element>
-		<supplierindex>2</supplierindex>
-		<contactsorder>1</contactsorder>
-		<destination>Caribbean</destination>
-		<title>Free Room and Added Value for</title>
-		<subtitle>Leisure Gropus in Cancun!</subtitle>
-		<copy>Reserve select getaways and save up to 50% per person.</copy>
-		<details>Offer details here.</details>
-	</element>
-	<element>
-		<supplierindex>3</supplierindex>
-		<contactsorder>4</contactsorder>
-		<destination>Mexico</destination>
-		<title>Save Up to 80%</title>
-		<subtitle>On Select Destinations</subtitle>
-		<copy>Reserve getaways and save up to 80% per person.</copy>
-		<details>Offer details go here.</details>
+		<destinationorder>2</destinationorder>
+		<title></title>
+		<subtitle>You can’t beat the backdrop.</subtitle>
+		<copy></copy>
+		<details>Verdant, manicured gardens; glistening turquoise waters; sparkling white-sand beaches. Make Mexico or the Caribbean your venue and the photo magic just happens.</details>
 	</element>
 	<element>
 		<supplierindex>1</supplierindex>
 		<contactsorder>3</contactsorder>
+		<destination>Mexico</destination>
+		<destinationorder>3</destinationorder>
+		<title></title>
+		<subtitle>There’s plenty of room for everyone.</subtitle>
+		<copy></copy>
+		<details>Couch surfers, faraway friends and out-of-town relatives all get a room to call their own. Most importantly, you’ll get to keep your suite all to yourself.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<contactsorder>4</contactsorder>
+		<destination>Mexico</destination>
+		<destinationorder>4</destinationorder>
+		<title></title>
+		<subtitle>The word "jitters" will never even enter your mind.</subtitle>
+		<copy></copy>
+		<details>There’s no room for nerves or stress when you have world-class spas right downstairs. Unrivaled pampering with the crash of waves as your background music? Serenity now.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<contactsorder>5</contactsorder>
+		<destination>Mexico</destination>
+		<destinationorder>5</destinationorder>
+		<title></title>
+		<subtitle>There’s no chance of the caterer not showing up.</subtitle>
+		<copy></copy>
+		<details>With so many incredible on-site gourmet restaurants on every resort in Mexico and the Caribbean, the only thing you have to worry about is nothing at all.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<contactsorder>6</contactsorder>
+		<destination>Mexico</destination>
+		<destinationorder>6</destinationorder>
+		<title></title>
+		<subtitle>Your guests won’t be the only ones making new friends.</subtitle>
+		<copy></copy>
+		<details>Part of the fun is finally bringing all of your friends and family together… some for the first time! With a destination wedding, you’ll get to know new faces, too—warm, hospitable ones who care about your special day.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<contactsorder>7</contactsorder>
+		<destination>Mexico</destination>
+		<destinationorder>7</destinationorder>
+		<title></title>
+		<subtitle>Type A or B, the options are endless.</subtitle>
+		<copy></copy>
+		<details>It’s up to you whether you want to chill out or go full speed. Or choose both! With included activities, on-premise spas, amazing dining and awesome tours, every day opens up new possibilities.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<contactsorder>8</contactsorder>
+		<destination>Mexico</destination>
+		<destinationorder>8</destinationorder>
+		<title></title>
+		<subtitle>Touring together brings bonding to a whole new level.</subtitle>
+		<copy></copy>
+		<details>Share once-in-a-lifetime experiences and make memories no one will ever forget with exciting tour offerings. Nothing brings people together like love, laughter and a bit of adventure.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<contactsorder>9</contactsorder>
+		<destination>Mexico</destination>
+		<destinationorder>9</destinationorder>
+		<title></title>
+		<subtitle>The memories made at your wedding will be totally unique.</subtitle>
+		<copy></copy>
+		<details>Destination weddings in Mexico and the Caribbean bring a special flavor and authentic charm that are unrivaled and unduplicated anywhere else. Your wedding will truly be yours.</details>
+	</element>
+	<element>
+		<supplierindex>1</supplierindex>
+		<contactsorder>10</contactsorder>
+		<destination>Mexico</destination>
+		<destinationorder>10</destinationorder>
+		<title></title>
+		<subtitle>The resorts think of everything. Literally.</subtitle>
+		<copy></copy>
+		<details>The beauty of an all-inclusive? Everything is really included! With domestic venues, taxes are all you get in a bundle, but at a resort, the drinks flow, the fun goes all night, and the tab is already taken care of.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<contactsorder></contactsorder>
 		<destination>Caribbean</destination>
-		<title>Free Room and in room service</title>
-		<subtitle>Recreaction assemblies in Cozumel</subtitle>
-		<copy>Reserver some stuff and get other stuff for less!</copy>
-		<details>More offer details.</details>
+		<destinationorder>1</destinationorder>
+		<title></title>
+		<subtitle>Getting married in paradise has a pleasantly surprising price tag.</subtitle>
+		<copy></copy>
+		<details>It’s not nearly as costly as people think. In fact, with all-inclusive rates and destination wedding packages, an elegant beachfront wedding can be more affordable than a hometown bash!</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<contactsorder></contactsorder>
+		<destination>Caribbean</destination>
+		<destinationorder>2</destinationorder>
+		<title></title>
+		<subtitle>You can’t beat the backdrop.</subtitle>
+		<copy></copy>
+		<details>Verdant, manicured gardens; glistening turquoise waters; sparkling white-sand beaches. Make Mexico or the Caribbean your venue and the photo magic just happens.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<contactsorder></contactsorder>
+		<destination>Caribbean</destination>
+		<destinationorder>3</destinationorder>
+		<title></title>
+		<subtitle>There’s plenty of room for everyone.</subtitle>
+		<copy></copy>
+		<details>Couch surfers, faraway friends and out-of-town relatives all get a room to call their own. Most importantly, you’ll get to keep your suite all to yourself.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<contactsorder></contactsorder>
+		<destination>Caribbean</destination>
+		<destinationorder>4</destinationorder>
+		<title></title>
+		<subtitle>The word "jitters" will never even enter your mind.</subtitle>
+		<copy></copy>
+		<details>There’s no room for nerves or stress when you have world-class spas right downstairs. Unrivaled pampering with the crash of waves as your background music? Serenity now.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<contactsorder></contactsorder>
+		<destination>Caribbean</destination>
+		<destinationorder>5</destinationorder>
+		<title></title>
+		<subtitle>There’s no chance of the caterer not showing up.</subtitle>
+		<copy></copy>
+		<details>With so many incredible on-site gourmet restaurants on every resort in Mexico and the Caribbean, the only thing you have to worry about is nothing at all.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<contactsorder></contactsorder>
+		<destination>Caribbean</destination>
+		<destinationorder>6</destinationorder>
+		<title></title>
+		<subtitle>Your guests won’t be the only ones making new friends.</subtitle>
+		<copy></copy>
+		<details>Part of the fun is finally bringing all of your friends and family together… some for the first time! With a destination wedding, you’ll get to know new faces, too—warm, hospitable ones who care about your special day.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<contactsorder></contactsorder>
+		<destination>Caribbean</destination>
+		<destinationorder>7</destinationorder>
+		<title></title>
+		<subtitle>Type A or B, the options are endless.</subtitle>
+		<copy></copy>
+		<details>It’s up to you whether you want to chill out or go full speed. Or choose both! With included activities, on-premise spas, amazing dining and awesome tours, every day opens up new possibilities.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<contactsorder></contactsorder>
+		<destination>Caribbean</destination>
+		<destinationorder>8</destinationorder>
+		<title></title>
+		<subtitle>Touring together brings bonding to a whole new level.</subtitle>
+		<copy></copy>
+		<details>Share once-in-a-lifetime experiences and make memories no one will ever forget with exciting tour offerings. Nothing brings people together like love, laughter and a bit of adventure.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<contactsorder></contactsorder>
+		<destination>Caribbean</destination>
+		<destinationorder>9</destinationorder>
+		<title></title>
+		<subtitle>The memories made at your wedding will be totally unique.</subtitle>
+		<copy></copy>
+		<details>Destination weddings in Mexico and the Caribbean bring a special flavor and authentic charm that are unrivaled and unduplicated anywhere else. Your wedding will truly be yours.</details>
+	</element>
+	<element>
+		<supplierindex>2</supplierindex>
+		<contactsorder></contactsorder>
+		<destination>Caribbean</destination>
+		<destinationorder>10</destinationorder>
+		<title></title>
+		<subtitle>The resorts think of everything. Literally.</subtitle>
+		<copy></copy>
+		<details>The beauty of an all-inclusive? Everything is really included! With domestic venues, taxes are all you get in a bundle, but at a resort, the drinks flow, the fun goes all night, and the tab is already taken care of.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>1</destinationorder>
+		<title></title>
+		<subtitle>Getting married in paradise has a pleasantly surprising price tag.</subtitle>
+		<copy></copy>
+		<details>It’s not nearly as costly as people think. In fact, with all-inclusive rates and destination wedding packages, an elegant beachfront wedding can be more affordable than a hometown bash!</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>2</destinationorder>
+		<title></title>
+		<subtitle>You can’t beat the backdrop.</subtitle>
+		<copy></copy>
+		<details>Verdant, manicured gardens; glistening turquoise waters; sparkling white-sand beaches. Make Mexico or the Caribbean your venue and the photo magic just happens.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>3</destinationorder>
+		<title></title>
+		<subtitle>There’s plenty of room for everyone.</subtitle>
+		<copy></copy>
+		<details>Couch surfers, faraway friends and out-of-town relatives all get a room to call their own. Most importantly, you’ll get to keep your suite all to yourself.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>4</destinationorder>
+		<title></title>
+		<subtitle>The word "jitters" will never even enter your mind.</subtitle>
+		<copy></copy>
+		<details>There’s no room for nerves or stress when you have world-class spas right downstairs. Unrivaled pampering with the crash of waves as your background music? Serenity now.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>5</destinationorder>
+		<title></title>
+		<subtitle>There’s no chance of the caterer not showing up.</subtitle>
+		<copy></copy>
+		<details>With so many incredible on-site gourmet restaurants on every resort in Mexico and the Caribbean, the only thing you have to worry about is nothing at all.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>6</destinationorder>
+		<title></title>
+		<subtitle>Your guests won’t be the only ones making new friends.</subtitle>
+		<copy></copy>
+		<details>Part of the fun is finally bringing all of your friends and family together… some for the first time! With a destination wedding, you’ll get to know new faces, too—warm, hospitable ones who care about your special day.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>7</destinationorder>
+		<title></title>
+		<subtitle>Type A or B, the options are endless.</subtitle>
+		<copy></copy>
+		<details>It’s up to you whether you want to chill out or go full speed. Or choose both! With included activities, on-premise spas, amazing dining and awesome tours, every day opens up new possibilities.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>8</destinationorder>
+		<title></title>
+		<subtitle>Touring together brings bonding to a whole new level.</subtitle>
+		<copy></copy>
+		<details>Share once-in-a-lifetime experiences and make memories no one will ever forget with exciting tour offerings. Nothing brings people together like love, laughter and a bit of adventure.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>9</destinationorder>
+		<title></title>
+		<subtitle>The memories made at your wedding will be totally unique.</subtitle>
+		<copy></copy>
+		<details>Destination weddings in Mexico and the Caribbean bring a special flavor and authentic charm that are unrivaled and unduplicated anywhere else. Your wedding will truly be yours.</details>
+	</element>
+	<element>
+		<supplierindex>3</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>10</destinationorder>
+		<title></title>
+		<subtitle>The resorts think of everything. Literally.</subtitle>
+		<copy></copy>
+		<details>The beauty of an all-inclusive? Everything is really included! With domestic venues, taxes are all you get in a bundle, but at a resort, the drinks flow, the fun goes all night, and the tab is already taken care of.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>1</destinationorder>
+		<title></title>
+		<subtitle>Getting married in paradise has a pleasantly surprising price tag.</subtitle>
+		<copy></copy>
+		<details>It’s not nearly as costly as people think. In fact, with all-inclusive rates and destination wedding packages, an elegant beachfront wedding can be more affordable than a hometown bash!</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>2</destinationorder>
+		<title></title>
+		<subtitle>You can’t beat the backdrop.</subtitle>
+		<copy></copy>
+		<details>Verdant, manicured gardens; glistening turquoise waters; sparkling white-sand beaches. Make Mexico or the Caribbean your venue and the photo magic just happens.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>3</destinationorder>
+		<title></title>
+		<subtitle>There’s plenty of room for everyone.</subtitle>
+		<copy></copy>
+		<details>Couch surfers, faraway friends and out-of-town relatives all get a room to call their own. Most importantly, you’ll get to keep your suite all to yourself.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>4</destinationorder>
+		<title></title>
+		<subtitle>The word "jitters" will never even enter your mind.</subtitle>
+		<copy></copy>
+		<details>There’s no room for nerves or stress when you have world-class spas right downstairs. Unrivaled pampering with the crash of waves as your background music? Serenity now.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>5</destinationorder>
+		<title></title>
+		<subtitle>There’s no chance of the caterer not showing up.</subtitle>
+		<copy></copy>
+		<details>With so many incredible on-site gourmet restaurants on every resort in Mexico and the Caribbean, the only thing you have to worry about is nothing at all.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>6</destinationorder>
+		<title></title>
+		<subtitle>Your guests won’t be the only ones making new friends.</subtitle>
+		<copy></copy>
+		<details>Part of the fun is finally bringing all of your friends and family together… some for the first time! With a destination wedding, you’ll get to know new faces, too—warm, hospitable ones who care about your special day.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>7</destinationorder>
+		<title></title>
+		<subtitle>Type A or B, the options are endless.</subtitle>
+		<copy></copy>
+		<details>It’s up to you whether you want to chill out or go full speed. Or choose both! With included activities, on-premise spas, amazing dining and awesome tours, every day opens up new possibilities.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>8</destinationorder>
+		<title></title>
+		<subtitle>Touring together brings bonding to a whole new level.</subtitle>
+		<copy></copy>
+		<details>Share once-in-a-lifetime experiences and make memories no one will ever forget with exciting tour offerings. Nothing brings people together like love, laughter and a bit of adventure.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>9</destinationorder>
+		<title></title>
+		<subtitle>The memories made at your wedding will be totally unique.</subtitle>
+		<copy></copy>
+		<details>Destination weddings in Mexico and the Caribbean bring a special flavor and authentic charm that are unrivaled and unduplicated anywhere else. Your wedding will truly be yours.</details>
+	</element>
+	<element>
+		<supplierindex>4</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>10</destinationorder>
+		<title></title>
+		<subtitle>The resorts think of everything. Literally.</subtitle>
+		<copy></copy>
+		<details>The beauty of an all-inclusive? Everything is really included! With domestic venues, taxes are all you get in a bundle, but at a resort, the drinks flow, the fun goes all night, and the tab is already taken care of.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>1</destinationorder>
+		<title></title>
+		<subtitle>Getting married in paradise has a pleasantly surprising price tag.</subtitle>
+		<copy></copy>
+		<details>It’s not nearly as costly as people think. In fact, with all-inclusive rates and destination wedding packages, an elegant beachfront wedding can be more affordable than a hometown bash!</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>2</destinationorder>
+		<title></title>
+		<subtitle>You can’t beat the backdrop.</subtitle>
+		<copy></copy>
+		<details>Verdant, manicured gardens; glistening turquoise waters; sparkling white-sand beaches. Make Mexico or the Caribbean your venue and the photo magic just happens.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>3</destinationorder>
+		<title></title>
+		<subtitle>There’s plenty of room for everyone.</subtitle>
+		<copy></copy>
+		<details>Couch surfers, faraway friends and out-of-town relatives all get a room to call their own. Most importantly, you’ll get to keep your suite all to yourself.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>4</destinationorder>
+		<title></title>
+		<subtitle>The word "jitters" will never even enter your mind.</subtitle>
+		<copy></copy>
+		<details>There’s no room for nerves or stress when you have world-class spas right downstairs. Unrivaled pampering with the crash of waves as your background music? Serenity now.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>5</destinationorder>
+		<title></title>
+		<subtitle>There’s no chance of the caterer not showing up.</subtitle>
+		<copy></copy>
+		<details>With so many incredible on-site gourmet restaurants on every resort in Mexico and the Caribbean, the only thing you have to worry about is nothing at all.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>6</destinationorder>
+		<title></title>
+		<subtitle>Your guests won’t be the only ones making new friends.</subtitle>
+		<copy></copy>
+		<details>Part of the fun is finally bringing all of your friends and family together… some for the first time! With a destination wedding, you’ll get to know new faces, too—warm, hospitable ones who care about your special day.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>7</destinationorder>
+		<title></title>
+		<subtitle>Type A or B, the options are endless.</subtitle>
+		<copy></copy>
+		<details>It’s up to you whether you want to chill out or go full speed. Or choose both! With included activities, on-premise spas, amazing dining and awesome tours, every day opens up new possibilities.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>8</destinationorder>
+		<title></title>
+		<subtitle>Touring together brings bonding to a whole new level.</subtitle>
+		<copy></copy>
+		<details>Share once-in-a-lifetime experiences and make memories no one will ever forget with exciting tour offerings. Nothing brings people together like love, laughter and a bit of adventure.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>9</destinationorder>
+		<title></title>
+		<subtitle>The memories made at your wedding will be totally unique.</subtitle>
+		<copy></copy>
+		<details>Destination weddings in Mexico and the Caribbean bring a special flavor and authentic charm that are unrivaled and unduplicated anywhere else. Your wedding will truly be yours.</details>
+	</element>
+	<element>
+		<supplierindex>5</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>10</destinationorder>
+		<title></title>
+		<subtitle>The resorts think of everything. Literally.</subtitle>
+		<copy></copy>
+		<details>The beauty of an all-inclusive? Everything is really included! With domestic venues, taxes are all you get in a bundle, but at a resort, the drinks flow, the fun goes all night, and the tab is already taken care of.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>1</destinationorder>
+		<title></title>
+		<subtitle>Getting married in paradise has a pleasantly surprising price tag.</subtitle>
+		<copy></copy>
+		<details>It’s not nearly as costly as people think. In fact, with all-inclusive rates and destination wedding packages, an elegant beachfront wedding can be more affordable than a hometown bash!</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>2</destinationorder>
+		<title></title>
+		<subtitle>You can’t beat the backdrop.</subtitle>
+		<copy></copy>
+		<details>Verdant, manicured gardens; glistening turquoise waters; sparkling white-sand beaches. Make Mexico or the Caribbean your venue and the photo magic just happens.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>3</destinationorder>
+		<title></title>
+		<subtitle>There’s plenty of room for everyone.</subtitle>
+		<copy></copy>
+		<details>Couch surfers, faraway friends and out-of-town relatives all get a room to call their own. Most importantly, you’ll get to keep your suite all to yourself.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>4</destinationorder>
+		<title></title>
+		<subtitle>The word "jitters" will never even enter your mind.</subtitle>
+		<copy></copy>
+		<details>There’s no room for nerves or stress when you have world-class spas right downstairs. Unrivaled pampering with the crash of waves as your background music? Serenity now.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>5</destinationorder>
+		<title></title>
+		<subtitle>There’s no chance of the caterer not showing up.</subtitle>
+		<copy></copy>
+		<details>With so many incredible on-site gourmet restaurants on every resort in Mexico and the Caribbean, the only thing you have to worry about is nothing at all.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>6</destinationorder>
+		<title></title>
+		<subtitle>Your guests won’t be the only ones making new friends.</subtitle>
+		<copy></copy>
+		<details>Part of the fun is finally bringing all of your friends and family together… some for the first time! With a destination wedding, you’ll get to know new faces, too—warm, hospitable ones who care about your special day.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>7</destinationorder>
+		<title></title>
+		<subtitle>Type A or B, the options are endless.</subtitle>
+		<copy></copy>
+		<details>It’s up to you whether you want to chill out or go full speed. Or choose both! With included activities, on-premise spas, amazing dining and awesome tours, every day opens up new possibilities.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>8</destinationorder>
+		<title></title>
+		<subtitle>Touring together brings bonding to a whole new level.</subtitle>
+		<copy></copy>
+		<details>Share once-in-a-lifetime experiences and make memories no one will ever forget with exciting tour offerings. Nothing brings people together like love, laughter and a bit of adventure.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>9</destinationorder>
+		<title></title>
+		<subtitle>The memories made at your wedding will be totally unique.</subtitle>
+		<copy></copy>
+		<details>Destination weddings in Mexico and the Caribbean bring a special flavor and authentic charm that are unrivaled and unduplicated anywhere else. Your wedding will truly be yours.</details>
+	</element>
+	<element>
+		<supplierindex>6</supplierindex>
+		<contactsorder></contactsorder>
+		<destination></destination>
+		<destinationorder>10</destinationorder>
+		<title></title>
+		<subtitle>The resorts think of everything. Literally.</subtitle>
+		<copy></copy>
+		<details>The beauty of an all-inclusive? Everything is really included! With domestic venues, taxes are all you get in a bundle, but at a resort, the drinks flow, the fun goes all night, and the tab is already taken care of.</details>
 	</element>
 </root>

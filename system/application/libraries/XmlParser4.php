@@ -70,7 +70,7 @@ class XmlParser4
      */
     function XMLParser4($xml = '', $cleanTagNames = true)
     {
-		$CI =& get_instance();
+		//$CI =& get_instance();
 	
         //Load XML document
         $this->xml = $xml;
