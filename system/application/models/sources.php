@@ -95,6 +95,15 @@ class Sources extends Model {
 					$properties[$first_level][$i][$child->tagName] = $child->tagData;	
 				}
 			}
+			//categorize by subregion within supplier index
+			foreach ($properties as $key => $val) {
+				foreach ($val as $property) {
+					$properties_sorted[$key][$property['subregion']][] = $property;
+				}
+			}
+			//var_dump($properties_sorted);
+			$properties = $properties_sorted;
+			
 		} else {
 			foreach ($properties_xml_object->element as $property) {
 				$first_level = $property->destination[0]->tagData;
@@ -107,7 +116,7 @@ class Sources extends Model {
 			}
 		}
 		unset($i);
-		
+	
 /*		
 			foreach ($properties as $key => $val) {
 				//var_dump( $val );

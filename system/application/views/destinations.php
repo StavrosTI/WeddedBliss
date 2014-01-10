@@ -21,7 +21,8 @@
 		<br />
 	</div>
 	
-	<aside class="four columns">
+<!-- Old Sidebar - Offers -->
+	<!--aside class="four columns">
 		<div class="sidebar clearfix">
 			<h3 class="fancy">Special Offers</h3>
 			<?php 
@@ -43,7 +44,56 @@
 				}
 			?>
 		</div>
-	</aside>
+	</aside-->
+
+	<aside class="four columns">
+		<div class="sidebar">
+			<h4>Top 10</h4>
+			<h5>Reasons to book a <?php echo ucfirst($destination); ?> Destination Wedding and Honeymoon</h5>
+			<ol>
+				<li class="toggle-link">Getting married in paradise has a pleasantly surprising price tag. &raquo;</li>
+					<div class="toggle-content">
+						It’s not nearly as costly as people think. In fact, with all-inclusive rates and destination wedding packages, an elegant beachfront wedding can be more affordable than a hometown bash!
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">You can’t beat the backdrop. &raquo;</li>
+					<div class="toggle-content">
+						Verdant, manicured gardens; glistening turquoise waters; sparkling white-sand beaches. Make Mexico or the Caribbean your venue and the photo magic just happens.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">There’s plenty of room for everyone. &raquo;</li>
+					<div class="toggle-content">
+						Couch surfers, faraway friends and out-of-town relatives all get a room to call their own. Most importantly, you’ll get to keep your suite all to yourself.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">The word "jitters" will never even enter your mind. &raquo;</li>
+					<div class="toggle-content">
+						There’s no room for nerves or stress when you have world-class spas right downstairs. Unrivaled pampering with the crash of waves as your background music? Serenity now.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">There’s no chance of the caterer not showing up. &raquo;</li>
+					<div class="toggle-content">
+						With so many incredible on-site gourmet restaurants on every resort in Mexico and the Caribbean, the only thing you have to worry about is nothing at all.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">Your guests won’t be the only ones making new friends. &raquo;</li>
+					<div class="toggle-content">
+						Part of the fun is finally bringing all of your friends and family together… some for the first time! With a destination wedding, you’ll get to know new faces, too—warm, hospitable ones who care about your special day.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">Type A or B, the options are endless. &raquo;</li>
+					<div class="toggle-content">
+						It’s up to you whether you want to chill out or go full speed. Or choose both! With included activities, on-premise spas, amazing dining and awesome tours, every day opens up new possibilities.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">Touring together brings bonding to a whole new level. &raquo;</li>
+					<div class="toggle-content">
+						Share once-in-a-lifetime experiences and make memories no one will ever forget with exciting tour offerings. Nothing brings people together like love, laughter and a bit of adventure.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">The memories made at your wedding will be totally unique. &raquo;</li>
+					<div class="toggle-content">
+						Destination weddings in Mexico and the Caribbean bring a special flavor and authentic charm that are unrivaled and unduplicated anywhere else. Your wedding will truly be yours.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">The resorts think of everything. Literally. &raquo;</li>
+					<div class="toggle-content">
+						The beauty of an all-inclusive? Everything is really included! With domestic venues, taxes are all you get in a bundle, but at a resort, the drinks flow, the fun goes all night, and the tab is already taken care of.
+					</div> <!-- .toggle-content -->
+			</ol>
+		</div>
+	</aside>	
 	
 	<section class="twelve columns omega">
 		<div class="twelve columns">
@@ -70,6 +120,41 @@
 		<?php
 			$dest = ucfirst($destination);	//correct key case
 			ksort($properties[$dest]);	//alpha order
+			
+			//Custom sorting.  Business owner requested specific subregion display order.
+			if ( $destination == "mexico" ) {
+				$full_array = $properties[$dest];
+				$array1['Cancun'] = $full_array['Cancun'];
+				$array1['Cancun South'] = $full_array['Cancun South'];
+				$array1['Riviera Maya'] = $full_array['Riviera Maya'];
+				$array2['Puerto Vallarta'] = $full_array['Puerto Vallarta'];
+				$array2['Riviera Nayarit'] = $full_array['Riviera Nayarit'];			
+				unset($full_array['Cancun']);
+				unset($full_array['Cancun South']);
+				unset($full_array['Riviera Maya']);
+				unset($full_array['Puerto Vallarta']);
+				unset($full_array['Riviera Nayarit']);
+				
+				$full_array_sorted = array(); 
+				$i = 0;
+				foreach ( $full_array as $key => $val ) {
+					$i++;
+					if ( strcasecmp('Cancun', $key) > 0 ) {
+						$full_array_sorted[$key] = $val;
+					} else {
+						$full_array_sorted = array_merge($full_array_sorted, $array1);
+						$full_array_sorted[$key] = $val;
+					}
+					if ( strcasecmp('Puerto Vallarta', $key) > 0 && $i != count($full_array)) {
+						$full_array_sorted[$key] = $val;
+					} else {
+						$full_array_sorted[$key] = $val;
+						$full_array_sorted = array_merge($full_array_sorted, $array2);
+					}
+				}
+				$properties[$dest] = $full_array_sorted;
+			}
+			
 			foreach ( $properties[$dest] as $key => $val ) { 
 		?>
 		<div class="twelve columns">
@@ -77,7 +162,8 @@
 			<p><?php echo $val[0]['subregiondetails']; ?></p>
 		
 			<?php
-				$filler_spots = (count($val)%3-3)*-1;
+				usort($val, 'cmp');	//Sort by hotel name, alpha order
+				$filler_spots = (count($val)%3-3)*-1;	//not used
 				
 				for ( $i = 0; $i < count($val); $i++ ) { 
 					extract($val[$i]);
@@ -94,7 +180,7 @@
 							<article class="property four columns <?php echo $colSpacing; ?> clearfix">
 								<?php $destCode = substr($code, 0, 3); $hotelCode = substr($code, 3, 3); ?>
 								<img src="<?php echo base_url(), 'assets/img/properties/'. $destCode . "_" . $hotelCode . ".jpg"; ?>" alt="<?php echo $hotel; ?>">
-								<div class="property-details four columns omega">
+								<div class="property-details four columns alpha">
 									<p class="property-name"><?php echo replacer($hotel); ?></a>
 									<?php if ( !empty($copy1) ) { ?>
 										<p><?php echo $copy1; ?></p>
@@ -118,9 +204,9 @@
 			<?php	}
 				} ?>
 
-		<div class="twelve columns alpha">
-			<hr />
-		</div>
+			<div class="twelve columns alpha">
+				<hr />
+			</div>
 
 		</div>
 

@@ -120,7 +120,7 @@
 				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/1'; ?>">AMResorts</a>
-					<p>Featured property copy here.</p>
+					<p>Discover AMResorts</p>
 					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/1'; ?>">Learn more...</a>
 				</div>
 			</article>
@@ -130,7 +130,7 @@
 				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/2'; ?>">All-Inclusive Hard Rock Hotels </a>
-					<p>Featured property copy here.</p>
+					<p>Celebrate your love at a killer all-inclusive HardRock Resort</p>
 					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/2'; ?>">Learn more...</a>
 				</div>
 			</article>
@@ -138,11 +138,11 @@
 		<div class="six columns omega">
 			<article class="supplier">
 				<a href="<?php echo base_url(), 'supplier/3'; ?>">
-					<img src="<?php echo base_url(), 'assets/img/featured_3.jpg'; ?>" alt="Palace Resorts &amp; Le Blanc">
+					<img src="<?php echo base_url(), 'assets/img/featured_3.jpg'; ?>" alt="Palace Resorts &amp; Le Blanc Spa Resort">
 				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/3'; ?>">Palace Resorts &amp; Le Blanc Spa Resort</a>
-					<p>Featured property copy here.</p>
+					<p>Live in awe at Palace Resorts | Pleasure in every sense at Le Blanc Spa Resort</p>
 					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/3'; ?>">Learn more...</a>
 				</div>
 			</article>
@@ -152,7 +152,7 @@
 				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/4'; ?>">RIU Hotels &amp; Resorts</a>
-					<p>Featured property copy here.</p>
+					<p>Experience RIU Hotels &amp; Resorts</p>
 					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/4'; ?>">Learn more...</a>
 				</div>
 			</article>

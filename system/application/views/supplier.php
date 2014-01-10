@@ -29,7 +29,7 @@
 	
 	<aside class="four columns">
 		<div class="sidebar">
-			<h3 class="fancy"><?php echo replacer($supplier['name']); ?><br> Packages Include</h3>
+			<h3 class="fancy">Packages Include</h3>
 			<?php 
 				$amenities = explode('|', $supplier['amenities']); 
 				foreach ( $amenities as $key => $val ) {
@@ -55,12 +55,13 @@
 	<section class="twelve columns">
 		<div class="twelve columns alpha">
 			<img src="<?php echo  base_url(), 'assets/img/suppliers/', $supplier['logoimage']; ?>" alt="<?php echo replacer($supplier['name']); ?>">
-			<h4><?php echo replacer($supplier['titlecopy']); ?></h4>
+			<!--h4><?php echo replacer($supplier['titlecopy']); ?></h4-->
 			<p><?php echo replacer($supplier['bodycopy']); ?></p>
 		</div>
 		<div class="twelve columns alpha"><hr /></div>
 
-		<div class="twelve columns alpha">
+		<!-- Hiding offers section for now -->
+		<!--div class="twelve columns alpha">
 			<?php
 				for ( $i = 0; $i < count($supplier_offers); $i++ ) { 
 					extract($supplier_offers[$i]);
@@ -83,13 +84,58 @@
 						</div>
 			<?php	}
 				} ?>
-		</div>
+		</div-->
 		
-		<div class="twelve columns">
+		<?php 
+			ksort($supplier_properties);	//alpha order
 			
-			<?php				
-				for ( $i = 0; $i < count($supplier_properties); $i++ ) { 
-					extract($supplier_properties[$i]);
+			//Custom sorting.  Business owner requested specific subregion display order.
+			$full_array = $supplier_properties;
+			$array1 = $array2 = array();
+			if ( array_key_exists('Cancun', $full_array) ) { 
+				$array1['Cancun'] = $full_array['Cancun']; }
+			if ( array_key_exists('Cancun South', $full_array) ) { 
+				$array1['Cancun South'] = $full_array['Cancun South']; }
+			if ( array_key_exists('Riviera Maya', $full_array) ) { 
+				$array1['Riviera Maya'] = $full_array['Riviera Maya']; }
+			if ( array_key_exists('Puerto Vallarta', $full_array) ) { 
+				$array2['Puerto Vallarta'] = $full_array['Puerto Vallarta']; }
+			if ( array_key_exists('Riviera Nayarit', $full_array) ) { 
+				$array2['Riviera Nayarit'] = $full_array['Riviera Nayarit']; }
+			unset(	$full_array['Cancun'], 
+					$full_array['Cancun South'], 
+					$full_array['Riviera Maya'],
+					$full_array['Puerto Vallarta'],
+					$full_array['Riviera Nayarit'] );
+			
+			$full_array_sorted = array();
+			foreach ( $full_array as $key => $val ) {
+				if ( strcasecmp('Cancun', $key) > 0 ) {
+					$full_array_sorted[$key] = $val;
+				} else {
+					$full_array_sorted = array_merge($full_array_sorted, $array1);
+					$full_array_sorted[$key] = $val;
+				}
+				if ( strcasecmp('Puerto Vallarta', $key) > 0 ) {
+					$full_array_sorted[$key] = $val;
+				} else {
+					$full_array_sorted[$key] = $val;
+					$full_array_sorted = array_merge($full_array_sorted, $array2);
+				}
+			}
+			$supplier_properties = $full_array_sorted;
+			
+			foreach ( $supplier_properties as $key => $val ) { 
+		?>		
+		<div class="twelve columns">
+			<h4><?php echo $key; ?></h4>
+			
+			<?php
+				usort($val, 'cmp');	//Sort by hotel name, alpha order
+				$filler_spots = (count($val)%3-3)*-1;	//not used
+				
+				for ( $i = 0; $i < count($val); $i++ ) { 
+					extract($val[$i]);
 					$iter_rem = $i % 3;
 					if ( $iter_rem == 0 ) { $colSpacing = "alpha"; } 
 					elseif ( $iter_rem == 1 ) { $colSpacing = ""; } 
@@ -122,11 +168,18 @@
 								</div>
 							</article>
 				
-			<?php 	if ( $i >= (count($supplier_properties)-1) ) { ?>
+			<?php 	if ( $i >= (count($val)-1) ) { ?>
 						</div>
 			<?php	}
-				} ?>			
+				} ?>	
+				
+			<div class="twelve columns alpha">
+				<hr />
+			</div>
+
 		</div>
+
+		<?php } ?>
 		
 	</section>
 

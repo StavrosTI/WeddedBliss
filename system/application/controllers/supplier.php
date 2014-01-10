@@ -43,14 +43,14 @@ class Supplier extends Controller {
 		//get supplier_index.  redirect to index if not 1-6 !important
 		$data['supplier_index'] = strtolower(trim($supplier_index)) ;
 		
-		//get supplier
+		//get supplier data
 		foreach ( $data['suppliers'] as $key => $val ) { 
 			if ( $val['supplierindex'] == $supplier_index ) {
 				$data['supplier'] = $val;
 			}
 		}
 		
-		//get offers
+		//get supplier offers
 		foreach ( $data['offers'] as $key => $val ) { 
 			if ( $val['supplierindex'] == $supplier_index ) {
 				$data['supplier_offers'][] = $val;
@@ -58,7 +58,7 @@ class Supplier extends Controller {
 		}
 		//var_dump( $data['supplier_offers'] );
 		
-		// get properties
+		//get supplier properties
 		$data['supplier_properties'] = $data['properties'][$supplier_index];
 			//var_dump( $data['supplier_properties'] );
 		
