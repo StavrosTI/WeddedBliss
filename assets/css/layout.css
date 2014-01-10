@@ -626,7 +626,7 @@ aside .sidebar {
 .supplier {
   margin-bottom: 1.5em; }
   .supplier p {
-    margin: 0 0 5px; }
+    margin: 5px 0; }
   .supplier img {
     -webkit-transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;

@@ -116,17 +116,17 @@
 		<div class="six columns alpha">
 			<article class="supplier">
 				<a href="<?php echo base_url(), 'supplier/1'; ?>">
-					<img src="<?php echo base_url(), 'assets/img/featured_1.jpg'; ?>" alt="AMResorts">
+					<img src="<?php echo base_url(), 'assets/img/featured_amresorts.jpg'; ?>" alt="AMResorts">
 				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/1'; ?>">AMResorts</a>
-					<p>Discover AMResorts</p>
+					<p>Discover AMResorts<br><br></p>
 					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/1'; ?>">Learn more...</a>
 				</div>
 			</article>
 			<article class="supplier">
 				<a href="<?php echo base_url(), 'supplier/2'; ?>">
-					<img src="<?php echo base_url(), 'assets/img/featured_2.jpg'; ?>" alt="Hard Rock">
+					<img src="<?php echo base_url(), 'assets/img/featured_hardrock.jpg'; ?>" alt="All-Inclusive Hard Rock Hotels ">
 				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/2'; ?>">All-Inclusive Hard Rock Hotels </a>
@@ -138,7 +138,7 @@
 		<div class="six columns omega">
 			<article class="supplier">
 				<a href="<?php echo base_url(), 'supplier/3'; ?>">
-					<img src="<?php echo base_url(), 'assets/img/featured_3.jpg'; ?>" alt="Palace Resorts &amp; Le Blanc Spa Resort">
+					<img src="<?php echo base_url(), 'assets/img/featured_palaceleblanc.jpg'; ?>" alt="Palace Resorts &amp; Le Blanc Spa Resort">
 				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/3'; ?>">Palace Resorts &amp; Le Blanc Spa Resort</a>
@@ -148,7 +148,7 @@
 			</article>
 			<article class="supplier">
 				<a href="<?php echo base_url(), 'supplier/4'; ?>">
-					<img src="<?php echo base_url(), 'assets/img/featured_4.jpg'; ?>" alt="RIU Hotels &amp; Resorts">
+					<img src="<?php echo base_url(), 'assets/img/featured_riu.jpg'; ?>" alt="RIU Hotels &amp; Resorts">
 				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/4'; ?>">RIU Hotels &amp; Resorts</a>
