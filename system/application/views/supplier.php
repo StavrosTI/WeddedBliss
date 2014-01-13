@@ -53,10 +53,10 @@
 	</aside>
 	
 	<section class="twelve columns">
-		<div class="twelve columns alpha">
-			<img src="<?php echo  base_url(), 'assets/img/suppliers/', $supplier['logoimage']; ?>" alt="<?php echo replacer($supplier['name']); ?>">
-			<!--h4><?php echo replacer($supplier['titlecopy']); ?></h4-->
-			<p><?php echo replacer($supplier['bodycopy']); ?></p>
+		<div id="supplier_info" class="twelve columns alpha">
+			<img class="supplier_logo" src="<?php echo  base_url(), 'assets/img/suppliers/', $supplier['logoimage']; ?>" alt="<?php echo replacer($supplier['name']); ?>">
+			<!--h4 class="supplier_title"><?php echo replacer($supplier['titlecopy']); ?></h4-->
+			<p class="supplier_copy"><?php echo replacer($supplier['bodycopy']); ?></p>
 		</div>
 		<div class="twelve columns alpha"><hr /></div>
 

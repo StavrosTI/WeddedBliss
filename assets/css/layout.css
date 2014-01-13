@@ -623,6 +623,11 @@ aside .sidebar {
   .property .collapsible {
     color: #50104e; }
 
+#supplier_info .supplier_logo {
+  margin-bottom: 10px; }
+#supplier_info .supplier_copy {
+  margin: 0; }
+
 .supplier {
   margin-bottom: 1.5em; }
   .supplier p {
@@ -829,6 +834,8 @@ aside .sidebar {
     .offer .details {
       padding: 9px; }
 
+  aside .sidebar h5 .supplier_name {
+    color: #e5c3dd; }
   aside .sidebar .amenity {
     text-align: center; }
   aside .sidebar .album-info .album-link {

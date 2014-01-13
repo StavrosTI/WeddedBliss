@@ -142,7 +142,8 @@
 				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/3'; ?>">Palace Resorts &amp; Le Blanc Spa Resort</a>
-					<p>Live in awe at Palace Resorts | Pleasure in every sense at Le Blanc Spa Resort</p>
+					<p>Live in awe at Palace Resorts<br>
+					Pleasure in every sense at Le Blanc Spa Resort</p>
 					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/3'; ?>">Learn more...</a>
 				</div>
 			</article>

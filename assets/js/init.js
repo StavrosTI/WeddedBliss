@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 		$(".toggle").click(function() {
 			var fadetime = 800
-			var txt = $(this).next(".collapsible").is(':visible') ? 'Learn More' : 'Close';
+			var txt = $(this).next(".collapsible").is(':visible') ? 'Learn More...' : 'Close';
 			var cls = $(this).next(".collapsible").is(':visible') ? 'toggle toggle-more' : 'toggle toggle-less';
 			var tourcls = $(this).next(".collapsible").is(':visible') ? 'offer' : 'offer offer-active';
 			$(this).fadeOut(fadetime, function() {

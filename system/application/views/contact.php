@@ -28,14 +28,14 @@
 		<hr />
 	</div>
 	
-	<aside class="four columns">
+	<!-- Old Sidebar - Offers -->
+	<!--aside class="four columns">
 		<div class="sidebar clearfix">
 			<h3 class="fancy">Special Offers</h3>
 			<?php 
-				//var_dump($offers);
-				//sort $offers in the controller
 				foreach ( $offers as $key => $val ) { 
-					if ( !empty($val['contactsorder']) ) {	//remove
+					
+					if ( strtolower(trim($val['destination'])) == strtolower(trim($destination)) ) {
 			?>
 						<div class="offer">
 							<h4><?php echo $val['title']; ?></h4>
@@ -47,9 +47,59 @@
 							</div>
 						</div>
 			<?php
-					}
+					} 
 				}
-			?>			
+			?>
+		</div>
+	</aside-->
+
+	<aside class="four columns">
+		<div class="sidebar">
+			<h4>Top 10</h4>
+			<h5>Reasons to book your next honeymoon or destination wedding with <span class="supplier_name">
+			<?php echo $branding['agency']; ?>.</span></h3>
+			<ol>
+				<li class="toggle-link">Getting married in paradise has a pleasantly surprising price tag. &raquo;</li>
+					<div class="toggle-content">
+						It’s not nearly as costly as people think. In fact, with all-inclusive rates and destination wedding packages, an elegant beachfront wedding can be more affordable than a hometown bash!
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">You can’t beat the backdrop. &raquo;</li>
+					<div class="toggle-content">
+						Verdant, manicured gardens; glistening turquoise waters; sparkling white-sand beaches. Make Mexico or the Caribbean your venue and the photo magic just happens.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">There’s plenty of room for everyone. &raquo;</li>
+					<div class="toggle-content">
+						Couch surfers, faraway friends and out-of-town relatives all get a room to call their own. Most importantly, you’ll get to keep your suite all to yourself.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">The word "jitters" will never even enter your mind. &raquo;</li>
+					<div class="toggle-content">
+						There’s no room for nerves or stress when you have world-class spas right downstairs. Unrivaled pampering with the crash of waves as your background music? Serenity now.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">There’s no chance of the caterer not showing up. &raquo;</li>
+					<div class="toggle-content">
+						With so many incredible on-site gourmet restaurants on every resort in Mexico and the Caribbean, the only thing you have to worry about is nothing at all.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">Your guests won’t be the only ones making new friends. &raquo;</li>
+					<div class="toggle-content">
+						Part of the fun is finally bringing all of your friends and family together… some for the first time! With a destination wedding, you’ll get to know new faces, too—warm, hospitable ones who care about your special day.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">Type A or B, the options are endless. &raquo;</li>
+					<div class="toggle-content">
+						It’s up to you whether you want to chill out or go full speed. Or choose both! With included activities, on-premise spas, amazing dining and awesome tours, every day opens up new possibilities.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">Touring together brings bonding to a whole new level. &raquo;</li>
+					<div class="toggle-content">
+						Share once-in-a-lifetime experiences and make memories no one will ever forget with exciting tour offerings. Nothing brings people together like love, laughter and a bit of adventure.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">The memories made at your wedding will be totally unique. &raquo;</li>
+					<div class="toggle-content">
+						Destination weddings in Mexico and the Caribbean bring a special flavor and authentic charm that are unrivaled and unduplicated anywhere else. Your wedding will truly be yours.
+					</div> <!-- .toggle-content -->
+				<li class="toggle-link">The resorts think of everything. Literally. &raquo;</li>
+					<div class="toggle-content">
+						The beauty of an all-inclusive? Everything is really included! With domestic venues, taxes are all you get in a bundle, but at a resort, the drinks flow, the fun goes all night, and the tab is already taken care of.
+					</div> <!-- .toggle-content -->
+			</ol>
 		</div>
 	</aside>
 	
@@ -61,37 +111,46 @@
 		
 		<div class="six columns alpha">
 			<article class="supplier">
-				<img src="<?php echo base_url(), 'assets/img/featured_1.jpg'; ?>" alt="AMResorts">
+				<a href="<?php echo base_url(), 'supplier/1'; ?>">
+					<img src="<?php echo base_url(), 'assets/img/featured_amresorts.jpg'; ?>" alt="AMResorts">
+				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/1'; ?>">AMResorts</a>
-					<p>Featured property copy here.</p>
+					<p>Discover AMResorts<br><br></p>
 					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/1'; ?>">Learn more...</a>
 				</div>
 			</article>
 			<article class="supplier">
-				<img src="<?php echo base_url(), 'assets/img/featured_2.jpg'; ?>" alt="Hard Rock">
+				<a href="<?php echo base_url(), 'supplier/2'; ?>">
+					<img src="<?php echo base_url(), 'assets/img/featured_hardrock.jpg'; ?>" alt="All-Inclusive Hard Rock Hotels ">
+				</a>
 				<div class="content clearfix">
-					<a href="<?php echo base_url(), 'supplier/2'; ?>">Hard Rock</a>
-					<p>Featured property copy here.</p>
+					<a href="<?php echo base_url(), 'supplier/2'; ?>">All-Inclusive Hard Rock Hotels </a>
+					<p>Celebrate your love at a killer all-inclusive HardRock Resort</p>
 					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/2'; ?>">Learn more...</a>
 				</div>
 			</article>
 		</div>
 		<div class="six columns omega">
 			<article class="supplier">
-				<img src="<?php echo base_url(), 'assets/img/featured_3.jpg'; ?>" alt="Palace Resorts &amp; Le Blanc">
+				<a href="<?php echo base_url(), 'supplier/3'; ?>">
+					<img src="<?php echo base_url(), 'assets/img/featured_palaceleblanc.jpg'; ?>" alt="Palace Resorts &amp; Le Blanc Spa Resort">
+				</a>
 				<div class="content clearfix">
-					<a href="<?php echo base_url(), 'supplier/4'; ?>">Palace Resorts &amp; Le Blanc</a>
-					<p>Featured property copy here.</p>
-					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/4'; ?>">Learn more...</a>
+					<a href="<?php echo base_url(), 'supplier/3'; ?>">Palace Resorts &amp; Le Blanc Spa Resort</a>
+					<p>Live in awe at Palace Resorts<br>
+					Pleasure in every sense at Le Blanc Spa Resort</p>
+					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/3'; ?>">Learn more...</a>
 				</div>
 			</article>
 			<article class="supplier">
-				<img src="<?php echo base_url(), 'assets/img/featured_4.jpg'; ?>" alt="RIU Hotels &amp; Resorts">
+				<a href="<?php echo base_url(), 'supplier/4'; ?>">
+					<img src="<?php echo base_url(), 'assets/img/featured_riu.jpg'; ?>" alt="RIU Hotels &amp; Resorts">
+				</a>
 				<div class="content clearfix">
-					<a href="<?php echo base_url(), 'supplier/3'; ?>">RIU Hotels &amp; Resorts</a>
-					<p>Featured property copy here.</p>
-					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/3'; ?>">Learn more...</a>
+					<a href="<?php echo base_url(), 'supplier/4'; ?>">RIU Hotels &amp; Resorts</a>
+					<p>Experience RIU Hotels &amp; Resorts</p>
+					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/4'; ?>">Learn more...</a>
 				</div>
 			</article>
 		</div>
@@ -120,6 +179,8 @@
 			</div>
 		</div>
 		
+	<!-- Commenting out secondary top ten -->
+	<!--
 		<div class="twelve columns alpha">
 			<hr />
 		</div>
@@ -145,6 +206,7 @@
 				<li>You wanted to snatch up that web deal before it expired and didn't think about 'details' like airport transfers, view, proximity to attractions, meals, taxes, activities,... the list goes on.</li>
 			</ol>
 		</div>
+	-->
 		
 	</section>
 

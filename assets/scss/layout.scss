@@ -753,6 +753,16 @@ aside {
 	
 }
 
+#supplier_info {
+	.supplier_logo {
+		margin-bottom: 10px;
+	}
+	.supplier_title {}
+	.supplier_copy {
+		margin: 0;
+	}
+}
+
 .supplier {
 	margin-bottom: 1.5em;
 	
@@ -1060,7 +1070,12 @@ aside {
 	}
 		
 	aside {
-		.sidebar {	
+		.sidebar {
+			h5 {
+				.supplier_name {
+					color: $wb-pink-light;
+				}	
+			}
 			.amenity {
 				text-align: center;		
 			}
