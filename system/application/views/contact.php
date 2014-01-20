@@ -6,7 +6,7 @@
 
 	<section class="brand sixteen columns clearfix">
 		<div class="branding twelve columns alpha">
-			<h3 class="fancy">Why Book With <?php echo $branding['agency']; ?></h3>
+			<h3 class="fancy">Why Book With <?php echo replacer($branding['agency']); ?></h3>
 			<?php if ( !empty($branding['valueprop']) ) { ?>
 				<p><?php echo $branding['valueprop']; ?></p>
 			<?php } else { ?>
@@ -19,7 +19,7 @@
 			<img src="<?php echo base_url(), 'assets/img/contacts_filler.jpg'; ?>" alt="contact filler image">
 		</div>
 	
-		<div class="branding-fixed four columns omega">
+		<div class="branding-fixed contact four columns omega">
 				<?php include 'branding.php'; ?>
 		</div>
 	</section>
@@ -57,7 +57,7 @@
 		<div class="sidebar">
 			<h4>Top 10</h4>
 			<h5>Reasons to book your next honeymoon or destination wedding with <span class="supplier_name">
-			<?php echo $branding['agency']; ?>.</span></h3>
+			<?php echo replacer($branding['agency']); ?>.</span></h3>
 			<ol>
 				<li class="toggle-link">Getting married in paradise has a pleasantly surprising price tag. &raquo;</li>
 					<div class="toggle-content">

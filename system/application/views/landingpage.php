@@ -97,13 +97,13 @@
 		<div class="twelve columns alpha"><hr /></div>
 
 		<div class="six columns alpha">
-			<h4>Booking your Wedding in MEXICO</h4>
+			<h4>Booking your Wedding or Honeymoon in MEXICO</h4>
 			<p>The rich land... The dreamy landscape... The warmth of its people... The past and the present in perfect harmony... This is Mexico. The world-renowned, tranquil beaches, colonial architecture and luminous seascapes create the perfect setting for a destination wedding, vow renewal or honeymoon alike.</p>
 			<a class="learn-more dark" href="<?php echo base_url(), 'destination/mexico'; ?>">Learn more...</a>
 		</div>
 		
 		<div class="six columns omega">
-			<h4>Booking your Wedding in THE CARIBBEAN</h4>
+			<h4>Booking your Wedding or Honeymoon in THE CARIBBEAN</h4>
 			<p>Whether you are looking for intimate seclusion or a full celebration, the islands of the Caribbean offer the perfect setting for your wedding, honeymoon or both. From busy to mellow, the Caribbean has something to offer every couple.</p>
 			<a class="learn-more dark" href="<?php echo base_url(), 'destination/caribbean'; ?>">Learn more...</a>
 		</div>
@@ -120,7 +120,7 @@
 				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/1'; ?>">AMResorts</a>
-					<p>Discover AMResorts<br><br></p>
+					<p>Discover Zoetry Wellness & Spa Resorts, Breathless, Secrets, Dreams Now and Sunscape Resorts & Spas</p>
 					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/1'; ?>">Learn more...</a>
 				</div>
 			</article>
@@ -130,7 +130,7 @@
 				</a>
 				<div class="content clearfix">
 					<a href="<?php echo base_url(), 'supplier/2'; ?>">All-Inclusive Hard Rock Hotels </a>
-					<p>Celebrate your love at a killer all-inclusive HardRock Resort</p>
+					<p>Celebrate your love at a killer all-inclusive Hard Rock Resort</p>
 					<a class="learn-more dark" href="<?php echo base_url(), 'supplier/2'; ?>">Learn more...</a>
 				</div>
 			</article>

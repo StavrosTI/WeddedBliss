@@ -5,10 +5,12 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>Wedded Bliss - Presented By 
-<?php if ( $branding['brand'] == 'ti' ) { ?>
+<?php if ( strtolower(trim($branding['brand'])) == 'ti' ) { ?>
 	Travel Impressions
-<?php } else { ?>
+<?php } elseif ( strtolower(trim($branding['brand'])) == 'aev' ) { ?>
 	American Express Vacations
+<?php } else { ?>
+	Travel Impressions
 <?php } ?>
 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

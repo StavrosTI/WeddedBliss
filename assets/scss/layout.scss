@@ -323,8 +323,14 @@ nav.primary {
 	@include border-radius($rounding);	
 	background-color: rgba(255, 255, 255, 0.7);	
 	
+	h4 {
+		font-size: 2em;
+		line-height: 1.0em;
+		text-align: center;
+	}
+
 	.logo-container {
-		width: 85%;
+		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 		
@@ -336,7 +342,7 @@ nav.primary {
 	p {
 		text-align: center;
 		margin-bottom: 8px;
-	}
+	}	
 }
 
 .branding-fixed {
@@ -372,28 +378,38 @@ nav.primary {
 	}
 	
 	.logo-container {
-		width: 85%;
+		width: 100%;
 		margin: 0 auto;
+		text-align: center;
 		
 		img {
-			width: 100%;
 			margin-bottom: 20px;
 		}
 	}
 	
-	p {
-		text-align: center;
-		margin-bottom: 8px;
-	}
+	.brand-info-container {
 	
-	a {
-		@include transition( all 0.3s ease-in-out );
-		color: #FFF;
-		text-decoration: underline;
+		h4 {
+			font-size: 2em;
+			line-height: 1.0em;
+			text-align: center;
+			color: #FFFFFF;
+		}
 		
-		&:hover {
+		p {
+			text-align: center;
+			margin-bottom: 8px;
+		}
+		
+		a {
+			@include transition( all 0.3s ease-in-out );
+			color: #FFF;
 			text-decoration: underline;
-			color: $wb-pink-light;
+			
+			&:hover {
+				text-decoration: underline;
+				color: $wb-pink-light;
+			}
 		}
 	}
 }
@@ -627,9 +643,10 @@ aside {
 		position: absolute;
 		z-index: 999;
 		width: 100%;
-		bottom: 40px;
+		top: 340px;
 		right: 0;
 		margin: o auto;
+		line-height: .8em;
 		font-family: $fancyFont;
 		font-size: 3.5em;
 		text-align: center;
@@ -995,9 +1012,32 @@ aside {
 	}
 	
 	.branding-box {
-		min-height: 270px;
-		max-width: 210px;
+		min-height: 260px;
+		max-width: 220px;
+		
+		p {
+			margin: 0;
+			margin-bottom: 4px;
+		}
+		.logo-container {
+			width: 85%;
+			
+			img {
+				width: 100%;
+			}
+		}		
 	}
+	
+	.branding-fixed {
+	
+		.logo-container {
+			width: 100%;
+			
+			img {
+				width: 100%;
+			}
+		}	
+	}		
 	
 	#booklet-container {
 		.book-wrapper {
@@ -1041,17 +1081,33 @@ aside {
 	.branding-fixed {
 		min-height: inherit;
 		margin-top: 1em;
-		color: #fff;
 		
 		&.white {
 			display: inherit;
+			
+			a {
+				color: $wb-pink-super-dark;
+				
+				&:hover { 
+					color: $wb-pink-dark;
+				}
+			}
+			
+			h4 {
+				color: $wb-pink-dark;
+			}
 		}
 		
 		.logo-container {
 			float: left;
 			width: 50%;
 		}
-	}
+		
+		.brand-info-container {
+			float: left;
+			width: 50%;
+		}
+	}	
 			
 	#booklet-container {
 		display: none;
@@ -1166,6 +1222,11 @@ aside {
 			img {
 				max-width: 200px;
 			}
+		}
+		
+		.brand-info-container {
+			position: inherit;
+			width: 100%;
 		}
 	}
 	

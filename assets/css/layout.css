@@ -278,8 +278,12 @@ nav.primary {
   -o-border-radius: 20px;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.7); }
+  .branding-box h4 {
+    font-size: 2em;
+    line-height: 1.0em;
+    text-align: center; }
   .branding-box .logo-container {
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
     text-align: center; }
     .branding-box .logo-container img {
@@ -323,15 +327,20 @@ nav.primary {
         text-decoration: underline;
         color: #92278f; }
   .branding-fixed .logo-container {
-    width: 85%;
-    margin: 0 auto; }
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; }
     .branding-fixed .logo-container img {
-      width: 100%;
       margin-bottom: 20px; }
-  .branding-fixed p {
+  .branding-fixed .brand-info-container h4 {
+    font-size: 2em;
+    line-height: 1.0em;
+    text-align: center;
+    color: #FFFFFF; }
+  .branding-fixed .brand-info-container p {
     text-align: center;
     margin-bottom: 8px; }
-  .branding-fixed a {
+  .branding-fixed .brand-info-container a {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -339,7 +348,7 @@ nav.primary {
     transition: all 0.3s ease-in-out;
     color: #FFF;
     text-decoration: underline; }
-    .branding-fixed a:hover {
+    .branding-fixed .brand-info-container a:hover {
       text-decoration: underline;
       color: #e5c3dd; }
 
@@ -527,9 +536,10 @@ aside .sidebar {
     position: absolute;
     z-index: 999;
     width: 100%;
-    bottom: 40px;
+    top: 340px;
     right: 0;
     margin: o auto;
+    line-height: .8em;
     font-family: "bickham_script_std_regularRg", "alex_brushregular", cursive;
     font-size: 3.5em;
     text-align: center; }
@@ -788,8 +798,20 @@ aside .sidebar {
         padding: 0 8px; }
 
   .branding-box {
-    min-height: 270px;
-    max-width: 210px; }
+    min-height: 260px;
+    max-width: 220px; }
+    .branding-box p {
+      margin: 0;
+      margin-bottom: 4px; }
+    .branding-box .logo-container {
+      width: 85%; }
+      .branding-box .logo-container img {
+        width: 100%; }
+
+  .branding-fixed .logo-container {
+    width: 100%; }
+    .branding-fixed .logo-container img {
+      width: 100%; }
 
   #booklet-container .book-wrapper {
     margin: 0; }
@@ -815,11 +837,19 @@ aside .sidebar {
 
   .branding-fixed {
     min-height: inherit;
-    margin-top: 1em;
-    color: #fff; }
+    margin-top: 1em; }
     .branding-fixed.white {
       display: inherit; }
+      .branding-fixed.white a {
+        color: #50104e; }
+        .branding-fixed.white a:hover {
+          color: #92278f; }
+      .branding-fixed.white h4 {
+        color: #92278f; }
     .branding-fixed .logo-container {
+      float: left;
+      width: 50%; }
+    .branding-fixed .brand-info-container {
       float: left;
       width: 50%; }
 
@@ -886,6 +916,9 @@ aside .sidebar {
       text-align: center; }
       .branding-fixed .logo-container img {
         max-width: 200px; }
+    .branding-fixed .brand-info-container {
+      position: inherit;
+      width: 100%; }
 
   .offer {
     width: 100%; }

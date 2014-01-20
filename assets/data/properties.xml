@@ -771,7 +771,7 @@ Palancar Reef. The hotel décor has a romantic and tropical feel with 306 bungal
 	<element>
 		<supplierindex>2</supplierindex>
 		<destination>Mexico</destination>
-		<subregion>Puerto Vallarta</subregion>
+		<subregion>Riviera Nayarit</subregion>
 		<subregiondetails>With whitewashed buildings whimsically capped by sun-dappled red-tile roofs, this destination is so well known for capturing hearts that an area even bears the apt name “The Romantic Zone” and many English-speaking visitors become residents. A seaside promenade, dotted with bronze sculptures; cobblestone streets that merge into the green foothills of the Sierra Madre mountains; and, of course, golden beaches are all part of the allure … but the genuine warmth of its locals is the best complement to the gorgeous weather, which is surpassed only by the beauty of Banderas Bay—which shares the same latitude as Hawaii—and surrounding villages.</subregiondetails>
 		<code>pvrpvp</code>
 		<hotel>Hard Rock Hotel Vallarta</hotel>
@@ -842,7 +842,7 @@ Palancar Reef. The hotel décor has a romantic and tropical feel with 306 bungal
 		<hotel>Breathless Punta Cana Resort &amp; Spa</hotel>
 		<image>pujbth</image>
 		<supplier>AMResorts</supplier>
-		<copy1>Unlimited-Luxury®</copy1>
+		<copy1>Unlimited-Luxury®, Adults only</copy1>
 		<copy2></copy2>
 		<details>This resort is a vibrant, chic and modern experience for sophisticated singles, couples, and friends. Featuring 750 ultra-contemporary suites with private and scenic terraces, Breathless Punta Cana offers guests all the benefits of Unlimited-Luxury®, including nine dining venues matched by carefully selected wines and other top-shelf spirits served up at eight bars and lounges. Mix and mingle, embrace life, and find yourself enveloped in smiles and laughter, romantic whispers and flirtatious winks.</details>
 	</element>
@@ -1125,7 +1125,7 @@ Palancar Reef. The hotel décor has a romantic and tropical feel with 306 bungal
 		<subregion>Riviera Maya</subregion>
 		<subregiondetails>A natural beauty like this needs no embellishment, with expansive coral reefs shimmering beneath turquoise coastlines, enchanting cenotes for peaceful swims, and eco-parks that preserve the treasures of this region. Luxurious resorts dot long beaches, and charming Playa del Carmen, with its shady, pedestrian-friendly streets, provides all the divertissements you could possibly want in an elegant getaway. In this region, visitors leap in one effortless bound the divide between to ordinary right into the extraordinary.</subregiondetails>
 		<code>cunavp</code>
-		<hotel>Hard Rock Hotel Riviera Maya - Family Section</hotel>
+		<hotel>Hard Rock Hotel Riviera Maya</hotel>
 		<image>cunavp</image>
 		<supplier>All Inclusive Hard Rock Hotels</supplier>
 		<copy1>All-inclusive</copy1>

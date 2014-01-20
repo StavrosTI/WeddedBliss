@@ -8,14 +8,16 @@
 								$logo_image = $branding['logoimage'];
 							} 
 						?>
-						<img src="<?php echo base_url(), 'assets/img/logos/', $logo_image; ?>" alt="<?php echo $branding['agency']; ?>">
+						<img src="<?php echo base_url(), 'assets/img/logos/', $logo_image; ?>" alt="<?php echo replacer($branding['agency']); ?>">
 					</div>
-					<p><?php echo $branding['agency']; ?></p>
+					<div class="brand-info-container">
+						<p><?php echo replacer($branding['agency']); ?></p>
 				<?php } else { ?>
-					<h3><?php echo $branding['agency']; ?></h3>
+					<div class="brand-info-container">
+						<h4><?php echo replacer($branding['agency']); ?></h4>
 				<?php } ?>
 				<?php if ( !empty($branding['address']) ) { ?>
-					<p><?php echo $branding['address']; ?></p>
+						<p><?php echo $branding['address']; ?></p>
 				<?php } ?>
 				<?php //email
 					if ( !empty($branding['email']) ) { 
@@ -27,13 +29,14 @@
 					}
 				?>
 				<?php if ( !empty($branding['phone']) ) { ?>
-					<p><?php echo $branding['phone']; ?></p>
+						<p><?php echo $branding['phone']; ?></p>
 				<?php } ?>
 				<?php //website
 					if ( !empty($branding['website']) ) {
 						$website = str_replace("http://", "", $branding['website']);
 				?>
-					<p><a href="http://<?php echo $website; ?>"><?php echo $website; ?></a></p>
+						<p><a href="http://<?php echo $website; ?>"><?php echo $website; ?></a></p>
 				<?php
 					}
 				?>
+					</div>

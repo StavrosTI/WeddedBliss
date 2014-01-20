@@ -7,11 +7,8 @@
 		<div id="mybook" style="display: none;">
 		  <div class="b-load">
 			<div> 
-				<span class="album-title light"><?php echo $branding['agency']; ?></span>
+				<span class="album-title light"><?php echo replacer($branding['agency']); ?></span>
 				<img alt="Wedded Bliss Album - Cover" class="albumFormat" src="<?php echo base_url(), 'assets/img/album/wb-album-cover.jpg'; ?>">
-			</div>
-			<div>
-				
 			</div>
 			<div>
 				<img class="right-overlay" src="<?php echo base_url(), 'assets/img/album/right-page-overlay.png'; ?>" alt="right overlay">
@@ -21,19 +18,16 @@
 			  </div>
 			</div>
 			<div>
-				
-			</div>
-			<div>
-				<span class="album-title"><?php echo $branding['agency']; ?></span>
+				<span class="album-title"><?php echo replacer($branding['agency']); ?></span>
 				<img alt="" class="albumFormat" src="<?php echo base_url(), 'assets/img/album/VD093-13_Wedding_Album-2.jpg'; ?>">
 				<img class="right-overlay" src="<?php echo base_url(), 'assets/img/album/right-page-overlay.png'; ?>" alt="right overlay">
 				<img class="left-overlay" src="<?php echo base_url(), 'assets/img/album/left-page-overlay.png'; ?>" alt="left overlay">
 			</div>
-			<div>
+			<!--div>
 				<img class="right-overlay" src="<?php echo base_url(), 'assets/img/album/right-page-overlay.png'; ?>" alt="right overlay">
 				<img class="left-overlay" src="<?php echo base_url(), 'assets/img/album/left-page-overlay.png'; ?>" alt="left overlay">
 				<img alt="" class="albumFormat" src="<?php echo base_url(), 'assets/img/album/VD093-13_Wedding_Album-3.jpg'; ?>">
-			</div>
+			</div-->
 			<div>
 				<img class="right-overlay" src="<?php echo base_url(), 'assets/img/album/right-page-overlay.png'; ?>" alt="right overlay">
 				<img class="left-overlay" src="<?php echo base_url(), 'assets/img/album/left-page-overlay.png'; ?>" alt="left overlay">
