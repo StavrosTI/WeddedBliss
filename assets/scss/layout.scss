@@ -666,6 +666,11 @@ aside {
 		line-height: 26px;
 		margin-top: 50px;
 		padding: 35px;
+		
+		&.testimonial {
+			margin-top: 10px;
+			padding: 25px;
+		}	
 	}
 		
 		a#next_page_button,

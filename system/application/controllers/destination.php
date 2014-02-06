@@ -34,15 +34,16 @@ class Destination extends Controller {
 			
 		//Get branding info from session.  If no session, redirect to home.
 		$branding = $this->session->userdata('branding');
+			//var_dump($branding);
+		
 		if ( !empty($branding) ) {
 			$data['branding'] = $this->session->userdata('branding');
 		} else {
-			redirect('/', 'location');
+			//redirect('/', 'location');
 		}
 				
 		//get destination.  redirect to index if not mexico/carib
 		$data['destination'] = strtolower(trim($destination_name)) ;
-		
 		
 	
 		if ( isset($_SERVER['SERVER_NAME']) ) {

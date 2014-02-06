@@ -8,7 +8,7 @@
 		<div class="branding twelve columns alpha">
 			<h3 class="fancy">Why Book With <?php echo replacer($branding['agency']); ?></h3>
 			<?php if ( !empty($branding['valueprop']) ) { ?>
-				<p><?php echo $branding['valueprop']; ?></p>
+				<p><?php echo replacer($branding['valueprop']); ?></p>
 			<?php } else { ?>
 				<p>Perhaps you met by fate—or maybe it was just luck. However your story began, you don’t want to leave your special day to chance. Instead, leave it to us. Book your destination wedding or honeymoon with a trusted, experienced travel agency, and know that your dream is in capable, caring hands.</p>
 

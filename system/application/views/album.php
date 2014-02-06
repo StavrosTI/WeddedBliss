@@ -91,13 +91,34 @@
 
 			<?php
 				if ( !empty ($branding['testimonials']) ) {
-					$testimonials = explode('==', $branding['testimonials'] );
+					$testimonials = explode('==', htmlspecialchars_decode($branding['testimonials']) );
+					$page_char_limit = 490;
 					foreach ( $testimonials as $testimonial ) {
+						if ( strlen($testimonial) > $page_char_limit ) {
+							// split testimonial across multiple pages if > 480 characters
+							$pages = str_split($testimonial, $page_char_limit);
+							$i=0;
+							foreach( $pages as $page ) {
 			?>
-				<div class="copy-page">
-					<p style="text-align: center;"><?php echo trim($testimonial); ?></p>
-				</div>
+								<div class="copy-page testimonial">
+									<p style="text-align: center;">
+										<?php 
+											echo trim($page);
+											if ( $i < count($pages)-1 ) { echo '...'; } 
+										?>
+									</p>
+								</div>
 			<?php
+								$i++;
+							}
+							unset($pages);	// squeaky clean
+						} else {
+			?>
+							<div class="copy-page testimonial">
+								<p style="text-align: center;"><?php echo trim($testimonial); ?></p>
+							</div>
+			<?php					
+						}
 					}
 				}
 			?>

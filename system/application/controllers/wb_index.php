@@ -13,11 +13,13 @@ class WB_Index extends Controller {
 			'cmp', 
 			'create_ul', 
 			'url_tag', 
-			'create_ul_custom')
+			'create_ul_custom',
+			'string')
 		);
 	}
 	
 	function index( $agency_url = FALSE ) {
+		
 		
 		//Loaded XML data source
 		$data['agents'] = $this->sources->get_agents('assets/data/agents.xml');
@@ -52,18 +54,23 @@ class WB_Index extends Controller {
 			'testimonials' => ''
 		);
 		
+		//var_dump($this->session->all_userdata());
+		
 		$branding = $this->session->userdata('branding');
 
 		//site branding
 		if ( $agency_url !== FALSE  ) {
+			//echo "agency_url: " . $agency_url . "<br>";
 			
 			//Pull existing branding from session			
 			if ( strtolower(trim($agency_url)) == 'debrand' ) {
-				//debranding...
+				//echo "debranding..." . "<br>";
+				
 				$this->session->set_userdata($white_label);
 				$data['branding'] = $this->session->userdata('branding');
 			
 			} else {
+				//echo "no debrand" . "<br>";
 
 				//possible valid agency.  check for match.				
 				$found_valid_agency = FALSE;
@@ -72,22 +79,37 @@ class WB_Index extends Controller {
 				foreach ( $data['agents'] as $agent ) {
 					//match agency url				
 					if ( strtolower(trim($agency_url)) == strtolower(trim($agent['url'])) ) {
-
-						$agent['branding'] = $agent;
-						$this->session->set_userdata($agent);
+					
+							//echo $agent['testimonials'];
+						$agent['notes'] = quotes_to_entities(replacer($agent['notes']));
+						$agent['testimonials'] = quotes_to_entities(replacer($agent['testimonials']));
+							//echo "<br>" . $agent['testimonials'];
+						
+						$branding = $agent;
+						$to_session['branding'] = $agent;
+						$this->session->set_userdata($to_session);
 						$data['branding'] = $this->session->userdata('branding');
 					
 						$found_valid_agency = TRUE;
 					}
 				}
 				
+				//var_dump( $found_valid_agency );
+				
 				//no matching agency.  apply white label
-				if ( !$found_valid_agency && ($branding['url'] !== '' && $branding['url'] == 'travimp') ) {
+				if ( $found_valid_agency === FALSE && ($branding['url'] !== '' && $branding['url'] == 'travimp') ) {
 				
 					$this->session->set_userdata($white_label);
 					$data['branding'] = $this->session->userdata('branding');
 				}
-				if ( !empty($branding) ) {
+				/*
+				echo "branding: <br>"; 
+				var_dump($branding);
+				echo "branding (session) <br>";
+				var_dump($this->session->userdata('branding'));
+				*/
+				
+				if ( $branding ) {
 					$data['branding'] = $this->session->userdata('branding');
 				} else {
 					echo "Branding Error!";
@@ -95,13 +117,16 @@ class WB_Index extends Controller {
 			}
 			
 		} elseif ( !empty($branding) )  {
-			//Get branding info from session
+			//echo "Get branding info from session";
 			$data['branding'] = $this->session->userdata('branding');
 		} else {
-			//no branding or existing white labling
+			//echo "no branding or existing white labling";
 			$this->session->set_userdata($white_label);
 			$data['branding'] = $this->session->userdata('branding');
 		}
+		
+		
+		//var_dump($this->session->all_userdata());
 	
 	
 		if ( isset($_SERVER['SERVER_NAME']) ) {

@@ -555,6 +555,9 @@ aside .sidebar {
     line-height: 26px;
     margin-top: 50px;
     padding: 35px; }
+    #booklet-container .copy-page.testimonial {
+      margin-top: 10px;
+      padding: 25px; }
   #booklet-container a#next_page_button,
   #booklet-container a#prev_page_button {
     display: none;

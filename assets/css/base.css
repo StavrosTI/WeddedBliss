@@ -22,7 +22,6 @@
 
 /* RESET & BASICS (Inspired by E. Meyers)
  * ------------------------------------------------ */
-/* line 268, ../scss/_mixins.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,35 +43,28 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 252, ../scss/_mixins.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 273, ../scss/_mixins.scss */
 body {
   line-height: 1; }
 
-/* line 274, ../scss/_mixins.scss */
 ol, ul {
   list-style: none; }
 
-/* line 275, ../scss/_mixins.scss */
 blockquote, q {
   quotes: none; }
-  /* line 239, ../scss/_mixins.scss */
   blockquote:before, blockquote:after, q:before, q:after {
     content: "";
     content: none; }
 
-/* line 276, ../scss/_mixins.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
 /* BASIC STYLES
  * ------------------------------------------------ */
-/* line 23, ../scss/base.scss */
 body {
   background: white;
   font-size: 0.8em;
@@ -87,111 +79,89 @@ body {
 
 /* TYPOGRAPHY
  * ------------------------------------------------ */
-/* line 39, ../scss/base.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #92278f;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: normal; }
 
-/* line 48, ../scss/base.scss */
 h1 a, h2 a, h3 a,
 h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
-/* line 50, ../scss/base.scss */
 h1 {
   font-size: 3em;
   line-height: 3em;
   margin-bottom: 1em; }
 
-/* line 55, ../scss/base.scss */
 h2 {
   font-size: 2em;
   line-height: 3em;
   margin-bottom: 1em; }
 
-/* line 60, ../scss/base.scss */
 h3 {
   font-size: 2em;
   line-height: 2em;
   margin-bottom: 1em; }
 
-/* line 65, ../scss/base.scss */
 h4 {
   font-size: 1em;
   line-height: 2em;
   margin-bottom: 0em; }
 
-/* line 70, ../scss/base.scss */
 h5 {
   font-size: 1em;
   line-height: 1.6em; }
 
-/* line 74, ../scss/base.scss */
 h6 {
   font-size: 1em;
   line-height: 1em; }
 
-/* line 78, ../scss/base.scss */
 .subheader {
   color: #777; }
 
-/* line 79, ../scss/base.scss */
 p {
   margin: 0 0 20px 0; }
-  /* line 81, ../scss/base.scss */
   p img {
     margin: 0; }
-  /* line 82, ../scss/base.scss */
   p.lead {
     font-size: 1em;
     line-height: 2em;
     color: #777; }
 
-/* line 88, ../scss/base.scss */
 em, i {
   font-style: italic; }
 
-/* line 89, ../scss/base.scss */
 strong, b {
   font-weight: bold;
-  color: #333; }
+  /*color: #333;*/ }
 
-/* line 93, ../scss/base.scss */
 u {
   text-decoration: underline; }
 
-/* line 94, ../scss/base.scss */
 small {
   font-size: 80%; }
 
 /*	Blockquotes  */
-/* line 96, ../scss/base.scss */
 blockquote, blockquote p {
   font-size: 1em;
   line-height: 1.6em;
   color: #777;
   font-style: italic; }
 
-/* line 102, ../scss/base.scss */
 blockquote {
   margin: 0 0 20px;
   padding: 9px 20px 0 19px;
   border-left: 1px solid #ddd; }
 
-/* line 107, ../scss/base.scss */
 blockquote cite {
   display: block;
   font-size: 0.8em;
   color: #555; }
-  /* line 111, ../scss/base.scss */
   blockquote cite:before {
     content: "\2014 \0020"; }
-  /* line 112, ../scss/base.scss */
   blockquote cite a, blockquote cite a:visited {
     color: #555; }
 
-/* line 114, ../scss/base.scss */
 hr {
   border-style: solid;
   border-color: #ddd;
@@ -202,53 +172,42 @@ hr {
 
 /* LINKS
  * ------------------------------------------------ */
-/* line 127, ../scss/base.scss */
 a, a:visited {
   color: #92278f;
   text-decoration: underline;
   outline: 0; }
 
-/* line 132, ../scss/base.scss */
 a:hover, a:focus, a:active {
   color: black; }
 
-/* line 133, ../scss/base.scss */
 p a, p a:visited {
   line-height: inherit; }
 
 /* LISTS
  * ------------------------------------------------ */
-/* line 138, ../scss/base.scss */
 ul,
 ol {
   margin-bottom: 20px; }
 
-/* line 139, ../scss/base.scss */
 ul {
   list-style: none outside; }
 
-/* line 140, ../scss/base.scss */
 ol {
   list-style: decimal; }
 
-/* line 142, ../scss/base.scss */
 ol, ul.square,
 ul.circle, ul.disc {
   margin-left: 30px; }
 
-/* line 143, ../scss/base.scss */
 ul.square {
   list-style: square outside; }
 
-/* line 144, ../scss/base.scss */
 ul.circle {
   list-style: circle outside; }
 
-/* line 145, ../scss/base.scss */
 ul.disc {
   list-style: disc outside; }
 
-/* line 147, ../scss/base.scss */
 ul ul, ul ol,
 ol ol, ol ul {
   margin-top: 4px;
@@ -257,34 +216,28 @@ ol ol, ol ul {
   margin-left: 30px;
   font-size: 90%; }
 
-/* line 157, ../scss/base.scss */
 ul ul li, ul ol li,
 ol ol li, ol ul li {
   margin-bottom: 6px; }
 
-/* line 158, ../scss/base.scss */
 li {
   line-height: 18px;
   margin-bottom: 12px; }
 
-/* line 162, ../scss/base.scss */
 ul.large li {
   line-height: 21px; }
 
-/* line 163, ../scss/base.scss */
 li p {
   line-height: 21px; }
 
 /* IMAGES
  * ------------------------------------------------ */
-/* line 167, ../scss/base.scss */
 img.scale-with-grid {
   max-width: 100%;
   height: auto; }
 
 /* BUTTONS
  * ------------------------------------------------ */
-/* line 178, ../scss/base.scss */
 .button,
 button,
 input[type="submit"],
@@ -313,7 +266,6 @@ input[type="button"] {
   cursor: pointer;
   line-height: normal;
   padding: 8px 10px; }
-  /* line 202, ../scss/base.scss */
   .button:hover,
   button:hover,
   input[type="submit"]:hover,
@@ -328,7 +280,6 @@ input[type="button"] {
     border: 1px solid #888;
     border-top: 1px solid #aaa;
     border-left: 1px solid #aaa; }
-  /* line 215, ../scss/base.scss */
   .button:active,
   button:active,
   input[type="submit"]:active,
@@ -341,7 +292,6 @@ input[type="button"] {
     background: #cccccc -moz-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
     background: #cccccc -o-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
     background: #cccccc linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%); }
-  /* line 224, ../scss/base.scss */
   .button.full-width,
   button.full-width,
   input[type="submit"].full-width,
@@ -351,7 +301,6 @@ input[type="button"] {
     padding-left: 0 !important;
     padding-right: 0 !important;
     text-align: center; }
-  /* line 230, ../scss/base.scss */
   .button.smaller,
   button.smaller,
   input[type="submit"].smaller,
@@ -359,7 +308,6 @@ input[type="button"] {
   input[type="button"].smaller {
     font-size: -1.2em;
     padding: 4px 5px; }
-  /* line 234, ../scss/base.scss */
   .button.larger,
   button.larger,
   input[type="submit"].larger,
@@ -369,7 +317,6 @@ input[type="button"] {
     padding: 10px 18px; }
 
 /* Fix for odd Mozilla border & padding issues */
-/* line 243, ../scss/base.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -377,15 +324,12 @@ input::-moz-focus-inner {
 
 /* FORMS
  * ------------------------------------------------ */
-/* line 251, ../scss/base.scss */
 form {
   margin-bottom: 20px; }
 
-/* line 252, ../scss/base.scss */
 fieldset {
   margin-bottom: 20px; }
 
-/* line 260, ../scss/base.scss */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -410,7 +354,6 @@ select {
   width: 210px;
   max-width: 100%;
   display: block; }
-  /* line 275, ../scss/base.scss */
   input[type="text"]:hover, input[type="text"]:focus,
   input[type="password"]:hover,
   input[type="password"]:focus,
@@ -431,7 +374,6 @@ select {
     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
-  /* line 280, ../scss/base.scss */
   input[type="text"]:active,
   input[type="password"]:active,
   input[type="email"]:active,
@@ -445,30 +387,24 @@ select {
     -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
 
-/* line 285, ../scss/base.scss */
 select {
   padding: 0; }
 
-/* line 286, ../scss/base.scss */
 textarea {
   min-height: 60px; }
 
-/* line 288, ../scss/base.scss */
 label,
 legend {
   display: block;
   font-size: 1.8em;
   font-weight: bold; }
 
-/* line 295, ../scss/base.scss */
 select {
   width: 220px; }
 
-/* line 296, ../scss/base.scss */
 input[type="checkbox"] {
   display: inline; }
 
-/* line 298, ../scss/base.scss */
 label span,
 legend span {
   font-size: 1.8em;
@@ -477,18 +413,14 @@ legend span {
 
 /* MISC
  * ------------------------------------------------ */
-/* line 308, ../scss/base.scss */
 .subtract-bottom {
   margin-bottom: -20px !important; }
 
-/* line 309, ../scss/base.scss */
 .remove-bottom {
   margin-bottom: 0 !important; }
 
-/* line 310, ../scss/base.scss */
 .half-bottom {
   margin-bottom: 10px !important; }
 
-/* line 311, ../scss/base.scss */
 .add-bottom {
   margin-bottom: 20px !important; }

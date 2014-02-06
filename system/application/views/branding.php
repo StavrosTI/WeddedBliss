@@ -21,10 +21,11 @@
 				<?php } ?>
 				<?php //email
 					if ( !empty($branding['email']) ) { 
-						$email_bits = explode ('@', $branding['email'] ); ?>
-						<p><a href="mailto:<?php echo $branding['email']; ?>">
-							<?php echo $email_bits[0] . "<br>@" . $email_bits[1]; ?>
-						</a></p>
+						$br = ( strlen($branding['email']) > 25 ) ? '<br>' : '';
+							$email_bits = explode ('@', $branding['email'] ); ?>
+							<p><a href="mailto:<?php echo $branding['email']; ?>">
+								<?php echo $email_bits[0] . $br . "@" . $email_bits[1]; ?>
+							</a></p>
 				<?php	
 					}
 				?>
