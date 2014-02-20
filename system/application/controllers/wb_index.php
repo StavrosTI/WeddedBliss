@@ -81,8 +81,8 @@ class WB_Index extends Controller {
 					if ( strtolower(trim($agency_url)) == strtolower(trim($agent['url'])) ) {
 					
 							//echo $agent['testimonials'];
-						$agent['notes'] = quotes_to_entities(replacer($agent['notes']));
-						$agent['testimonials'] = quotes_to_entities(replacer($agent['testimonials']));
+						$agent['notes'] = replacer($agent['notes']);
+						$agent['testimonials'] = replacer($agent['testimonials']);
 							//echo "<br>" . $agent['testimonials'];
 						
 						$branding = $agent;

@@ -1,4 +1,17 @@
 <?php include 'header.php'; ?>
+
+<?php
+
+/*PHP4 Fallback
+		if ( !function_exists('htmlspecialchars_decode') ) {
+
+			function htmlspecialchars_decode($text) {
+				return strtr($text, array_flip(get_html_translation_table(HTML_SPECIALCHARS)));
+			}
+		}
+*/
+?>
+
 <section id="booklet-container">
 	<div class="book-wrapper sixteen columns"> 
 		<a id="next_page_button"></a>
@@ -91,12 +104,20 @@
 
 			<?php
 				if ( !empty ($branding['testimonials']) ) {
-					$testimonials = explode('==', htmlspecialchars_decode($branding['testimonials']) );
+					$testimonials = explode('==', $branding['testimonials'] );
 					$page_char_limit = 490;
 					foreach ( $testimonials as $testimonial ) {
 						if ( strlen($testimonial) > $page_char_limit ) {
 							// split testimonial across multiple pages if > 480 characters
-							$pages = str_split($testimonial, $page_char_limit);
+							if ( function_exists('str_split') ) {
+								$pages = str_split($testimonial, $page_char_limit);
+							} else {
+								$pages = array(); 
+								$iSplit =(integer) $page_char_limit;
+								for($i=0; $i < strlen($testimonial); $i+=$iSplit) {
+									$pages[]=substr($testimonial, $i, $iSplit);
+								}
+							}
 							$i=0;
 							foreach( $pages as $page ) {
 			?>
