@@ -10,9 +10,6 @@
 
 <script type="text/javascript" src="<?php echo base_url(), 'assets/js/responsiveslides.min.js'; ?>"></script>
 <script type="text/javascript" src="<?php echo base_url(), 'assets/js/init.js'; ?>"></script>
-
-<!-- LiveReload js.  Remove on prod release -->
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	
 <!--[if IE 6]>
 	<script language="javascript" type="text/javascript" src="/js/iebgfix.js"></script>
